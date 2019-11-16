@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bee-blues/static/css/main.38dde3c3.chunk.css",
+    "main.js": "/bee-blues/static/js/main.991e76b5.chunk.js",
+    "main.js.map": "/bee-blues/static/js/main.991e76b5.chunk.js.map",
+    "runtime-main.js": "/bee-blues/static/js/runtime-main.69b2bb3a.js",
+    "runtime-main.js.map": "/bee-blues/static/js/runtime-main.69b2bb3a.js.map",
+    "static/js/2.cecfcdca.chunk.js": "/bee-blues/static/js/2.cecfcdca.chunk.js",
+    "static/js/2.cecfcdca.chunk.js.map": "/bee-blues/static/js/2.cecfcdca.chunk.js.map",
+    "index.html": "/bee-blues/index.html",
+    "precache-manifest.79e7d7d02cee8be95eb7d13f75d506be.js": "/bee-blues/precache-manifest.79e7d7d02cee8be95eb7d13f75d506be.js",
+    "service-worker.js": "/bee-blues/service-worker.js",
+    "static/css/main.38dde3c3.chunk.css.map": "/bee-blues/static/css/main.38dde3c3.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69b2bb3a.js",
+    "static/js/2.cecfcdca.chunk.js",
+    "static/css/main.38dde3c3.chunk.css",
+    "static/js/main.991e76b5.chunk.js"
+  ]
+}

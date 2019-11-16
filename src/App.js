@@ -1,13 +1,15 @@
 import React from 'react';
-import Button from './components/Button';
+import { name, version } from '../package.json';
 
 function App() {
   return (
-    <div className="flex flex-col w-3/4 mx-auto my-12 items-center">
-      <h1>Super cool page</h1>
-      <Button onClick={() => console.log('I was clicked')}>
-        I am a button
-      </Button>
+    <div className="flex flex-col font-serif items-center mx-auto my-12 w-3/4">
+      <h1 className="capitalize font-normal hover:font-bold text-4xl text-gray-900">
+        {name}
+      </h1>
+      <small className="font-normal hover:font-bold text-gray-700 text-sm">
+        v{version}
+      </small>
     </div>
   );
 }

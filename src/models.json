@@ -18,4 +18,9 @@
     "prompts": ["[action]", "[reaction]"],
     "source": "I'm concerned that if we __BLANK__, we may miss the opportunity to __BLANK__."
   }
+  {
+    "examples": ["San Jose"],
+    "prompts": ["[place]"],
+    "source": "Do you know the way to __BLANK_?"
+  }
 ]

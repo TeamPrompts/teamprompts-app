@@ -1,0 +1,21 @@
+[
+  {
+    "examples": ["Amazon", "commoditizing new services"],
+    "prompts": ["[a competitor]", "[something that competitor does well]"],
+    "source": "I am most worried about __BLANK__, because they are incredibly good at __BLANK__."
+  },
+  {
+    "examples": [
+      "we had bread",
+      "what to put on it",
+      "we want it to taste good"
+    ],
+    "prompts": ["[TODO]", "[TODO]", "[TODO]"],
+    "source": "If we were more confident that __BLANK__, we would focus on __BLANK__ because __BLANK__."
+  },
+  {
+    "examples": ["sleep", "work out"],
+    "prompts": ["[action]", "[reaction]"],
+    "source": "I'm concerned that if we __BLANK__, we may miss the opportunity to __BLANK__."
+  }
+]

@@ -1,5 +1,6 @@
 import classnames from 'classnames';
 import React from 'react';
+import InputText from './InputText';
 import modes from './modes';
 
 const BLANK = '________________';
@@ -39,7 +40,8 @@ function interpolate(mode, source, values) {
     if (values[index]) {
       let element;
       if (mode === modes.input) {
-        element = <input key={index} placeholder={values[index]} type="text" />;
+        const placeholder = values[index];
+        element = <InputText key={index} placeholder={placeholder} />;
       } else {
         element = (
           <span

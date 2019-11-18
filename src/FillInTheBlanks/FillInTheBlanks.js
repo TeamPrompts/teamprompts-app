@@ -30,6 +30,14 @@ function FillInTheBlanks({ id, model }) {
             />
           </li>
         )}
+        <li>
+          <Radio
+            id={id}
+            mode={mode}
+            onChange={() => setMode(modes.input)}
+            value={modes.input}
+          />
+        </li>
         {model.prompts && (
           <li>
             <Radio

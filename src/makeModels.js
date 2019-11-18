@@ -1,7 +1,9 @@
 import Airtable from 'airtable';
 
-const API_KEY = 'keybZUBuHX3GWW9EQ';
-const APP_ID = 'apphnkOs93OSLlbQ2';
+const { REACT_APP_AIRTABLE_API_KEY, REACT_APP_AIRTABLE_APP_ID } = process.env;
+
+const API_KEY = REACT_APP_AIRTABLE_API_KEY;
+const APP_ID = REACT_APP_AIRTABLE_APP_ID;
 const EXAMPLES = 'Examples';
 const FITB = 'FITB';
 const ID = 'ID';
@@ -13,11 +15,9 @@ const statuses = {
   active: 'active'
 };
 
-const base = new Airtable({ apiKey: API_KEY }).base(APP_ID);
-
 function makeModels(callback) {
+  const base = new Airtable({ apiKey: API_KEY }).base(APP_ID);
   const models = [];
-
   base(TABLE_NAME)
     .select({
       sort: [{ field: ID, direction: 'desc' }]

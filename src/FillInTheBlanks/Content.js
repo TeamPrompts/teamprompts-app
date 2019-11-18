@@ -1,14 +1,12 @@
 import classnames from 'classnames';
 import React from 'react';
-import { BLANK } from '../constants';
+import { BLANK, SEPARATOR } from '../constants';
 import InputText from './InputText';
 import modes from './modes';
 
-const SEPARATOR = '__BLANK__';
-
 function getValues(mode, { examples, prompts, source }) {
   let values = [];
-  const blanks = source.match(/__BLANK__/g).map(() => BLANK);
+  const blanks = source.match(/__BLANK__/g).map(() => BLANK); // INFO: not sure if I can interpolate inside a regex
   switch (mode) {
     case modes.blanks:
     default:

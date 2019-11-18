@@ -1,24 +1,32 @@
+import classname from 'classnames';
 import React, { useState } from 'react';
+import { BLANK } from '../constants';
 
-function InputText({ placeholder }) {
-  const [size, setSize] = useState(placeholder.length);
+function getSize(hint, value) {
+  return Math.max(BLANK.length, hint.length, value.length);
+}
+
+function InputText({ hint }) {
+  const [dirty, setDirty] = useState(false);
+  const [size, setSize] = useState(getSize(hint, ''));
 
   function onChange(value) {
-    if (value.length > placeholder.length) {
-      setSize(value.length);
-    } else {
-      setSize(placeholder.length);
-    }
+    setDirty(true);
+    setSize(getSize(hint, value));
   }
 
   return (
-    <input
-      data-testid="input"
-      onChange={e => onChange(e.target.value)}
-      placeholder={placeholder}
-      size={size}
-      type="text"
-    />
+    <span className="inline-flex flex-col leading-none">
+      <input
+        className={classname({ 'bg-purple-100': dirty })}
+        data-testid="input"
+        onChange={e => onChange(e.target.value)}
+        placeholder={BLANK}
+        size={size}
+        type="text"
+      />
+      {hint !== BLANK && <label className="self-center text-sm">{hint}</label>}
+    </span>
   );
 }
 

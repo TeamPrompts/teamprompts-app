@@ -4,7 +4,7 @@ import Radio from './Radio';
 import modes from './modes';
 
 function FillInTheBlanks({ id, model }) {
-  const [mode, setMode] = useState(modes.blanks);
+  const [mode, setMode] = useState(modes.input);
 
   return (
     <>

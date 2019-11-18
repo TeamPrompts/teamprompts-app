@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content blanks 1`] = `
+Array [
+  "Do you know the way to ",
+  <span
+    className="bg-yellow-200"
+  >
+    ________________
+  </span>,
+  "?",
+]
+`;
+
+exports[`Content examples 1`] = `
+Array [
+  "Do you know the way to ",
+  <span
+    className="bg-green-200"
+  >
+    San Jose
+  </span>,
+  "?",
+]
+`;
+
+exports[`Content input 1`] = `
+Array [
+  "Do you know the way to ",
+  "?",
+]
+`;
+
+exports[`Content prompts 1`] = `
+Array [
+  "Do you know the way to ",
+  <span
+    className="bg-blue-200"
+  >
+    [place]
+  </span>,
+  "?",
+]
+`;

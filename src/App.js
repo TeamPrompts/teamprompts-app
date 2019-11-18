@@ -6,18 +6,18 @@ import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
 import makeModels from './makeModels';
 
 function App() {
+  const [error, setError] = useState();
   const [models, setModels] = useState([]);
   const [waiting, setWaiting] = useState(true);
 
   useEffect(() => {
     makeModels((error, models) => {
       if (error) {
-        console.log('makeModels error:', error);
-        setWaiting(false);
+        setError(error);
       } else {
         setModels(models);
-        setWaiting(false);
       }
+      setWaiting(false);
     });
   }, []);
 
@@ -32,6 +32,8 @@ function App() {
           icon={faCircleNotch}
           spin={true}
         />
+      ) : error ? (
+        <pre>{JSON.stringify(error, 0, 2)}</pre>
       ) : (
         <ul>
           {models.map((model, index) => (

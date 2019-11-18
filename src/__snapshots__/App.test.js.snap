@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.4.1
+    0.5.0
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.4.1
+      0.5.0
     </small>
   </div>
 </div>
@@ -115,6 +115,21 @@ exports[`App w/ models 1`] = `
           </li>
           <li>
             <input
+              data-testid="0-input"
+              id="0-input"
+              name="0"
+              type="radio"
+              value="input"
+            />
+            <label
+              class="ml-2"
+              for="0-input"
+            >
+              input
+            </label>
+          </li>
+          <li>
+            <input
               data-testid="0-prompts"
               id="0-prompts"
               name="0"
@@ -135,7 +150,7 @@ exports[`App w/ models 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.4.1
+      0.5.0
     </small>
   </div>
 </div>

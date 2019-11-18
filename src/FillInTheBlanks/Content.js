@@ -1,5 +1,6 @@
 import classnames from 'classnames';
 import React from 'react';
+import InputText from './InputText';
 import modes from './modes';
 
 const BLANK = '________________';
@@ -7,15 +8,21 @@ const SEPARATOR = '__BLANK__';
 
 function getValues(mode, { examples, prompts, source }) {
   let values = [];
+  const blanks = source.match(/__BLANK__/g).map(() => BLANK);
   switch (mode) {
     case modes.blanks:
     default:
-      values = source.match(/__BLANK__/g).map(() => BLANK);
+      values = blanks;
       break;
     case modes.examples:
       values = examples;
       break;
     case modes.input:
+      if (prompts) {
+        values = prompts;
+      } else {
+        values = blanks;
+      }
       break;
     case modes.prompts:
       values = prompts;
@@ -31,18 +38,24 @@ function interpolate(mode, source, values) {
   parts.forEach((part, index) => {
     result.push(part);
     if (values[index]) {
-      const element = (
-        <span
-          className={classnames({
-            'bg-blue-200': mode === modes.prompts,
-            'bg-green-200': mode === modes.examples,
-            'bg-yellow-200': mode === modes.blanks
-          })}
-          key={index}
-        >
-          {values[index]}
-        </span>
-      );
+      let element;
+      if (mode === modes.input) {
+        const placeholder = values[index];
+        element = <InputText key={index} placeholder={placeholder} />;
+      } else {
+        element = (
+          <span
+            className={classnames({
+              'bg-yellow-200': mode === modes.blanks,
+              'bg-green-200': mode === modes.examples,
+              'bg-blue-200': mode === modes.prompts
+            })}
+            key={index}
+          >
+            {values[index]}
+          </span>
+        );
+      }
       result.push(element);
     }
   });

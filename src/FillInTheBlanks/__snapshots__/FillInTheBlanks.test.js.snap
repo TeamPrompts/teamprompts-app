@@ -51,6 +51,23 @@ Array [
     <li>
       <input
         checked={false}
+        data-testid="1-input"
+        id="1-input"
+        name="1"
+        onChange={[Function]}
+        type="radio"
+        value="input"
+      />
+      <label
+        className="ml-2"
+        htmlFor="1-input"
+      >
+        input
+      </label>
+    </li>
+    <li>
+      <input
+        checked={false}
         data-testid="1-prompts"
         id="1-prompts"
         name="1"

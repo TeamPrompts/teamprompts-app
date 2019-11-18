@@ -16,7 +16,7 @@ function InputText({ hint }) {
   }
 
   return (
-    <span className="inline-flex flex-col">
+    <span className="inline-flex flex-col leading-none">
       <input
         className={classname({ 'bg-purple-100': dirty })}
         data-testid="input"

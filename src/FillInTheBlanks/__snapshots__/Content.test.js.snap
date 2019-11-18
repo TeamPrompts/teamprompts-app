@@ -28,7 +28,7 @@ exports[`Content input w/ prompts 1`] = `
 Array [
   "Do you know the way to ",
   <span
-    className="inline-flex flex-col"
+    className="inline-flex flex-col leading-none"
   >
     <input
       className=""
@@ -52,7 +52,7 @@ exports[`Content input w/o prompts 1`] = `
 Array [
   "Do you know the way to ",
   <span
-    className="inline-flex flex-col"
+    className="inline-flex flex-col leading-none"
   >
     <input
       className=""

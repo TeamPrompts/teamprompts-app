@@ -5,7 +5,7 @@ Array [
   <p>
     Do you know the way to 
     <span
-      className="inline-flex flex-col"
+      className="inline-flex flex-col leading-none"
     >
       <input
         className=""

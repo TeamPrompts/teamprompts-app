@@ -1,13 +1,12 @@
 import { render, fireEvent } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
+import { BLANK } from '../constants';
 import InputText from './InputText';
 
 describe('InputText', () => {
-  const BLANK = '________________';
-
   const props = {
-    placeholder: BLANK
+    hint: BLANK
   };
 
   it('to match snapshot', () => {

@@ -5,9 +5,21 @@ Array [
   <p>
     Do you know the way to 
     <span
-      className="bg-yellow-200"
+      className="inline-flex flex-col"
     >
-      ________________
+      <input
+        className=""
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="________________"
+        size={7}
+        type="text"
+      />
+      <label
+        className="self-center text-sm"
+      >
+        [place]
+      </label>
     </span>
     ?
   </p>,
@@ -16,7 +28,7 @@ Array [
   >
     <li>
       <input
-        checked={true}
+        checked={false}
         data-testid="1-blanks"
         id="1-blanks"
         name="1"
@@ -50,7 +62,7 @@ Array [
     </li>
     <li>
       <input
-        checked={false}
+        checked={true}
         data-testid="1-input"
         id="1-input"
         name="1"

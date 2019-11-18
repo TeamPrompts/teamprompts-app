@@ -1,9 +1,9 @@
 import classnames from 'classnames';
 import React from 'react';
+import { BLANK } from '../constants';
 import InputText from './InputText';
 import modes from './modes';
 
-const BLANK = '________________';
 const SEPARATOR = '__BLANK__';
 
 function getValues(mode, { examples, prompts, source }) {
@@ -40,8 +40,8 @@ function interpolate(mode, source, values) {
     if (values[index]) {
       let element;
       if (mode === modes.input) {
-        const placeholder = values[index];
-        element = <InputText key={index} placeholder={placeholder} />;
+        const hint = values[index];
+        element = <InputText key={index} hint={hint} />;
       } else {
         element = (
           <span

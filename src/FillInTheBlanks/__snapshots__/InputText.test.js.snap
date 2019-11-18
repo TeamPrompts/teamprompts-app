@@ -1,11 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`InputText to match snapshot 1`] = `
-<input
-  data-testid="input"
-  onChange={[Function]}
-  placeholder="________________"
-  size={16}
-  type="text"
-/>
+<span
+  className="inline-flex flex-col"
+>
+  <input
+    className=""
+    data-testid="input"
+    onChange={[Function]}
+    placeholder="________________"
+    size={16}
+    type="text"
+  />
+</span>
 `;

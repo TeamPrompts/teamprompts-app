@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.5.0
+    0.5.1
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.5.0
+      0.5.1
     </small>
   </div>
 </div>
@@ -73,9 +73,20 @@ exports[`App w/ models 1`] = `
         <p>
           Do you know the way to 
           <span
-            class="bg-yellow-200"
+            class="inline-flex flex-col"
           >
-            ________________
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              size="7"
+              type="text"
+            />
+            <label
+              class="self-center text-sm"
+            >
+              [place]
+            </label>
           </span>
           ?
         </p>
@@ -84,7 +95,6 @@ exports[`App w/ models 1`] = `
         >
           <li>
             <input
-              checked=""
               data-testid="0-blanks"
               id="0-blanks"
               name="0"
@@ -115,6 +125,7 @@ exports[`App w/ models 1`] = `
           </li>
           <li>
             <input
+              checked=""
               data-testid="0-input"
               id="0-input"
               name="0"
@@ -150,7 +161,7 @@ exports[`App w/ models 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.5.0
+      0.5.1
     </small>
   </div>
 </div>

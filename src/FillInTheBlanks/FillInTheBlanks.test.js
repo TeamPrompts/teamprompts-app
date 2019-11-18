@@ -29,6 +29,8 @@ describe('FillInTheBlanks', () => {
 
     actAssert(modes.examples);
 
+    actAssert(modes.input);
+
     actAssert(modes.prompts);
 
     actAssert(modes.blanks);

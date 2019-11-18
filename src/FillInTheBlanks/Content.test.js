@@ -21,10 +21,20 @@ describe('Content', () => {
       }
     },
     {
-      description: modes.input,
+      description: `${modes.input} w/ prompts`,
       props: {
         mode: modes.input,
         model
+      }
+    },
+    {
+      description: `${modes.input} w/o prompts`,
+      props: {
+        mode: modes.input,
+        model: (() => {
+          const { prompts, ...rest } = model;
+          return rest;
+        })()
       }
     },
     {

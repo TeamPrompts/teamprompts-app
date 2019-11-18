@@ -24,11 +24,22 @@ Array [
 ]
 `;
 
-exports[`Content input 1`] = `
+exports[`Content input w/ prompts 1`] = `
 Array [
   "Do you know the way to ",
   <input
     placeholder="[place]"
+    type="text"
+  />,
+  "?",
+]
+`;
+
+exports[`Content input w/o prompts 1`] = `
+Array [
+  "Do you know the way to ",
+  <input
+    placeholder="________________"
     type="text"
   />,
   "?",

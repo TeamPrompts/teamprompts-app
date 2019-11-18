@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bee-blues/static/css/main.9c5c683e.chunk.css",
-    "main.js": "/bee-blues/static/js/main.a3040806.chunk.js",
-    "main.js.map": "/bee-blues/static/js/main.a3040806.chunk.js.map",
+    "main.js": "/bee-blues/static/js/main.4252803f.chunk.js",
+    "main.js.map": "/bee-blues/static/js/main.4252803f.chunk.js.map",
     "runtime-main.js": "/bee-blues/static/js/runtime-main.69b2bb3a.js",
     "runtime-main.js.map": "/bee-blues/static/js/runtime-main.69b2bb3a.js.map",
     "static/js/2.b0b6af9e.chunk.js": "/bee-blues/static/js/2.b0b6af9e.chunk.js",
     "static/js/2.b0b6af9e.chunk.js.map": "/bee-blues/static/js/2.b0b6af9e.chunk.js.map",
     "index.html": "/bee-blues/index.html",
-    "precache-manifest.4ea5de6d95fd54dbde494cfd44a1815f.js": "/bee-blues/precache-manifest.4ea5de6d95fd54dbde494cfd44a1815f.js",
+    "precache-manifest.6ad21c80aff3a8b2fe04939e69088f4c.js": "/bee-blues/precache-manifest.6ad21c80aff3a8b2fe04939e69088f4c.js",
     "service-worker.js": "/bee-blues/service-worker.js",
     "static/css/main.9c5c683e.chunk.css.map": "/bee-blues/static/css/main.9c5c683e.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.69b2bb3a.js",
     "static/js/2.b0b6af9e.chunk.js",
     "static/css/main.9c5c683e.chunk.css",
-    "static/js/main.a3040806.chunk.js"
+    "static/js/main.4252803f.chunk.js"
   ]
 }

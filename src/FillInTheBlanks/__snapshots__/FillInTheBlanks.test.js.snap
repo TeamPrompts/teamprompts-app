@@ -12,7 +12,7 @@ Array [
         data-testid="input"
         onChange={[Function]}
         placeholder="________________"
-        size={7}
+        size={16}
         type="text"
       />
       <label

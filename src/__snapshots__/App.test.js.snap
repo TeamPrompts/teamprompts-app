@@ -79,7 +79,7 @@ exports[`App w/ models 1`] = `
               class=""
               data-testid="input"
               placeholder="________________"
-              size="7"
+              size="16"
               type="text"
             />
             <label

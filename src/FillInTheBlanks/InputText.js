@@ -2,17 +2,17 @@ import classname from 'classnames';
 import React, { useState } from 'react';
 import { BLANK } from '../constants';
 
+function getSize(hint, value) {
+  return Math.max(BLANK.length, hint.length, value.length);
+}
+
 function InputText({ hint }) {
   const [dirty, setDirty] = useState(false);
-  const [size, setSize] = useState(hint.length);
+  const [size, setSize] = useState(getSize(hint, ''));
 
   function onChange(value) {
     setDirty(true);
-    if (value.length > hint.length) {
-      setSize(value.length);
-    } else {
-      setSize(hint.length);
-    }
+    setSize(getSize(hint, value));
   }
 
   return (

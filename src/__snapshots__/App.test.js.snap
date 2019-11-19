@@ -81,6 +81,7 @@ exports[`App w/ models 1`] = `
               placeholder="________________"
               size="16"
               type="text"
+              value=""
             />
             <label
               class="self-center text-sm"

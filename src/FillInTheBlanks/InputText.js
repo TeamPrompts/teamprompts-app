@@ -1,29 +1,26 @@
 import classname from 'classnames';
-import React, { useState } from 'react';
+import React from 'react';
 import { BLANK } from '../constants';
 
 function getSize(hint, value) {
   return Math.max(BLANK.length, hint.length, value.length);
 }
 
-function InputText({ hint }) {
-  const [dirty, setDirty] = useState(false);
-  const [size, setSize] = useState(getSize(hint, ''));
-
-  function onChange(value) {
-    setDirty(true);
-    setSize(getSize(hint, value));
+function InputText({ dispatch, hint, id, value }) {
+  function onChange({ target: { value } }) {
+    dispatch({ type: 'change', value: { id, value: value } });
   }
 
   return (
     <span className="inline-flex flex-col leading-none">
       <input
-        className={classname({ 'bg-purple-100': dirty })}
+        className={classname({ 'bg-purple-100': value.length > 0 })}
         data-testid="input"
-        onChange={e => onChange(e.target.value)}
+        onChange={onChange}
         placeholder={BLANK}
-        size={size}
+        size={getSize(hint, value)}
         type="text"
+        value={value}
       />
       {hint !== BLANK && <label className="self-center text-sm">{hint}</label>}
     </span>

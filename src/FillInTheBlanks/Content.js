@@ -1,8 +1,10 @@
 import classnames from 'classnames';
-import React from 'react';
+import React, { useReducer } from 'react';
 import { BLANK, SEPARATOR } from '../constants';
 import InputText from './InputText';
+import makeInitialState from './makeInitialState';
 import modes from './modes';
+import reducer from './reducer';
 
 function getValues(mode, { examples, prompts, source }) {
   let values = [];
@@ -29,7 +31,7 @@ function getValues(mode, { examples, prompts, source }) {
   return values;
 }
 
-function interpolate(mode, source, values) {
+function interpolate({ dispatch, mode, source, state, values }) {
   const text = source.slice();
   const parts = text.split(SEPARATOR);
   const result = [];
@@ -39,7 +41,15 @@ function interpolate(mode, source, values) {
       let element;
       if (mode === modes.input) {
         const hint = values[index];
-        element = <InputText key={index} hint={hint} />;
+        element = (
+          <InputText
+            dispatch={dispatch}
+            hint={hint}
+            id={index}
+            key={index}
+            value={state[index]}
+          />
+        );
       } else {
         element = (
           <span
@@ -61,8 +71,9 @@ function interpolate(mode, source, values) {
 }
 
 function Content({ mode, model }) {
+  const [state, dispatch] = useReducer(reducer, makeInitialState(model.source));
   const values = getValues(mode, model);
-  return interpolate(mode, model.source, values);
+  return interpolate({ dispatch, mode, source: model.source, state, values });
 }
 
 export default Content;

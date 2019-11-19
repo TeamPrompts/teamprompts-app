@@ -1,7 +1,5 @@
 # Todo
 
-- [Auto expand input width based on text length](https://codepen.io/Momciloo/pen/bpyMbB)
+- [x] use [react-input-autosize](https://github.com/JedWatson/react-input-autosize)
 
-- https://leaverou.github.io/stretchy/
-
-- checkbox [e.g.]
+- [ ] checkbox [e.g.]

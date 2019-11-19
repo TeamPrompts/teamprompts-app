@@ -5,8 +5,10 @@ import { BLANK } from '../constants';
 import InputText from './InputText';
 
 describe('InputText', () => {
+  const mockDispatch = jest.fn();
+
   const props = {
-    dispatch: jest.fn(),
+    dispatch: mockDispatch,
     hint: BLANK,
     id: 0,
     value: ''
@@ -23,6 +25,6 @@ describe('InputText', () => {
     const LOREM_IPSUM = 'lorem ipsum dolor sit amet';
 
     fireEvent.change(getByTestId(ID), { target: { value: LOREM_IPSUM } });
-    expect(props.dispatch).toBeCalled();
+    expect(mockDispatch).toBeCalled();
   });
 });

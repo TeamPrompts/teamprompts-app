@@ -103,72 +103,37 @@ exports[`App w/ models 1`] = `
             </label>
           </span>
           ?
+          <div
+            class="inline-block pl-3"
+          >
+            <label
+              class="cursor-pointer"
+              for="0-examples"
+            >
+              <div
+                class="relative"
+              >
+                <input
+                  class="hidden"
+                  data-testid="0-examples"
+                  id="0-examples"
+                  name="0"
+                  type="checkbox"
+                  value="examples"
+                />
+                <div
+                  class="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+                />
+                <div
+                  class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+                />
+              </div>
+            </label>
+          </div>
         </div>
         <ul
           class="p-4"
-        >
-          <li>
-            <input
-              data-testid="0-blanks"
-              id="0-blanks"
-              name="0"
-              type="radio"
-              value="blanks"
-            />
-            <label
-              class="ml-2"
-              for="0-blanks"
-            >
-              blanks
-            </label>
-          </li>
-          <li>
-            <input
-              data-testid="0-examples"
-              id="0-examples"
-              name="0"
-              type="radio"
-              value="examples"
-            />
-            <label
-              class="ml-2"
-              for="0-examples"
-            >
-              examples
-            </label>
-          </li>
-          <li>
-            <input
-              checked=""
-              data-testid="0-input"
-              id="0-input"
-              name="0"
-              type="radio"
-              value="input"
-            />
-            <label
-              class="ml-2"
-              for="0-input"
-            >
-              input
-            </label>
-          </li>
-          <li>
-            <input
-              data-testid="0-prompts"
-              id="0-prompts"
-              name="0"
-              type="radio"
-              value="prompts"
-            />
-            <label
-              class="ml-2"
-              for="0-prompts"
-            >
-              prompts
-            </label>
-          </li>
-        </ul>
+        />
       </li>
     </ul>
     <small

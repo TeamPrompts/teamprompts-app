@@ -67,78 +67,38 @@ Array [
       </label>
     </span>
     ?
+    <div
+      className="inline-block pl-3"
+    >
+      <label
+        className="cursor-pointer"
+        htmlFor="1-examples"
+      >
+        <div
+          className="relative"
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="1-examples"
+            id="1-examples"
+            name="1"
+            onChange={[Function]}
+            type="checkbox"
+            value="examples"
+          />
+          <div
+            className="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+          />
+          <div
+            className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+          />
+        </div>
+      </label>
+    </div>
   </div>,
   <ul
     className="p-4"
-  >
-    <li>
-      <input
-        checked={false}
-        data-testid="1-blanks"
-        id="1-blanks"
-        name="1"
-        onChange={[Function]}
-        type="radio"
-        value="blanks"
-      />
-      <label
-        className="ml-2"
-        htmlFor="1-blanks"
-      >
-        blanks
-      </label>
-    </li>
-    <li>
-      <input
-        checked={false}
-        data-testid="1-examples"
-        id="1-examples"
-        name="1"
-        onChange={[Function]}
-        type="radio"
-        value="examples"
-      />
-      <label
-        className="ml-2"
-        htmlFor="1-examples"
-      >
-        examples
-      </label>
-    </li>
-    <li>
-      <input
-        checked={true}
-        data-testid="1-input"
-        id="1-input"
-        name="1"
-        onChange={[Function]}
-        type="radio"
-        value="input"
-      />
-      <label
-        className="ml-2"
-        htmlFor="1-input"
-      >
-        input
-      </label>
-    </li>
-    <li>
-      <input
-        checked={false}
-        data-testid="1-prompts"
-        id="1-prompts"
-        name="1"
-        onChange={[Function]}
-        type="radio"
-        value="prompts"
-      />
-      <label
-        className="ml-2"
-        htmlFor="1-prompts"
-      >
-        prompts
-      </label>
-    </li>
-  </ul>,
+  />,
 ]
 `;

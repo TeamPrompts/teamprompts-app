@@ -5,8 +5,13 @@ import { BLANK } from '../constants';
 import InputText from './InputText';
 
 describe('InputText', () => {
+  const mockDispatch = jest.fn();
+
   const props = {
-    hint: BLANK
+    dispatch: mockDispatch,
+    hint: BLANK,
+    id: 0,
+    value: ''
   };
 
   it('to match snapshot', () => {
@@ -19,10 +24,7 @@ describe('InputText', () => {
     const ID = 'input';
     const LOREM_IPSUM = 'lorem ipsum dolor sit amet';
 
-    fireEvent.change(getByTestId(ID), { target: { value: 'hello' } });
-    expect(getByTestId(ID).size).toEqual(BLANK.length);
-
     fireEvent.change(getByTestId(ID), { target: { value: LOREM_IPSUM } });
-    expect(getByTestId(ID).size).toEqual(LOREM_IPSUM.length);
+    expect(mockDispatch).toBeCalled();
   });
 });

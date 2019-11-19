@@ -11,6 +11,7 @@ exports[`InputText to match snapshot 1`] = `
     placeholder="________________"
     size={16}
     type="text"
+    value=""
   />
 </span>
 `;

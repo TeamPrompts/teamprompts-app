@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer UNKNOWN 1`] = `
+Object {
+  "0": "",
+}
+`;
+
+exports[`reducer change 1`] = `
+Object {
+  "0": "hello",
+}
+`;

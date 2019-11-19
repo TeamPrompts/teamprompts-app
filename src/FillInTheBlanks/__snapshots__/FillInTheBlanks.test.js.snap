@@ -14,6 +14,7 @@ Array [
         placeholder="________________"
         size={16}
         type="text"
+        value=""
       />
       <label
         className="self-center text-sm"

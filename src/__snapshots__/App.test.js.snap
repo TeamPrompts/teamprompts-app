@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.6.3
+    0.7.0
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.6.3
+      0.7.0
     </small>
   </div>
 </div>
@@ -81,6 +81,7 @@ exports[`App w/ models 1`] = `
               placeholder="________________"
               size="16"
               type="text"
+              value=""
             />
             <label
               class="self-center text-sm"
@@ -161,7 +162,7 @@ exports[`App w/ models 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.6.3
+      0.7.0
     </small>
   </div>
 </div>

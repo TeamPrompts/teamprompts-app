@@ -1,6 +1,7 @@
 import classname from 'classnames';
 import React from 'react';
 import { BLANK } from '../constants';
+import { CHANGE } from './reducer';
 
 function getSize(hint, value) {
   return Math.max(BLANK.length, hint.length, value.length);
@@ -8,7 +9,7 @@ function getSize(hint, value) {
 
 function InputText({ dispatch, hint, id, value }) {
   function onChange({ target: { value } }) {
-    dispatch({ type: 'change', value: { id, value: value } });
+    dispatch({ type: CHANGE, value: { id, value: value } });
   }
 
   return (

@@ -8,7 +8,7 @@ function FillInTheBlanks({ id, model }) {
 
   return (
     <>
-      <p>
+      <p className="leading-loose text-lg">
         <Content mode={mode} model={model} />
       </p>
       <ul className="p-4">

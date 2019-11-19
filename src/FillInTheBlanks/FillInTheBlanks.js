@@ -8,9 +8,9 @@ function FillInTheBlanks({ id, model }) {
 
   return (
     <>
-      <p className="leading-loose text-lg">
+      <div className="leading-loose text-lg">
         <Content mode={mode} model={model} />
-      </p>
+      </div>
       <ul className="p-4">
         <li>
           <Radio

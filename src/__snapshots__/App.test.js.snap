@@ -2,7 +2,7 @@
 
 exports[`App loading 1`] = `
 <div
-  className="flex flex-col font-serif items-center mx-auto my-12 w-3/4"
+  className="flex flex-col font-serif items-center my-12 max-w-3xl sm:mx-4 md:mx-auto lg:mx-auto xl:mx-auto "
 >
   <h1
     className="capitalize font-normal hover:font-bold text-4xl text-gray-900"
@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.7.0
+    0.8.0
   </small>
 </div>
 `;
@@ -38,7 +38,7 @@ exports[`App loading 1`] = `
 exports[`App w/ error 1`] = `
 <div>
   <div
-    class="flex flex-col font-serif items-center mx-auto my-12 w-3/4"
+    class="flex flex-col font-serif items-center my-12 max-w-3xl sm:mx-4 md:mx-auto lg:mx-auto xl:mx-auto "
   >
     <h1
       class="capitalize font-normal hover:font-bold text-4xl text-gray-900"
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.7.0
+      0.8.0
     </small>
   </div>
 </div>
@@ -61,7 +61,7 @@ exports[`App w/ error 1`] = `
 exports[`App w/ models 1`] = `
 <div>
   <div
-    class="flex flex-col font-serif items-center mx-auto my-12 w-3/4"
+    class="flex flex-col font-serif items-center my-12 max-w-3xl sm:mx-4 md:mx-auto lg:mx-auto xl:mx-auto "
   >
     <h1
       class="capitalize font-normal hover:font-bold text-4xl text-gray-900"
@@ -70,19 +70,32 @@ exports[`App w/ models 1`] = `
     </h1>
     <ul>
       <li>
-        <p>
+        <div
+          class="leading-loose text-lg"
+        >
           Do you know the way to 
           <span
             class="inline-flex flex-col leading-none"
           >
-            <input
-              class=""
-              data-testid="input"
-              placeholder="________________"
-              size="16"
-              type="text"
-              value=""
-            />
+            <div
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
             <label
               class="self-center text-sm"
             >
@@ -90,7 +103,7 @@ exports[`App w/ models 1`] = `
             </label>
           </span>
           ?
-        </p>
+        </div>
         <ul
           class="p-4"
         >
@@ -162,7 +175,7 @@ exports[`App w/ models 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.7.0
+      0.8.0
     </small>
   </div>
 </div>

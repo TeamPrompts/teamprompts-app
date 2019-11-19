@@ -1,11 +1,8 @@
 import classname from 'classnames';
 import React from 'react';
+import AutosizeInput from 'react-input-autosize';
 import { BLANK } from '../constants';
 import { CHANGE } from './reducer';
-
-function getSize(hint, value) {
-  return Math.max(BLANK.length, hint.length, value.length);
-}
 
 function InputText({ dispatch, hint, id, value }) {
   function onChange({ target: { value } }) {
@@ -14,13 +11,12 @@ function InputText({ dispatch, hint, id, value }) {
 
   return (
     <span className="inline-flex flex-col leading-none">
-      <input
-        className={classname({ 'bg-purple-100': value.length > 0 })}
+      <AutosizeInput
         data-testid="input"
+        inputClassName={classname({ 'bg-purple-100': value.length > 0 })}
         onChange={onChange}
         placeholder={BLANK}
-        size={getSize(hint, value)}
-        type="text"
+        placeholderIsMinWidth={true}
         value={value}
       />
       {hint !== BLANK && <label className="self-center text-sm">{hint}</label>}

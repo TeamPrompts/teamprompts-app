@@ -30,15 +30,57 @@ Array [
   <span
     className="inline-flex flex-col leading-none"
   >
-    <input
-      className=""
-      data-testid="input"
-      onChange={[Function]}
-      placeholder="________________"
-      size={16}
-      type="text"
-      value=""
-    />
+    <div
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    >
+      <input
+        className=""
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="________________"
+        style={
+          Object {
+            "boxSizing": "content-box",
+            "width": "1px",
+          }
+        }
+        value=""
+      />
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        
+      </div>
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        ________________
+      </div>
+    </div>
     <label
       className="self-center text-sm"
     >
@@ -55,15 +97,57 @@ Array [
   <span
     className="inline-flex flex-col leading-none"
   >
-    <input
-      className=""
-      data-testid="input"
-      onChange={[Function]}
-      placeholder="________________"
-      size={16}
-      type="text"
-      value=""
-    />
+    <div
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    >
+      <input
+        className=""
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="________________"
+        style={
+          Object {
+            "boxSizing": "content-box",
+            "width": "1px",
+          }
+        }
+        value=""
+      />
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        
+      </div>
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        ________________
+      </div>
+    </div>
   </span>,
   "?",
 ]

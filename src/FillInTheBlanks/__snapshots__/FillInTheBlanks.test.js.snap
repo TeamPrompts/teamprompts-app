@@ -71,7 +71,7 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
   >
     <label
       className="cursor-pointer"
-      htmlFor="1-off"
+      htmlFor="1"
     >
       <div
         className="relative"
@@ -79,11 +79,10 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
         <input
           checked={false}
           className="hidden"
-          data-testid="1-off"
-          id="1-off"
+          data-testid="1"
+          id="1"
           onChange={[Function]}
           type="checkbox"
-          value="off"
         />
         <div
           className="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"

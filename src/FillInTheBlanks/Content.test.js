@@ -1,8 +1,8 @@
 import React from 'react';
 import { create } from 'react-test-renderer';
+import { modes } from '../constants';
 import model from '../model';
 import Content from './Content';
-import modes from './modes';
 
 describe('Content', () => {
   const scenarios = [

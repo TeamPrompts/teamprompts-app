@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import { name, version } from '../package.json';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
-import makeModels from './makeModels';
+import makeModels from './api/makeModels';
 
 function App() {
   const [error, setError] = useState();

@@ -108,17 +108,16 @@ exports[`App w/ models 1`] = `
           >
             <label
               class="cursor-pointer"
-              for="0-off"
+              for="0"
             >
               <div
                 class="relative"
               >
                 <input
                   class="hidden"
-                  data-testid="0-off"
-                  id="0-off"
+                  data-testid="0"
+                  id="0"
                   type="checkbox"
-                  value="off"
                 />
                 <div
                   class="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"

@@ -1,9 +1,8 @@
 import classnames from 'classnames';
 import React, { useReducer } from 'react';
-import { BLANK, SEPARATOR } from '../constants';
-import InputText from './InputText';
+import InputText from '../components/InputText/InputText';
+import { BLANK, SEPARATOR, modes } from '../constants';
 import makeInitialState from './makeInitialState';
-import modes from './modes';
 import reducer from './reducer';
 
 function getValues(mode, { examples, prompts, source }) {

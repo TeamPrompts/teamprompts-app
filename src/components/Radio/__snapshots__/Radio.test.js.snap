@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio blanks 1`] = `
+Array [
+  <input
+    checked={true}
+    data-testid="0-blanks"
+    id="0-blanks"
+    name={0}
+    onChange={[MockFunction]}
+    type="radio"
+    value="blanks"
+  />,
+  <label
+    className="ml-2"
+    htmlFor="0-blanks"
+  >
+    blanks
+  </label>,
+]
+`;

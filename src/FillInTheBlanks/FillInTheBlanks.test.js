@@ -18,7 +18,7 @@ describe('FillInTheBlanks', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('click radios', () => {
+  it.skip('click radios', () => {
     const { getByTestId } = render(<FillInTheBlanks {...props} />);
 
     function actAssert(mode) {

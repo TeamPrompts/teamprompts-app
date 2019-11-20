@@ -1,144 +1,98 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FillInTheBlanks to match snapshot 1`] = `
-Array [
-  <div
-    className="leading-loose text-lg"
+<div
+  className="leading-loose text-lg"
+>
+  Do you know the way to 
+  <span
+    className="inline-flex flex-col leading-none"
   >
-    Do you know the way to 
-    <span
-      className="inline-flex flex-col leading-none"
+    <div
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
     >
+      <input
+        className=""
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="________________"
+        style={
+          Object {
+            "boxSizing": "content-box",
+            "width": "1px",
+          }
+        }
+        value=""
+      />
       <div
         style={
           Object {
-            "display": "inline-block",
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
           }
         }
       >
-        <input
-          className=""
-          data-testid="input"
-          onChange={[Function]}
-          placeholder="________________"
-          style={
-            Object {
-              "boxSizing": "content-box",
-              "width": "1px",
-            }
+        
+      </div>
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
           }
-          value=""
+        }
+      >
+        ________________
+      </div>
+    </div>
+    <label
+      className="self-center text-sm"
+    >
+      [place]
+    </label>
+  </span>
+  ?
+  <div
+    className="inline-block pl-3"
+  >
+    <label
+      className="cursor-pointer"
+      htmlFor="1-off"
+    >
+      <div
+        className="relative"
+      >
+        <input
+          checked={false}
+          className="hidden"
+          data-testid="1-off"
+          id="1-off"
+          onChange={[Function]}
+          type="checkbox"
+          value="off"
         />
         <div
-          style={
-            Object {
-              "height": 0,
-              "left": 0,
-              "overflow": "scroll",
-              "position": "absolute",
-              "top": 0,
-              "visibility": "hidden",
-              "whiteSpace": "pre",
-            }
-          }
-        >
-          
-        </div>
+          className="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+        />
         <div
-          style={
-            Object {
-              "height": 0,
-              "left": 0,
-              "overflow": "scroll",
-              "position": "absolute",
-              "top": 0,
-              "visibility": "hidden",
-              "whiteSpace": "pre",
-            }
-          }
-        >
-          ________________
-        </div>
+          className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+        />
       </div>
-      <label
-        className="self-center text-sm"
-      >
-        [place]
-      </label>
-    </span>
-    ?
-  </div>,
-  <ul
-    className="p-4"
-  >
-    <li>
-      <input
-        checked={false}
-        data-testid="1-blanks"
-        id="1-blanks"
-        name="1"
-        onChange={[Function]}
-        type="radio"
-        value="blanks"
-      />
-      <label
-        className="ml-2"
-        htmlFor="1-blanks"
-      >
-        blanks
-      </label>
-    </li>
-    <li>
-      <input
-        checked={false}
-        data-testid="1-examples"
-        id="1-examples"
-        name="1"
-        onChange={[Function]}
-        type="radio"
-        value="examples"
-      />
-      <label
-        className="ml-2"
-        htmlFor="1-examples"
-      >
-        examples
-      </label>
-    </li>
-    <li>
-      <input
-        checked={true}
-        data-testid="1-input"
-        id="1-input"
-        name="1"
-        onChange={[Function]}
-        type="radio"
-        value="input"
-      />
-      <label
-        className="ml-2"
-        htmlFor="1-input"
-      >
-        input
-      </label>
-    </li>
-    <li>
-      <input
-        checked={false}
-        data-testid="1-prompts"
-        id="1-prompts"
-        name="1"
-        onChange={[Function]}
-        type="radio"
-        value="prompts"
-      />
-      <label
-        className="ml-2"
-        htmlFor="1-prompts"
-      >
-        prompts
-      </label>
-    </li>
-  </ul>,
-]
+    </label>
+  </div>
+</div>
 `;

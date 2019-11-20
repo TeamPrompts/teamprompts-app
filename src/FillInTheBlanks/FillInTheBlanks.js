@@ -1,55 +1,31 @@
 import React, { useState } from 'react';
 import Content from './Content';
-import Radio from './Radio';
+import Checkbox, { values } from './Checkbox';
 import modes from './modes';
 
 function FillInTheBlanks({ id, model }) {
   const [mode, setMode] = useState(modes.input);
 
   return (
-    <>
-      <div className="leading-loose text-lg">
-        <Content mode={mode} model={model} />
-      </div>
-      <ul className="p-4">
-        <li>
-          <Radio
-            id={id}
-            mode={mode}
-            onChange={() => setMode(modes.blanks)}
-            value={modes.blanks}
-          />
-        </li>
+    <div className="leading-loose text-lg">
+      <Content mode={mode} model={model} />
+      <div className="inline-block pl-3">
         {model.examples && (
-          <li>
-            <Radio
-              id={id}
-              mode={mode}
-              onChange={() => setMode(modes.examples)}
-              value={modes.examples}
-            />
-          </li>
-        )}
-        <li>
-          <Radio
+          <Checkbox
             id={id}
-            mode={mode}
-            onChange={() => setMode(modes.input)}
-            value={modes.input}
+            onChange={value => {
+              if (value === values.off) {
+                setMode(modes.examples);
+              }
+              if (value === values.on) {
+                setMode(modes.input);
+              }
+            }}
+            value={mode === modes.examples ? values.on : values.off}
           />
-        </li>
-        {model.prompts && (
-          <li>
-            <Radio
-              id={id}
-              mode={mode}
-              onChange={() => setMode(modes.prompts)}
-              value={modes.prompts}
-            />
-          </li>
         )}
-      </ul>
-    </>
+      </div>
+    </div>
   );
 }
 

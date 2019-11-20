@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.9.0
+    0.9.1
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.9.0
+      0.9.1
     </small>
   </div>
 </div>
@@ -71,7 +71,7 @@ exports[`App w/ models 1`] = `
     <ul>
       <li>
         <div
-          class="leading-loose text-lg"
+          class="leading-loose text-lg my-5"
         >
           Do you know the way to 
           <span
@@ -129,6 +129,9 @@ exports[`App w/ models 1`] = `
               </div>
             </label>
           </div>
+          <hr
+            class="mt-3"
+          />
         </div>
       </li>
     </ul>
@@ -136,7 +139,7 @@ exports[`App w/ models 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.9.0
+      0.9.1
     </small>
   </div>
 </div>

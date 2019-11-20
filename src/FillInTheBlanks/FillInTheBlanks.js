@@ -7,7 +7,7 @@ function FillInTheBlanks({ id, model }) {
   const [mode, setMode] = useState(modes.input);
 
   return (
-    <div className="leading-loose text-lg">
+    <div className="leading-loose text-lg my-5">
       <Content mode={mode} model={model} />
       <div className="inline-block pl-3">
         {model.examples && (
@@ -25,6 +25,7 @@ function FillInTheBlanks({ id, model }) {
           />
         )}
       </div>
+      <hr className="mt-3" />
     </div>
   );
 }

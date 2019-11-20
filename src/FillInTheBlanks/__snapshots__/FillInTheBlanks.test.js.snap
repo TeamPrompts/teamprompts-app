@@ -2,7 +2,7 @@
 
 exports[`FillInTheBlanks to match snapshot 1`] = `
 <div
-  className="leading-loose text-lg"
+  className="leading-loose text-lg my-5"
 >
   Do you know the way to 
   <span
@@ -94,5 +94,8 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
       </div>
     </label>
   </div>
+  <hr
+    className="mt-3"
+  />
 </div>
 `;

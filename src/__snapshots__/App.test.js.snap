@@ -2,7 +2,7 @@
 
 exports[`App loading 1`] = `
 <div
-  className="flex flex-col font-serif items-center my-12 max-w-3xl sm:mx-4 md:mx-auto lg:mx-auto xl:mx-auto "
+  className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
 >
   <h1
     className="capitalize font-normal hover:font-bold text-4xl text-gray-900"
@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.8.0
+    0.8.1
   </small>
 </div>
 `;
@@ -38,7 +38,7 @@ exports[`App loading 1`] = `
 exports[`App w/ error 1`] = `
 <div>
   <div
-    class="flex flex-col font-serif items-center my-12 max-w-3xl sm:mx-4 md:mx-auto lg:mx-auto xl:mx-auto "
+    class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
     <h1
       class="capitalize font-normal hover:font-bold text-4xl text-gray-900"
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.8.0
+      0.8.1
     </small>
   </div>
 </div>
@@ -61,7 +61,7 @@ exports[`App w/ error 1`] = `
 exports[`App w/ models 1`] = `
 <div>
   <div
-    class="flex flex-col font-serif items-center my-12 max-w-3xl sm:mx-4 md:mx-auto lg:mx-auto xl:mx-auto "
+    class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
     <h1
       class="capitalize font-normal hover:font-bold text-4xl text-gray-900"
@@ -175,7 +175,7 @@ exports[`App w/ models 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.8.0
+      0.8.1
     </small>
   </div>
 </div>

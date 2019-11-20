@@ -1,30 +1,31 @@
 import React, { useState } from 'react';
 import Content from './Content';
-import Checkbox from './Checkbox';
+import Checkbox, { values } from './Checkbox';
 import modes from './modes';
 
 function FillInTheBlanks({ id, model }) {
   const [mode, setMode] = useState(modes.input);
 
   return (
-    <>
-      <div className="leading-loose text-lg">
-        <Content mode={mode} model={model} />
-        <div className="inline-block pl-3">
-          {model.examples && (
-            <Checkbox
-              id={id}
-              mode={mode}
-              onChange={() =>
-                setMode(mode === 'examples' ? modes.inputs : modes.examples)
+    <div className="leading-loose text-lg">
+      <Content mode={mode} model={model} />
+      <div className="inline-block pl-3">
+        {model.examples && (
+          <Checkbox
+            id={id}
+            onChange={value => {
+              if (value === values.off) {
+                setMode(modes.examples);
               }
-              value={modes.examples}
-            />
-          )}
-        </div>
+              if (value === values.on) {
+                setMode(modes.input);
+              }
+            }}
+            value={mode === modes.examples ? values.on : values.off}
+          />
+        )}
       </div>
-      <ul className="p-4"></ul>
-    </>
+    </div>
   );
 }
 

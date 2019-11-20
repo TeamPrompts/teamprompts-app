@@ -8,7 +8,6 @@ function Radio({ id, mode, onChange, value }) {
         checked={mode === value}
         data-testid={inputId}
         id={inputId}
-        name={id}
         onChange={onChange}
         type="radio"
         value={value}

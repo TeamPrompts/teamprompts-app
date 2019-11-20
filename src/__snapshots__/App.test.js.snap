@@ -108,18 +108,17 @@ exports[`App w/ models 1`] = `
           >
             <label
               class="cursor-pointer"
-              for="0-examples"
+              for="0-off"
             >
               <div
                 class="relative"
               >
                 <input
                   class="hidden"
-                  data-testid="0-examples"
-                  id="0-examples"
-                  name="0"
+                  data-testid="0-off"
+                  id="0-off"
                   type="checkbox"
-                  value="examples"
+                  value="off"
                 />
                 <div
                   class="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"
@@ -131,9 +130,6 @@ exports[`App w/ models 1`] = `
             </label>
           </div>
         </div>
-        <ul
-          class="p-4"
-        />
       </li>
     </ul>
     <small

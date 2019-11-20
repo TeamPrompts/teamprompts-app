@@ -2,4 +2,6 @@
 
 - [x] use [react-input-autosize](https://github.com/JedWatson/react-input-autosize)
 
-- [ ] checkbox [e.g.]
+- [x] toggle [e.g.]
+
+- [ ] feature-provider

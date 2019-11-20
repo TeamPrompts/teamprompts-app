@@ -25,8 +25,8 @@ function FillInTheBlanks({ id, model }) {
           />
         )}
       </div>
+      <hr className="mt-3" />
     </div>
-    <hr/>
   );
 }
 

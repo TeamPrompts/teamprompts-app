@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <div className="flex flex-col font-serif items-center my-12 max-w-3xl sm:mx-4 md:mx-auto lg:mx-auto xl:mx-auto ">
+    <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
       <h1 className="capitalize font-normal hover:font-bold text-4xl text-gray-900">
         {name}
       </h1>

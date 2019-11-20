@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`models to match snapshot 1`] = `
+Array [
+  Object {
+    "author": "John Cutler",
+    "examples": Array [
+      "to add steps to the workflow",
+      "more customers completing the existing workflow",
+    ],
+    "id": 12,
+    "prompts": undefined,
+    "source": "To feel more confident about our decision to __BLANK__, I would like to observe __BLANK__.",
+  },
+  Object {
+    "author": "John Cutler",
+    "examples": Array [
+      "spend too long deliberating over the behavior of the page filter",
+      " test early with customers",
+    ],
+    "id": 11,
+    "prompts": undefined,
+    "source": "I’m concerned that if we __BLANK__, we may miss the opportunity to __BLANK__.",
+  },
+  Object {
+    "author": undefined,
+    "examples": undefined,
+    "id": 10,
+    "prompts": undefined,
+    "source": "You’ve got to think of these kinds of __BLANK__ as a way to win,” he said at a press conference on Friday. “How expansive can you __BLANK__ and at the same time get __BLANK__? I want you to expect that we are really managing that.”",
+  },
+  Object {
+    "author": "John Cutler",
+    "examples": undefined,
+    "id": 8,
+    "prompts": Array [
+      "an assumption",
+      "that assumption",
+      "a list of ways",
+    ],
+    "source": "We seem to be treating __BLANK__ as a foregone conclusion. I’m not sure it is that simple. If we were proven wrong (or less right) about __BLANK__ , it would impact us in the following ways: __BLANK__  .",
+  },
+  Object {
+    "author": "John Doe",
+    "examples": Array [
+      "this amazing challenge",
+    ],
+    "id": 4,
+    "prompts": undefined,
+    "source": "To even know where to start, we would need to better understand __BLANK__.",
+  },
+  Object {
+    "author": "The Person",
+    "examples": Array [
+      "this huge problem we have",
+      "feel the wrath of all that has come before",
+    ],
+    "id": 3,
+    "prompts": undefined,
+    "source": "A danger of not resolving __BLANK__ now is that we will eventually __BLANK__.",
+  },
+  Object {
+    "author": "Mary Tine",
+    "examples": Array [
+      "how we perceive user onboarding",
+      "our projections might be off",
+    ],
+    "id": 2,
+    "prompts": Array [
+      "some assumption",
+      "reason",
+    ],
+    "source": "The weakest link in our mental model is __BLANK__. If we’re off -- even by a little -- it could have a big impact on this initiative because __BLANK__.",
+  },
+  Object {
+    "author": "John Cutler",
+    "examples": undefined,
+    "id": 1,
+    "prompts": Array [
+      "an action",
+      "reason",
+      "new event",
+    ],
+    "source": "We may be over-confident in our ability to __BLANK__. It hasn’t really been a problem yet because __BLANK__, but it could become a problem in the future if __BLANK__.",
+  },
+]
+`;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import Checkbox, { values } from '../components/Checkbox/Checkbox';
+import { modes } from '../constants';
 import Content from './Content';
-import Checkbox, { values } from './Checkbox';
-import modes from './modes';
 
 function FillInTheBlanks({ id, model }) {
   const [mode, setMode] = useState(modes.input);
@@ -14,6 +14,7 @@ function FillInTheBlanks({ id, model }) {
           <Checkbox
             id={id}
             onChange={value => {
+              console.log('value:', value);
               if (value === values.off) {
                 setMode(modes.examples);
               }

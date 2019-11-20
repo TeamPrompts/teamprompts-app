@@ -1,8 +1,8 @@
 import classname from 'classnames';
 import React from 'react';
 import AutosizeInput from 'react-input-autosize';
-import { BLANK } from '../constants';
-import { CHANGE } from './reducer';
+import { BLANK } from '../../constants';
+import { CHANGE } from '../../FillInTheBlanks/reducer';
 
 function InputText({ dispatch, hint, id, value }) {
   function onChange({ target: { value } }) {

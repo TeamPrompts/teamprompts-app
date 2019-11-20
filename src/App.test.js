@@ -2,10 +2,10 @@ import { render } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
 import App from './App';
-import makeModels from './makeModels';
+import makeModels from './api/makeModels';
 import model from './model';
 
-jest.mock('./makeModels');
+jest.mock('./api/makeModels');
 
 describe('App', () => {
   beforeEach(() => {

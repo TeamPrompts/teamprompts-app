@@ -3,7 +3,6 @@ import React from 'react';
 import { create } from 'react-test-renderer';
 import model from '../model';
 import FillInTheBlanks from './FillInTheBlanks';
-import modes from './modes';
 
 describe('FillInTheBlanks', () => {
   const ID = '1';
@@ -21,18 +20,6 @@ describe('FillInTheBlanks', () => {
   it.skip('click radios', () => {
     const { getByTestId } = render(<FillInTheBlanks {...props} />);
 
-    function actAssert(mode) {
-      const id = `${ID}-${mode}`; // INFO: check src/FillInTheBlanks/Radio.js#4
-      fireEvent.click(getByTestId(id));
-      expect(getByTestId(id).checked).toEqual(true);
-    }
-
-    actAssert(modes.examples);
-
-    actAssert(modes.input);
-
-    actAssert(modes.prompts);
-
-    actAssert(modes.blanks);
+    fireEvent.change(getByTestId(ID), { target: { value: 'on' } });
   });
 });

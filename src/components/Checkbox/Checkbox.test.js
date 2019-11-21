@@ -1,14 +1,15 @@
 import { render, fireEvent } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
-import Checkbox from './Checkbox';
+import Checkbox, { values } from './Checkbox';
 
 describe('Checkbox', () => {
+  const ID = '0';
   const mockOnChange = jest.fn();
   const props = {
-    id: '0',
+    id: ID,
     onChange: mockOnChange,
-    value: 'on'
+    value: values.on
   };
 
   it('to match snapshot', () => {
@@ -16,11 +17,11 @@ describe('Checkbox', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it.skip('toggle', () => {
+  it('click', () => {
     const { getByTestId } = render(<Checkbox {...props} />);
 
-    fireEvent.change(getByTestId('0'), { target: { value: 'on' } });
+    fireEvent.click(getByTestId(ID));
 
-    expect(mockOnChange).toBeCalled();
+    expect(mockOnChange).toBeCalledWith(values.on);
   });
 });

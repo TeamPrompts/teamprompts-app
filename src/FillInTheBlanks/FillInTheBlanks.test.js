@@ -17,9 +17,15 @@ describe('FillInTheBlanks', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it.skip('click radios', () => {
-    const { getByTestId } = render(<FillInTheBlanks {...props} />);
+  it('toggle', () => {
+    const { container, getByTestId } = render(<FillInTheBlanks {...props} />);
 
-    fireEvent.change(getByTestId(ID), { target: { value: 'on' } });
+    // on
+    fireEvent.click(getByTestId(ID));
+    expect(container).toMatchSnapshot();
+
+    // off
+    fireEvent.click(getByTestId(ID));
+    expect(container).toMatchSnapshot();
   });
 });

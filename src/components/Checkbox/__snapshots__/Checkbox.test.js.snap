@@ -1,55 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Checkbox to match snapshot 1`] = `
-<label
-  className="cursor-pointer"
-  htmlFor="0"
+<div
+  className="relative"
 >
-  <div
-    className="relative"
-  >
-    <input
-      checked={true}
-      className="hidden"
-      data-testid="0"
-      id="0"
-      onChange={[Function]}
-      type="checkbox"
-    />
-    <div
-      className="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"
-    />
-    <div
-      className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
-    />
-  </div>
-</label>
-`;
-
-exports[`Checkbox toggle 1`] = `
-<div>
+  <input
+    checked={true}
+    className="hidden"
+    data-testid="0"
+    id="0"
+    onChange={[Function]}
+    type="checkbox"
+  />
   <label
-    class="cursor-pointer"
-    for="0"
+    className="cursor-pointer"
+    htmlFor="0"
   >
     <div
-      class="relative"
-    >
-      <input
-        checked=""
-        class="hidden"
-        data-testid="0"
-        id="0"
-        type="checkbox"
-        value="on"
-      />
-      <div
-        class="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"
-      />
-      <div
-        class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
-      />
-    </div>
+      className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+    />
+    <div
+      className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0 toggle__dot--checked"
+    />
   </label>
 </div>
 `;

@@ -106,27 +106,27 @@ exports[`App w/ models 1`] = `
           <div
             class="inline-block pl-3"
           >
-            <label
-              class="cursor-pointer"
-              for="0"
+            <div
+              class="relative"
             >
-              <div
-                class="relative"
+              <input
+                class="hidden"
+                data-testid="0"
+                id="0"
+                type="checkbox"
+              />
+              <label
+                class="cursor-pointer"
+                for="0"
               >
-                <input
-                  class="hidden"
-                  data-testid="0"
-                  id="0"
-                  type="checkbox"
-                />
                 <div
-                  class="toggle__line w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+                  class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
                 />
                 <div
                   class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
                 />
-              </div>
-            </label>
+              </label>
+            </div>
           </div>
           <hr
             class="mt-3"

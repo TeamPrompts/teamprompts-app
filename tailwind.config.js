@@ -11,7 +11,7 @@ module.exports = {
           left: '-.25rem !important',
           transition: 'all 0.3s ease-in-out'
         },
-        'input[type=checkbox]:checked ~ .toggle__dot': {
+        '.toggle__dot--checked': {
           transform: 'translateX(100%) !important',
           backgroundColor: '#48bb78 !important'
         }

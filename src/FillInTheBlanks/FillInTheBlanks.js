@@ -14,7 +14,6 @@ function FillInTheBlanks({ id, model }) {
           <Checkbox
             id={id}
             onChange={value => {
-              console.log('value:', value);
               if (value === values.off) {
                 setMode(modes.examples);
               }

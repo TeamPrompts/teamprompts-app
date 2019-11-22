@@ -19,7 +19,7 @@ function Filters({ onClick, tags }) {
     <ul className="flex flex-wrap">
       <Item onClick={onClick} tag={{ name: 'all' }} />
       {tags.map(tag => (
-        <Item key={tag.name} onClick={onClick} tag={tag} />
+        <Item key={tag.id} onClick={onClick} tag={tag} />
       ))}
     </ul>
   );

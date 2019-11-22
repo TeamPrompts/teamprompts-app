@@ -1,12 +1,12 @@
-import { SEPARATOR } from './constants';
+import { SEPARATOR } from '../constants';
 
 export const SOURCE = `Do you know the way to ${SEPARATOR}?`;
 
-const model = {
+const fitb = {
   examples: ['San Jose'],
   id: 'recQ2jud83D1dCxr4',
   prompts: ['[place]'],
   source: SOURCE
 };
 
-export default model; // INFO: this is a mock
+export default fitb;

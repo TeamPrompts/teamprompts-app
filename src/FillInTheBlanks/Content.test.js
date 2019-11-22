@@ -1,7 +1,7 @@
 import React from 'react';
 import { create } from 'react-test-renderer';
+import fitb from '../mocks/fitb';
 import { modes } from '../constants';
-import model from '../model';
 import Content from './Content';
 
 describe('Content', () => {
@@ -9,21 +9,21 @@ describe('Content', () => {
     {
       description: modes.blanks,
       props: {
-        fitb: model,
+        fitb,
         mode: modes.blanks
       }
     },
     {
       description: modes.examples,
       props: {
-        fitb: model,
+        fitb,
         mode: modes.examples
       }
     },
     {
       description: `${modes.input} w/ prompts`,
       props: {
-        fitb: model,
+        fitb,
         mode: modes.input
       }
     },
@@ -31,7 +31,7 @@ describe('Content', () => {
       description: `${modes.input} w/o prompts`,
       props: {
         fitb: (() => {
-          const { prompts, ...rest } = model;
+          const { prompts, ...rest } = fitb;
           return rest;
         })(),
         mode: modes.input
@@ -40,7 +40,7 @@ describe('Content', () => {
     {
       description: modes.prompts,
       props: {
-        fitb: model,
+        fitb,
         mode: modes.prompts
       }
     }

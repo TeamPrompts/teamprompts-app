@@ -1,4 +1,4 @@
-import makeRecord from './makeRecord';
+import makeRecord from '../mocks/makeRecord';
 import makeTag from './makeTag';
 
 test('tags to match snapshot', () => {

@@ -1,13 +1,11 @@
 import React from 'react';
 import { create } from 'react-test-renderer';
 import { modes } from '../constants';
-import model from '../model';
 import CopyButton from './CopyButton';
 
 describe('CopyButton', () => {
   const props = {
-    mode: modes.input,
-    model
+    mode: modes.input
   };
 
   it('to match snapshot', () => {

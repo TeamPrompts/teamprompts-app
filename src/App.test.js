@@ -4,7 +4,7 @@ import { create } from 'react-test-renderer';
 import App from './App';
 import selectFitbs from './api/selectFitbs';
 import selectTags from './api/selectTags';
-import model from './model';
+import fitb from './mocks/fitb';
 import tag from './tag';
 
 jest.mock('./api/selectFitbs');
@@ -12,7 +12,7 @@ jest.mock('./api/selectTags');
 
 describe('App', () => {
   beforeEach(() => {
-    selectFitbs.mockImplementation(callback => callback(null, [model]));
+    selectFitbs.mockImplementation(callback => callback(null, [fitb]));
     selectTags.mockImplementation(callback => callback(null, [tag]));
   });
 
@@ -21,7 +21,7 @@ describe('App', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('w/ models', () => {
+  it('w/ fitbs', () => {
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
   });

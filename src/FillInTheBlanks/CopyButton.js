@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CopyButton({ mode, model }) {
+function CopyButton({ mode }) {
   return (
     <button
       className="bg-blue-500 font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"

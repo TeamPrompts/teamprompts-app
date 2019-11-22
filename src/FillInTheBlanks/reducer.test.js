@@ -1,4 +1,4 @@
-import { SOURCE } from '../model';
+import { SOURCE } from '../mocks/fitb';
 import makeInitialState from './makeInitialState';
 import reducer, { CHANGE } from './reducer';
 

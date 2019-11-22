@@ -58,7 +58,7 @@ exports[`App w/ error 1`] = `
 </div>
 `;
 
-exports[`App w/ models 1`] = `
+exports[`App w/ fitbs 1`] = `
 <div>
   <div
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"

@@ -3,15 +3,15 @@ import Checkbox, { values } from '../components/Checkbox/Checkbox';
 import { modes } from '../constants';
 import Content from './Content';
 
-function FillInTheBlanks({ id, model }) {
+function FillInTheBlanks({ fitb }) {
   const [mode, setMode] = useState(modes.input);
 
   return (
     <div className="leading-loose text-lg my-5">
-      <Content mode={mode} model={model} />
-      {model.examples && (
+      <Content mode={mode} fitb={fitb} />
+      {fitb.examples && (
         <Checkbox
-          id={id}
+          id={fitb.id}
           onChange={value => {
             if (value === values.off) {
               setMode(modes.examples);

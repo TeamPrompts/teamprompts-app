@@ -2,14 +2,14 @@ import { render } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
 import App from './App';
-import makeModels from './api/makeModels';
+import selectFitbs from './api/selectFitbs';
 import model from './model';
 
-jest.mock('./api/makeModels');
+jest.mock('./api/selectFitbs');
 
 describe('App', () => {
   beforeEach(() => {
-    makeModels.mockImplementation(callback => callback(null, [model]));
+    selectFitbs.mockImplementation(callback => callback(null, [model]));
   });
 
   it('loading', () => {
@@ -23,7 +23,7 @@ describe('App', () => {
   });
 
   it('w/ error', () => {
-    makeModels.mockImplementation(callback => callback(new Error('Oh Noes!')));
+    selectFitbs.mockImplementation(callback => callback(new Error('Oh Noes!')));
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
   });

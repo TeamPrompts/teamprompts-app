@@ -2,24 +2,48 @@ import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import { name, version } from '../package.json';
+import selectFitbs from './api/selectFitbs';
+import selectTags from './api/selectTags';
+import Filters from './components/Filters/Filters';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
-import makeModels from './api/makeModels';
+
+const ALL = 'all';
 
 function App() {
   const [error, setError] = useState();
-  const [models, setModels] = useState([]);
+  const [filter, setFilter] = useState({ name: ALL });
+  const [fitbs, setFitbs] = useState([]);
+  const [tags, setTags] = useState([]);
   const [waiting, setWaiting] = useState(true);
 
   useEffect(() => {
-    makeModels((error, models) => {
+    selectFitbs((error, fitbs) => {
       if (error) {
         setError(error);
       } else {
-        setModels(models);
+        setFitbs(fitbs);
       }
-      setWaiting(false);
     });
   }, []);
+
+  useEffect(() => {
+    selectTags((error, tags) => {
+      if (error) {
+        setError(error);
+      } else {
+        setTags(tags);
+      }
+    });
+  }, []);
+
+  useEffect(() => {
+    if (error) {
+      setWaiting(false);
+    }
+    if (fitbs.length > 0 && tags.length > 0) {
+      setWaiting(false);
+    }
+  }, [error, fitbs.length, tags.length]);
 
   return (
     <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
@@ -35,13 +59,28 @@ function App() {
       ) : error ? (
         <pre>{JSON.stringify(error, 0, 2)}</pre>
       ) : (
-        <ul>
-          {models.map((model, index) => (
-            <li key={index}>
-              <FillInTheBlanks id={index} model={model} />
-            </li>
-          ))}
-        </ul>
+        <>
+          <Filters onClick={tag => setFilter(tag)} tags={tags} />
+          <ul>
+            {fitbs
+              .filter(fitb => {
+                if (filter.name === ALL) {
+                  return fitb;
+                }
+                if (filter.fitbs.includes(fitb.id)) {
+                  return fitb;
+                }
+                return null;
+              })
+              .map(fitb => {
+                return (
+                  <li key={fitb.id}>
+                    <FillInTheBlanks fitb={fitb} />
+                  </li>
+                );
+              })}
+          </ul>
+        </>
       )}
       <small className="font-normal hover:font-bold text-gray-700 text-sm">
         v{version}

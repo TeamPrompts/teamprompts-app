@@ -9,39 +9,39 @@ describe('Content', () => {
     {
       description: modes.blanks,
       props: {
-        mode: modes.blanks,
-        model
+        fitb: model,
+        mode: modes.blanks
       }
     },
     {
       description: modes.examples,
       props: {
-        mode: modes.examples,
-        model
+        fitb: model,
+        mode: modes.examples
       }
     },
     {
       description: `${modes.input} w/ prompts`,
       props: {
-        mode: modes.input,
-        model
+        fitb: model,
+        mode: modes.input
       }
     },
     {
       description: `${modes.input} w/o prompts`,
       props: {
-        mode: modes.input,
-        model: (() => {
+        fitb: (() => {
           const { prompts, ...rest } = model;
           return rest;
-        })()
+        })(),
+        mode: modes.input
       }
     },
     {
       description: modes.prompts,
       props: {
-        mode: modes.prompts,
-        model
+        fitb: model,
+        mode: modes.prompts
       }
     }
   ];

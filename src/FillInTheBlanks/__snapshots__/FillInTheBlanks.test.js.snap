@@ -72,14 +72,14 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
     <input
       checked={false}
       className="hidden"
-      data-testid="1"
-      id="1"
+      data-testid="recQ2jud83D1dCxr4"
+      id="recQ2jud83D1dCxr4"
       onChange={[Function]}
       type="checkbox"
     />
     <label
       className="cursor-pointer"
-      htmlFor="1"
+      htmlFor="recQ2jud83D1dCxr4"
     >
       <div
         className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
@@ -112,13 +112,13 @@ exports[`FillInTheBlanks toggle 1`] = `
     >
       <input
         class="hidden"
-        data-testid="1"
-        id="1"
+        data-testid="recQ2jud83D1dCxr4"
+        id="recQ2jud83D1dCxr4"
         type="checkbox"
       />
       <label
         class="cursor-pointer"
-        for="1"
+        for="recQ2jud83D1dCxr4"
       >
         <div
           class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
@@ -175,13 +175,13 @@ exports[`FillInTheBlanks toggle 2`] = `
     >
       <input
         class="hidden"
-        data-testid="1"
-        id="1"
+        data-testid="recQ2jud83D1dCxr4"
+        id="recQ2jud83D1dCxr4"
         type="checkbox"
       />
       <label
         class="cursor-pointer"
-        for="1"
+        for="recQ2jud83D1dCxr4"
       >
         <div
           class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"

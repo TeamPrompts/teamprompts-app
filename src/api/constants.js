@@ -1,0 +1,12 @@
+export const ACTIVE = 'active';
+export const ASC = 'asc';
+export const AUTHOR = 'Author';
+export const DESC = 'desc';
+export const EXAMPLES = 'Examples';
+export const FITB = 'FITB';
+export const FITBS = 'FITBs';
+export const ID = 'ID';
+export const NAME = 'Name';
+export const PROMPTS = 'Prompts';
+export const STATUS = 'Status';
+export const TAGS = 'Tags';

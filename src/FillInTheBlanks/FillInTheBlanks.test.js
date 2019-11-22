@@ -5,11 +5,8 @@ import model from '../model';
 import FillInTheBlanks from './FillInTheBlanks';
 
 describe('FillInTheBlanks', () => {
-  const ID = '1';
-
   const props = {
-    id: ID,
-    model
+    fitb: model
   };
 
   it('to match snapshot', () => {
@@ -21,11 +18,11 @@ describe('FillInTheBlanks', () => {
     const { container, getByTestId } = render(<FillInTheBlanks {...props} />);
 
     // on
-    fireEvent.click(getByTestId(ID));
+    fireEvent.click(getByTestId(model.id));
     expect(container).toMatchSnapshot();
 
     // off
-    fireEvent.click(getByTestId(ID));
+    fireEvent.click(getByTestId(model.id));
     expect(container).toMatchSnapshot();
   });
 });

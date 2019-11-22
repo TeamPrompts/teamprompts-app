@@ -4,4 +4,8 @@
 
 - [x] toggle [e.g.]
 
+- [ ] filter by tag
+
+- [ ] s/model/fitb
+
 - [ ] feature-provider

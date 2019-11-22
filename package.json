@@ -58,8 +58,7 @@
     "collectCoverageFrom": [
       "src/**/*.js",
       "!src/index.js",
-      "!src/serviceWorker.js",
-      "!src/api/makeModels.js"
+      "!src/serviceWorker.js"
     ]
   }
 }

@@ -5,7 +5,7 @@ import App from './App';
 import selectFitbs from './api/selectFitbs';
 import selectTags from './api/selectTags';
 import fitb from './mocks/fitb';
-import tag from './tag';
+import tag from './mocks/tag';
 
 jest.mock('./api/selectFitbs');
 jest.mock('./api/selectTags');

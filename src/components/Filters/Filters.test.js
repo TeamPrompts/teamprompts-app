@@ -1,7 +1,7 @@
 import { render, fireEvent } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
-import tag from '../../tag';
+import tag from '../../mocks/tag';
 import Filters from './Filters';
 
 describe('Filters', () => {

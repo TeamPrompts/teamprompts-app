@@ -9,4 +9,4 @@ const tag = {
   name: 'retrospectives'
 };
 
-export default tag; // INFO: this is a mock
+export default tag;

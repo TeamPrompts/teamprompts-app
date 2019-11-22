@@ -66,33 +66,29 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
     </label>
   </span>
   ?
-  <div
-    className="inline-block pl-3"
+  <span
+    className="inline-block ml-3 relative"
   >
-    <div
-      className="relative"
+    <input
+      checked={false}
+      className="hidden"
+      data-testid="1"
+      id="1"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      className="cursor-pointer"
+      htmlFor="1"
     >
-      <input
-        checked={false}
-        className="hidden"
-        data-testid="1"
-        id="1"
-        onChange={[Function]}
-        type="checkbox"
+      <div
+        className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
       />
-      <label
-        className="cursor-pointer"
-        htmlFor="1"
-      >
-        <div
-          className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
-        />
-        <div
-          className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
-        />
-      </label>
-    </div>
-  </div>
+      <div
+        className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+      />
+    </label>
+  </span>
   <hr
     className="mt-3"
   />
@@ -111,31 +107,27 @@ exports[`FillInTheBlanks toggle 1`] = `
       San Jose
     </span>
     ?
-    <div
-      class="inline-block pl-3"
+    <span
+      class="inline-block ml-3 relative"
     >
-      <div
-        class="relative"
+      <input
+        class="hidden"
+        data-testid="1"
+        id="1"
+        type="checkbox"
+      />
+      <label
+        class="cursor-pointer"
+        for="1"
       >
-        <input
-          class="hidden"
-          data-testid="1"
-          id="1"
-          type="checkbox"
+        <div
+          class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
         />
-        <label
-          class="cursor-pointer"
-          for="1"
-        >
-          <div
-            class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
-          />
-          <div
-            class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0 toggle__dot--checked"
-          />
-        </label>
-      </div>
-    </div>
+        <div
+          class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0 toggle__dot--checked"
+        />
+      </label>
+    </span>
     <hr
       class="mt-3"
     />
@@ -178,31 +170,27 @@ exports[`FillInTheBlanks toggle 2`] = `
       </label>
     </span>
     ?
-    <div
-      class="inline-block pl-3"
+    <span
+      class="inline-block ml-3 relative"
     >
-      <div
-        class="relative"
+      <input
+        class="hidden"
+        data-testid="1"
+        id="1"
+        type="checkbox"
+      />
+      <label
+        class="cursor-pointer"
+        for="1"
       >
-        <input
-          class="hidden"
-          data-testid="1"
-          id="1"
-          type="checkbox"
+        <div
+          class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
         />
-        <label
-          class="cursor-pointer"
-          for="1"
-        >
-          <div
-            class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
-          />
-          <div
-            class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
-          />
-        </label>
-      </div>
-    </div>
+        <div
+          class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+        />
+      </label>
+    </span>
     <hr
       class="mt-3"
     />

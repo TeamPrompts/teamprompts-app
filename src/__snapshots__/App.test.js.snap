@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.10.0
+    0.10.1
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.10.0
+      0.10.1
     </small>
   </div>
 </div>
@@ -103,31 +103,27 @@ exports[`App w/ models 1`] = `
             </label>
           </span>
           ?
-          <div
-            class="inline-block pl-3"
+          <span
+            class="inline-block ml-3 relative"
           >
-            <div
-              class="relative"
+            <input
+              class="hidden"
+              data-testid="0"
+              id="0"
+              type="checkbox"
+            />
+            <label
+              class="cursor-pointer"
+              for="0"
             >
-              <input
-                class="hidden"
-                data-testid="0"
-                id="0"
-                type="checkbox"
+              <div
+                class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
               />
-              <label
-                class="cursor-pointer"
-                for="0"
-              >
-                <div
-                  class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
-                />
-                <div
-                  class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
-                />
-              </label>
-            </div>
-          </div>
+              <div
+                class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+              />
+            </label>
+          </span>
           <hr
             class="mt-3"
           />
@@ -138,7 +134,7 @@ exports[`App w/ models 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.10.0
+      0.10.1
     </small>
   </div>
 </div>

@@ -1,15 +1,12 @@
 import { render, fireEvent } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
-import model from '../model';
+import fitb from '../mocks/fitb';
 import FillInTheBlanks from './FillInTheBlanks';
 
 describe('FillInTheBlanks', () => {
-  const ID = '1';
-
   const props = {
-    id: ID,
-    model
+    fitb
   };
 
   it('to match snapshot', () => {
@@ -21,11 +18,11 @@ describe('FillInTheBlanks', () => {
     const { container, getByTestId } = render(<FillInTheBlanks {...props} />);
 
     // on
-    fireEvent.click(getByTestId(ID));
+    fireEvent.click(getByTestId(fitb.id));
     expect(container).toMatchSnapshot();
 
     // off
-    fireEvent.click(getByTestId(ID));
+    fireEvent.click(getByTestId(fitb.id));
     expect(container).toMatchSnapshot();
   });
 });

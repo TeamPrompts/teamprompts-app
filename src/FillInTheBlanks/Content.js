@@ -69,10 +69,10 @@ function interpolate({ dispatch, mode, source, state, values }) {
   return result;
 }
 
-function Content({ mode, model }) {
-  const [state, dispatch] = useReducer(reducer, makeInitialState(model.source));
-  const values = getValues(mode, model);
-  return interpolate({ dispatch, mode, source: model.source, state, values });
+function Content({ fitb, mode }) {
+  const [state, dispatch] = useReducer(reducer, makeInitialState(fitb.source));
+  const values = getValues(mode, fitb);
+  return interpolate({ dispatch, mode, source: fitb.source, state, values });
 }
 
 export default Content;

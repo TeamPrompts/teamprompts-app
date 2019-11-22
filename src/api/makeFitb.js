@@ -1,10 +1,6 @@
-const AUTHOR = 'Author';
-const EXAMPLES = 'Examples';
-const FITB = 'FITB';
-export const ID = 'ID';
-const PROMPTS = 'Prompts';
+import { AUTHOR, EXAMPLES, FITB, PROMPTS, TAGS } from './constants';
 
-function makeModel(record) {
+function makeFitb(record) {
   const examples = record.get(EXAMPLES)
     ? JSON.parse(record.get(EXAMPLES))
     : undefined;
@@ -14,10 +10,11 @@ function makeModel(record) {
   return {
     author: record.get(AUTHOR),
     examples: examples,
-    id: record.get(ID),
+    id: record.id, // INFO .id and not .get('ID')
     prompts: prompts,
-    source: record.get(FITB)
+    source: record.get(FITB),
+    tags: record.get(TAGS)
   };
 }
 
-export default makeModel;
+export default makeFitb;

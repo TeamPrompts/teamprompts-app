@@ -6,10 +6,9 @@ export const values = {
   on: 'on'
 };
 
-// TODO: check the html
 function Checkbox({ id, onChange, value }) {
   return (
-    <div className="relative">
+    <span className="inline-block ml-3 relative">
       <input
         checked={value === values.on}
         className="hidden"
@@ -27,7 +26,7 @@ function Checkbox({ id, onChange, value }) {
           )}
         />
       </label>
-    </div>
+    </span>
   );
 }
 

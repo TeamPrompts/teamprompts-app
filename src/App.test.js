@@ -2,14 +2,18 @@ import { render } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
 import App from './App';
-import makeModels from './api/makeModels';
-import model from './model';
+import selectFitbs from './api/selectFitbs';
+import selectTags from './api/selectTags';
+import fitb from './mocks/fitb';
+import tag from './mocks/tag';
 
-jest.mock('./api/makeModels');
+jest.mock('./api/selectFitbs');
+jest.mock('./api/selectTags');
 
 describe('App', () => {
   beforeEach(() => {
-    makeModels.mockImplementation(callback => callback(null, [model]));
+    selectFitbs.mockImplementation(callback => callback(null, [fitb]));
+    selectTags.mockImplementation(callback => callback(null, [tag]));
   });
 
   it('loading', () => {
@@ -17,13 +21,13 @@ describe('App', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('w/ models', () => {
+  it('w/ fitbs', () => {
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
   });
 
   it('w/ error', () => {
-    makeModels.mockImplementation(callback => callback(new Error('Oh Noes!')));
+    selectFitbs.mockImplementation(callback => callback(new Error('Oh Noes!')));
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
   });

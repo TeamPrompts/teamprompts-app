@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.10.0
+    0.11.1
   </small>
 </div>
 `;
@@ -52,13 +52,13 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.10.0
+      0.11.1
     </small>
   </div>
 </div>
 `;
 
-exports[`App w/ models 1`] = `
+exports[`App w/ fitbs 1`] = `
 <div>
   <div
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
@@ -68,6 +68,32 @@ exports[`App w/ models 1`] = `
     >
       bee-blues
     </h1>
+    <ul
+      class="flex flex-wrap"
+    >
+      <li
+        class="mx-1 my-1"
+      >
+        <button
+          class="bg-blue-500 font-bold focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white"
+          data-testid="all"
+          type="button"
+        >
+          all
+        </button>
+      </li>
+      <li
+        class="mx-1 my-1"
+      >
+        <button
+          class="bg-blue-500 font-bold focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white"
+          data-testid="retrospectives"
+          type="button"
+        >
+          retrospectives
+        </button>
+      </li>
+    </ul>
     <ul>
       <li>
         <div
@@ -103,31 +129,27 @@ exports[`App w/ models 1`] = `
             </label>
           </span>
           ?
-          <div
-            class="inline-block pl-3"
+          <span
+            class="inline-block ml-3 relative"
           >
-            <div
-              class="relative"
+            <input
+              class="hidden"
+              data-testid="recQ2jud83D1dCxr4"
+              id="recQ2jud83D1dCxr4"
+              type="checkbox"
+            />
+            <label
+              class="cursor-pointer"
+              for="recQ2jud83D1dCxr4"
             >
-              <input
-                class="hidden"
-                data-testid="0"
-                id="0"
-                type="checkbox"
+              <div
+                class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
               />
-              <label
-                class="cursor-pointer"
-                for="0"
-              >
-                <div
-                  class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
-                />
-                <div
-                  class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
-                />
-              </label>
-            </div>
-          </div>
+              <div
+                class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+              />
+            </label>
+          </span>
           <hr
             class="mt-3"
           />
@@ -138,7 +160,7 @@ exports[`App w/ models 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.10.0
+      0.11.1
     </small>
   </div>
 </div>

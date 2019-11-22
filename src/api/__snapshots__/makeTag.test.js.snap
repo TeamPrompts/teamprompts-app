@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tags to match snapshot 1`] = `
+Array [
+  Object {
+    "fitbs": Array [
+      "receM4Gus7HH43oLM",
+      "rec99C9lxMl6aSedq",
+      "rec590aP1VRIE8f23",
+      "recNsahDzKCx0IQPk",
+    ],
+    "id": "recTqD26ElVvXKVad",
+    "name": "retrospectives",
+  },
+]
+`;

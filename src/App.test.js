@@ -3,13 +3,17 @@ import React from 'react';
 import { create } from 'react-test-renderer';
 import App from './App';
 import selectFitbs from './api/selectFitbs';
+import selectTags from './api/selectTags';
 import model from './model';
+import tag from './tag';
 
 jest.mock('./api/selectFitbs');
+jest.mock('./api/selectTags');
 
 describe('App', () => {
   beforeEach(() => {
     selectFitbs.mockImplementation(callback => callback(null, [model]));
+    selectTags.mockImplementation(callback => callback(null, [tag]));
   });
 
   it('loading', () => {

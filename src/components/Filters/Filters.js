@@ -5,6 +5,7 @@ function Item({ onClick, tag }) {
     <li className="mx-1 my-1">
       <button
         className="bg-blue-500 font-bold focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white"
+        data-testid={tag.name}
         onClick={() => onClick(tag)}
         type="button"
       >

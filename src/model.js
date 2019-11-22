@@ -9,4 +9,4 @@ const model = {
   source: SOURCE
 };
 
-export default model;
+export default model; // INFO: this is a mock

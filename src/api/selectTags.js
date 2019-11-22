@@ -1,13 +1,6 @@
-import { ASC, FITBS, NAME, TAGS } from './constants';
+import { ASC, NAME, TAGS } from './constants';
+import makeTag from './makeTag';
 import select from './select';
-
-function makeTag(record) {
-  return {
-    fitbs: record.get(FITBS),
-    id: record.id,
-    name: record.get(NAME)
-  };
-}
 
 function selectTags(callback) {
   select({

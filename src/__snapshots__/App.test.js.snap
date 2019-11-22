@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.11.0
+    0.11.1
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.11.0
+      0.11.1
     </small>
   </div>
 </div>
@@ -160,7 +160,7 @@ exports[`App w/ fitbs 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.11.0
+      0.11.1
     </small>
   </div>
 </div>

@@ -1,26 +1,55 @@
+import classnames from 'classnames';
 import React from 'react';
+import { tagAll } from '../../App';
 
-function Item({ onClick, tag }) {
+function Item({ counter, filter, onClick, tag }) {
   return (
     <li className="mx-1 my-1">
       <button
-        className="bg-blue-500 font-bold focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white"
+        className={classnames(
+          'bg-blue-500 focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white',
+          {
+            'bg-blue-900': tag.name === filter.name
+          }
+        )}
         data-testid={tag.name}
         onClick={() => onClick(tag)}
         type="button"
       >
-        {tag.name}
+        {`${tag.name} (${counter})`}
       </button>
     </li>
   );
 }
 
-function Filters({ onClick, tags }) {
+function Filters({ filter, fitbs, onClick, tags }) {
+  const counters = fitbs.reduce((accumulator, current) => {
+    current.tags.forEach(tag => {
+      if (accumulator[tag]) {
+        accumulator[tag] += 1;
+      } else {
+        accumulator[tag] = 1;
+      }
+    });
+    return accumulator;
+  }, {});
+
   return (
     <ul className="flex flex-wrap">
-      <Item onClick={onClick} tag={{ name: 'all' }} />
+      <Item
+        counter={fitbs.length}
+        filter={filter}
+        onClick={onClick}
+        tag={tagAll}
+      />
       {tags.map(tag => (
-        <Item key={tag.id} onClick={onClick} tag={tag} />
+        <Item
+          counter={counters[tag.id]}
+          filter={filter}
+          key={tag.id}
+          onClick={onClick}
+          tag={tag}
+        />
       ))}
     </ul>
   );

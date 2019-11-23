@@ -8,10 +8,11 @@ import Filters from './components/Filters/Filters';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
 
 const ALL = 'all';
+export const tagAll = { name: 'all' };
 
 function App() {
   const [error, setError] = useState();
-  const [filter, setFilter] = useState({ name: ALL });
+  const [filter, setFilter] = useState(tagAll);
   const [fitbs, setFitbs] = useState([]);
   const [tags, setTags] = useState([]);
   const [waiting, setWaiting] = useState(true);
@@ -60,7 +61,12 @@ function App() {
         <pre>{JSON.stringify(error, 0, 2)}</pre>
       ) : (
         <>
-          <Filters onClick={tag => setFilter(tag)} tags={tags} />
+          <Filters
+            filter={filter}
+            fitbs={fitbs}
+            onClick={tag => setFilter(tag)}
+            tags={tags}
+          />
           <ul>
             {fitbs
               .filter(fitb => {

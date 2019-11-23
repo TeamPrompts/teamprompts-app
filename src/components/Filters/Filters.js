@@ -7,8 +7,9 @@ function Item({ counter, filter, onClick, tag }) {
     <li className="mx-1 my-1">
       <button
         className={classnames(
-          'bg-blue-500 focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white',
+          'focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white',
           {
+            'bg-blue-500': tag.name !== filter.name,
             'bg-blue-900': tag.name === filter.name
           }
         )}

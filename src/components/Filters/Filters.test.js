@@ -10,7 +10,7 @@ describe('Filters', () => {
   const mockOnClick = jest.fn();
   const props = {
     filter: tagAll,
-    fitbs: [fitb],
+    fitbs: [fitb, { ...fitb, examples: ['Los Angeles'] }],
     onClick: mockOnClick,
     tags: [tag]
   };

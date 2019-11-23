@@ -4,9 +4,10 @@ export const SOURCE = `Do you know the way to ${SEPARATOR}?`;
 
 const fitb = {
   examples: ['San Jose'],
-  id: 'recQ2jud83D1dCxr4',
+  id: 'receM4Gus7HH43oLM',
   prompts: ['[place]'],
-  source: SOURCE
+  source: SOURCE,
+  tags: ['recTqD26ElVvXKVad']
 };
 
 export default fitb;

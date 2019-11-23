@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal hover:font-bold text-gray-700 text-sm"
   >
     v
-    0.11.1
+    0.11.2
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.11.1
+      0.11.2
     </small>
   </div>
 </div>
@@ -75,22 +75,22 @@ exports[`App w/ fitbs 1`] = `
         class="mx-1 my-1"
       >
         <button
-          class="bg-blue-500 font-bold focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white"
+          class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
           data-testid="all"
           type="button"
         >
-          all
+          all (1)
         </button>
       </li>
       <li
         class="mx-1 my-1"
       >
         <button
-          class="bg-blue-500 font-bold focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white"
+          class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
           data-testid="retrospectives"
           type="button"
         >
-          retrospectives
+          retrospectives (1)
         </button>
       </li>
     </ul>
@@ -134,13 +134,13 @@ exports[`App w/ fitbs 1`] = `
           >
             <input
               class="hidden"
-              data-testid="recQ2jud83D1dCxr4"
-              id="recQ2jud83D1dCxr4"
+              data-testid="receM4Gus7HH43oLM"
+              id="receM4Gus7HH43oLM"
               type="checkbox"
             />
             <label
               class="cursor-pointer"
-              for="recQ2jud83D1dCxr4"
+              for="receM4Gus7HH43oLM"
             >
               <div
                 class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
@@ -160,7 +160,7 @@ exports[`App w/ fitbs 1`] = `
       class="font-normal hover:font-bold text-gray-700 text-sm"
     >
       v
-      0.11.1
+      0.11.2
     </small>
   </div>
 </div>

@@ -8,24 +8,24 @@ exports[`Filters to match snapshot 1`] = `
     className="mx-1 my-1"
   >
     <button
-      className="bg-blue-500 font-bold focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white"
+      className="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
       data-testid="all"
       onClick={[Function]}
       type="button"
     >
-      all
+      all (2)
     </button>
   </li>
   <li
     className="mx-1 my-1"
   >
     <button
-      className="bg-blue-500 font-bold focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white"
+      className="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
       data-testid="retrospectives"
       onClick={[Function]}
       type="button"
     >
-      retrospectives
+      retrospectives (2)
     </button>
   </li>
 </ul>

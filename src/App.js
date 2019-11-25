@@ -69,8 +69,6 @@ function App() {
     );
   }
 
-  const { PUBLIC_URL } = process.env;
-
   return (
     <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
       <h1 className="capitalize font-normal font-bold text-4xl text-gray-900">
@@ -86,7 +84,7 @@ function App() {
         <pre>{JSON.stringify(error, 0, 2)}</pre>
       ) : (
         <>
-          <Router basename={PUBLIC_URL}>
+          <Router>
             <Switch>
               <Route path="/:id" children={<Wrapper />} />
               <Route path="/" children={<Wrapper />} />

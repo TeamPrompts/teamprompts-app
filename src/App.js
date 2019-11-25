@@ -69,6 +69,8 @@ function App() {
     );
   }
 
+  const { PUBLIC_URL } = process.env;
+
   return (
     <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
       <h1 className="capitalize font-normal hover:font-bold text-4xl text-gray-900">
@@ -86,8 +88,8 @@ function App() {
         <>
           <Router>
             <Switch>
-              <Route path="/:id" children={<Wrapper />} />
-              <Route path="/" children={<Wrapper />} />
+              <Route path={`${PUBLIC_URL}/:id`} children={<Wrapper />} />
+              <Route path={`${PUBLIC_URL}/`} children={<Wrapper />} />
             </Switch>
           </Router>
           <ul>

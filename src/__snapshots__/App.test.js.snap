@@ -5,7 +5,7 @@ exports[`App loading 1`] = `
   className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
 >
   <h1
-    className="capitalize font-normal hover:font-bold text-4xl text-gray-900"
+    className="capitalize font-normal font-bold text-4xl text-gray-900"
   >
     bee-blues
   </h1>
@@ -27,10 +27,10 @@ exports[`App loading 1`] = `
     />
   </svg>
   <small
-    className="font-normal hover:font-bold text-gray-700 text-sm"
+    className="font-normal text-gray-700 text-sm"
   >
     v
-    0.12.1
+    0.12.2
   </small>
 </div>
 `;
@@ -41,7 +41,7 @@ exports[`App w/ error 1`] = `
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
     <h1
-      class="capitalize font-normal hover:font-bold text-4xl text-gray-900"
+      class="capitalize font-normal font-bold text-4xl text-gray-900"
     >
       bee-blues
     </h1>
@@ -49,10 +49,10 @@ exports[`App w/ error 1`] = `
       {}
     </pre>
     <small
-      class="font-normal hover:font-bold text-gray-700 text-sm"
+      class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.1
+      0.12.2
     </small>
   </div>
 </div>
@@ -64,7 +64,7 @@ exports[`App w/ fitbs 1`] = `
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
     <h1
-      class="capitalize font-normal hover:font-bold text-4xl text-gray-900"
+      class="capitalize font-normal font-bold text-4xl text-gray-900"
     >
       bee-blues
     </h1>
@@ -165,10 +165,10 @@ exports[`App w/ fitbs 1`] = `
       </li>
     </ul>
     <small
-      class="font-normal hover:font-bold text-gray-700 text-sm"
+      class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.1
+      0.12.2
     </small>
   </div>
 </div>

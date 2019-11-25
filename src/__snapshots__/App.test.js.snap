@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal text-gray-700 text-sm"
   >
     v
-    0.12.4
+    0.12.5
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.4
+      0.12.5
     </small>
   </div>
 </div>
@@ -75,7 +75,7 @@ exports[`App w/ fitbs 1`] = `
         class="mx-1 my-1"
       >
         <a
-          href="/all"
+          href="#/all"
         >
           <button
             class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
@@ -90,7 +90,7 @@ exports[`App w/ fitbs 1`] = `
         class="mx-1 my-1"
       >
         <a
-          href="/retrospectives"
+          href="#/retrospectives"
         >
           <button
             class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
@@ -168,7 +168,7 @@ exports[`App w/ fitbs 1`] = `
       class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.4
+      0.12.5
     </small>
   </div>
 </div>

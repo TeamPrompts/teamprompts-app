@@ -1,6 +1,6 @@
 {
   "name": "bee-blues",
-  "version": "0.12.4",
+  "version": "0.12.5",
   "private": true,
   "dependencies": {
     "@amplitude/react-amplitude": "^1.0.0",

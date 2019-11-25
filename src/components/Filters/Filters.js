@@ -4,12 +4,10 @@ import { Link } from 'react-router-dom';
 import { tagAll } from '../../App';
 import slugify from '../../slugify';
 
-const { PUBLIC_URL } = process.env;
-
 function Item({ counter, filter, onClick, tag }) {
   return (
     <li className="mx-1 my-1">
-      <Link to={`${PUBLIC_URL}/${slugify(tag.name)}`}>
+      <Link to={`/${slugify(tag.name)}`}>
         <button
           className={classnames(
             'focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white',

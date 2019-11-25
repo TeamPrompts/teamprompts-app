@@ -1,11 +1,18 @@
 import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  useParams
+} from 'react-router-dom';
 import { name, version } from '../package.json';
 import selectFitbs from './api/selectFitbs';
 import selectTags from './api/selectTags';
 import Filters from './components/Filters/Filters';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
+import slugify from './slugify.js';
 
 const ALL = 'all';
 export const tagAll = { name: 'all' };
@@ -46,6 +53,22 @@ function App() {
     }
   }, [error, fitbs.length, tags.length]);
 
+  function Wrapper() {
+    const { id } = useParams();
+    const tag = tags.find(tag => slugify(tag.name) === id);
+    if (tag && filter !== tag) {
+      setFilter(tag);
+    }
+    return (
+      <Filters
+        filter={filter}
+        fitbs={fitbs}
+        onClick={tag => setFilter(tag)}
+        tags={tags}
+      />
+    );
+  }
+
   return (
     <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
       <h1 className="capitalize font-normal hover:font-bold text-4xl text-gray-900">
@@ -61,12 +84,12 @@ function App() {
         <pre>{JSON.stringify(error, 0, 2)}</pre>
       ) : (
         <>
-          <Filters
-            filter={filter}
-            fitbs={fitbs}
-            onClick={tag => setFilter(tag)}
-            tags={tags}
-          />
+          <Router>
+            <Switch>
+              <Route path="/:id" children={<Wrapper />} />
+              <Route path="/" children={<Wrapper />} />
+            </Switch>
+          </Router>
           <ul>
             {fitbs
               .filter(fitb => {

@@ -6,7 +6,7 @@ import tag from '../../mocks/tag';
 import { tagAll } from '../../App';
 import Filters from './Filters';
 
-describe('Filters', () => {
+describe.skip('Filters', () => {
   const mockOnClick = jest.fn();
   const props = {
     filter: tagAll,

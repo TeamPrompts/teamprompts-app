@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`slugify 1`] = `
+Array [
+  "1-1s",
+  "interview",
+  "measurement",
+  "product-management",
+  "retrospectives",
+  "reviewing-decisions",
+  "strategy",
+]
+`;

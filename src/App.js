@@ -88,8 +88,8 @@ function App() {
         <>
           <Router basename={PUBLIC_URL}>
             <Switch>
-              <Route path={`${PUBLIC_URL}/:id`} children={<Wrapper />} />
-              <Route path={`${PUBLIC_URL}/`} children={<Wrapper />} />
+              <Route path="/:id" children={<Wrapper />} />
+              <Route path="/" children={<Wrapper />} />
             </Switch>
           </Router>
           <ul>

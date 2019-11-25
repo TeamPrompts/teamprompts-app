@@ -12,7 +12,6 @@ import selectFitbs from './api/selectFitbs';
 import selectTags from './api/selectTags';
 import Filters from './components/Filters/Filters';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
-import slugify from './slugify.js';
 
 const ALL = 'all';
 export const tagAll = { name: 'all' };
@@ -55,7 +54,7 @@ function App() {
 
   function Wrapper() {
     const { id } = useParams();
-    const tag = tags.find(tag => slugify(tag.name) === id);
+    const tag = tags.find(tag => tag.slug === id);
     if (tag && filter !== tag) {
       setFilter(tag);
     }

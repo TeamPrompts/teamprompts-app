@@ -1,4 +1,4 @@
-import tags from './mocks/tags';
+import tags from '../mocks/tags';
 import slugify from './slugify';
 
 test('slugify', () => {

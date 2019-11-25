@@ -75,10 +75,10 @@ exports[`App w/ fitbs 1`] = `
         class="mx-1 my-1"
       >
         <a
-          href="#/all"
+          href=""
         >
           <button
-            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
             data-testid="all"
             type="button"
           >
@@ -90,10 +90,10 @@ exports[`App w/ fitbs 1`] = `
         class="mx-1 my-1"
       >
         <a
-          href="#/retrospectives"
+          href=""
         >
           <button
-            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
             data-testid="retrospectives"
             type="button"
           >

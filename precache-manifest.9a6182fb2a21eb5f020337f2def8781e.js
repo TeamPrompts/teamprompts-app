@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33c363be085810a54df3cf1437f854ae",
+    "revision": "61b603b5c8837e067d34fe7fa8c9b96b",
     "url": "/bee-blues/index.html"
   },
   {
-    "revision": "0f41d431c06e3c24dc1c",
-    "url": "/bee-blues/static/css/main.236c410e.chunk.css"
+    "revision": "c60eaf9a79d4603ddc80",
+    "url": "/bee-blues/static/css/main.2c33c579.chunk.css"
   },
   {
     "revision": "911c50d8cebc98ba1c92",
     "url": "/bee-blues/static/js/2.789277b8.chunk.js"
   },
   {
-    "revision": "0f41d431c06e3c24dc1c",
-    "url": "/bee-blues/static/js/main.c1ed4922.chunk.js"
+    "revision": "c60eaf9a79d4603ddc80",
+    "url": "/bee-blues/static/js/main.215fd7d2.chunk.js"
   },
   {
     "revision": "f707956e94dd73e28f03",

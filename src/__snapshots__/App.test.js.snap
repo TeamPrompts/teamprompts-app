@@ -30,7 +30,7 @@ exports[`App loading 1`] = `
     className="font-normal text-gray-700 text-sm"
   >
     v
-    0.12.6
+    0.12.7
   </small>
 </div>
 `;
@@ -52,7 +52,7 @@ exports[`App w/ error 1`] = `
       class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.6
+      0.12.7
     </small>
   </div>
 </div>
@@ -168,7 +168,7 @@ exports[`App w/ fitbs 1`] = `
       class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.6
+      0.12.7
     </small>
   </div>
 </div>

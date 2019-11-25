@@ -10,12 +10,9 @@ import {
 import { name, version } from '../package.json';
 import selectFitbs from './api/selectFitbs';
 import selectTags from './api/selectTags';
+import tagAll, { ALL } from './api/tagAll';
 import Filters from './components/Filters/Filters';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
-
-// INFO: move to api?
-const ALL = 'all';
-export const tagAll = { name: ALL, slug: ALL };
 
 function App() {
   const [error, setError] = useState();

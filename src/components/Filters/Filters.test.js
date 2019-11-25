@@ -3,7 +3,7 @@ import React from 'react';
 import { create } from 'react-test-renderer';
 import fitb from '../../mocks/fitb';
 import tag from '../../mocks/tag';
-import { tagAll } from '../../App';
+import tagAll from '../../api/tagAll';
 import Filters from './Filters';
 
 describe.skip('Filters', () => {

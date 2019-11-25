@@ -13,8 +13,9 @@ import selectTags from './api/selectTags';
 import Filters from './components/Filters/Filters';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
 
+// INFO: move to api?
 const ALL = 'all';
-export const tagAll = { name: 'all' };
+export const tagAll = { name: ALL, slug: ALL };
 
 function App() {
   const [error, setError] = useState();

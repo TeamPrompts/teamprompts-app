@@ -6,7 +6,8 @@ const tag = {
     'recNsahDzKCx0IQPk'
   ],
   id: 'recTqD26ElVvXKVad',
-  name: 'retrospectives'
+  name: 'retrospectives',
+  slug: 'retrospectives'
 };
 
 export default tag;

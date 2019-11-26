@@ -4,11 +4,9 @@ import React, { useEffect, useState } from 'react';
 import { name, version } from '../package.json';
 import selectFitbs from './api/selectFitbs';
 import selectTags from './api/selectTags';
-import Filters from './components/Filters/Filters';
+import tagAll, { ALL } from './api/tagAll';
+import FiltersWithRouter from './components/Filters/FiltersWithRouter';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
-
-const ALL = 'all';
-export const tagAll = { name: 'all' };
 
 function App() {
   const [error, setError] = useState();
@@ -48,7 +46,7 @@ function App() {
 
   return (
     <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
-      <h1 className="capitalize font-normal hover:font-bold text-4xl text-gray-900">
+      <h1 className="capitalize font-normal font-bold text-4xl text-gray-900">
         {name}
       </h1>
       {waiting ? (
@@ -61,7 +59,7 @@ function App() {
         <pre>{JSON.stringify(error, 0, 2)}</pre>
       ) : (
         <>
-          <Filters
+          <FiltersWithRouter
             filter={filter}
             fitbs={fitbs}
             onClick={tag => setFilter(tag)}
@@ -88,9 +86,7 @@ function App() {
           </ul>
         </>
       )}
-      <small className="font-normal hover:font-bold text-gray-700 text-sm">
-        v{version}
-      </small>
+      <small className="font-normal text-gray-700 text-sm">v{version}</small>
     </div>
   );
 }

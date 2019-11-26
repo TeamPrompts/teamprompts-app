@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`App click retrospectives 1`] = `
+<button
+  class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+  data-testid="retrospectives"
+  type="button"
+>
+  retrospectives (1)
+</button>
+`;
+
 exports[`App loading 1`] = `
 <div
   className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
@@ -30,35 +40,12 @@ exports[`App loading 1`] = `
     className="font-normal text-gray-700 text-sm"
   >
     v
-    0.12.8
+    0.12.9
   </small>
 </div>
 `;
 
-exports[`App w/ error 1`] = `
-<div>
-  <div
-    class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
-  >
-    <h1
-      class="capitalize font-normal font-bold text-4xl text-gray-900"
-    >
-      bee-blues
-    </h1>
-    <pre>
-      {}
-    </pre>
-    <small
-      class="font-normal text-gray-700 text-sm"
-    >
-      v
-      0.12.8
-    </small>
-  </div>
-</div>
-`;
-
-exports[`App w/ fitbs 1`] = `
+exports[`App w/ fitbs & tags 1`] = `
 <div>
   <div
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
@@ -168,7 +155,53 @@ exports[`App w/ fitbs 1`] = `
       class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.8
+      0.12.9
+    </small>
+  </div>
+</div>
+`;
+
+exports[`App w/ fitbs error 1`] = `
+<div>
+  <div
+    class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
+  >
+    <h1
+      class="capitalize font-normal font-bold text-4xl text-gray-900"
+    >
+      bee-blues
+    </h1>
+    <pre>
+      {}
+    </pre>
+    <small
+      class="font-normal text-gray-700 text-sm"
+    >
+      v
+      0.12.9
+    </small>
+  </div>
+</div>
+`;
+
+exports[`App w/ tags error 1`] = `
+<div>
+  <div
+    class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
+  >
+    <h1
+      class="capitalize font-normal font-bold text-4xl text-gray-900"
+    >
+      bee-blues
+    </h1>
+    <pre>
+      {}
+    </pre>
+    <small
+      class="font-normal text-gray-700 text-sm"
+    >
+      v
+      0.12.9
     </small>
   </div>
 </div>

@@ -4,9 +4,9 @@ import { create } from 'react-test-renderer';
 import fitb from '../../mocks/fitb';
 import tag from '../../mocks/tag';
 import tagAll from '../../api/tagAll';
-import Filters from './Filters';
+import FiltersWithRouter from './FiltersWithRouter';
 
-describe.skip('Filters', () => {
+describe('FiltersWithRouter', () => {
   const mockOnClick = jest.fn();
   const props = {
     filter: tagAll,
@@ -16,12 +16,12 @@ describe.skip('Filters', () => {
   };
 
   it('to match snapshot', () => {
-    const tree = create(<Filters {...props} />).toJSON();
+    const tree = create(<FiltersWithRouter {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('click', () => {
-    const { getByTestId } = render(<Filters {...props} />);
+    const { getByTestId } = render(<FiltersWithRouter {...props} />);
 
     fireEvent.click(getByTestId(tag.name));
 

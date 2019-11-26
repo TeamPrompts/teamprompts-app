@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
 import App from './App';
@@ -21,14 +21,26 @@ describe('App', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('w/ fitbs', () => {
+  it('w/ fitbs & tags', () => {
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
   });
 
-  it('w/ error', () => {
+  it('w/ fitbs error', () => {
     selectFitbs.mockImplementation(callback => callback(new Error('Oh Noes!')));
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
+  });
+
+  it('w/ tags error', () => {
+    selectTags.mockImplementation(callback => callback(new Error('Oh Noes!')));
+    const { container } = render(<App />);
+    expect(container).toMatchSnapshot();
+  });
+
+  it('click retrospectives', () => {
+    const { getByTestId } = render(<App />);
+    fireEvent.click(getByTestId(tag.name));
+    expect(getByTestId(tag.name)).toMatchSnapshot();
   });
 });

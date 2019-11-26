@@ -3,7 +3,6 @@ import slugify from './slugify';
 
 function makeTag(record) {
   const name = record.get(NAME);
-
   const tag = {
     fitbs: record.get(FITBS),
     id: record.id,

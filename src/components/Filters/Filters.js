@@ -39,7 +39,7 @@ function Filters({ filter, fitbs, onClick, tags }) {
   }, {});
 
   return (
-    <ul className="border-b-2 flex flex-wrap">
+    <ul className="flex flex-wrap mb-4">
       <Item
         counter={fitbs.length}
         filter={filter}

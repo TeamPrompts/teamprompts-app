@@ -2,7 +2,7 @@
 
 exports[`FillInTheBlanks to match snapshot 1`] = `
 <div
-  className="leading-loose text-lg py-6 border-b border-gray-500"
+  className="border-b border-gray-500 leading-loose py-8 text-lg"
 >
   Do you know the way to 
   <span
@@ -95,7 +95,7 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
 exports[`FillInTheBlanks toggle 1`] = `
 <div>
   <div
-    class="leading-loose text-lg py-6 border-b border-gray-500"
+    class="border-b border-gray-500 leading-loose py-8 text-lg"
   >
     Do you know the way to 
     <span
@@ -132,7 +132,7 @@ exports[`FillInTheBlanks toggle 1`] = `
 exports[`FillInTheBlanks toggle 2`] = `
 <div>
   <div
-    class="leading-loose text-lg py-6 border-b border-gray-500"
+    class="border-b border-gray-500 leading-loose py-8 text-lg"
   >
     Do you know the way to 
     <span

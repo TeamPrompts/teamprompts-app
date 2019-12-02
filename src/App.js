@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
-      <h1 className="font-bold text-4xl text-gray-900">TeamPrompts</h1>
+      <h1 className="font-bold my-8 text-4xl text-gray-900">TeamPrompts</h1>
       {waiting ? (
         <FontAwesomeIcon
           className="text-4xl"
@@ -84,7 +84,9 @@ function App() {
           </ul>
         </>
       )}
-      <small className="font-normal text-gray-700 text-sm">v{version}</small>
+      <small className="font-normal my-8 text-gray-700 text-sm">
+        v{version}
+      </small>
     </div>
   );
 }

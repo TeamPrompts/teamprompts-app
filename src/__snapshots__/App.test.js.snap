@@ -15,7 +15,7 @@ exports[`App loading 1`] = `
   className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
 >
   <h1
-    className="font-bold text-4xl text-gray-900"
+    className="font-bold my-8 text-4xl text-gray-900"
   >
     TeamPrompts
   </h1>
@@ -37,10 +37,10 @@ exports[`App loading 1`] = `
     />
   </svg>
   <small
-    className="font-normal text-gray-700 text-sm"
+    className="font-normal my-8 text-gray-700 text-sm"
   >
     v
-    0.13.1
+    0.13.2
   </small>
 </div>
 `;
@@ -51,12 +51,12 @@ exports[`App w/ fitbs & tags 1`] = `
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
     <h1
-      class="font-bold text-4xl text-gray-900"
+      class="font-bold my-8 text-4xl text-gray-900"
     >
       TeamPrompts
     </h1>
     <ul
-      class="border-b-2 flex flex-wrap"
+      class="flex flex-wrap mb-4"
     >
       <li
         class="mx-1 my-1"
@@ -92,7 +92,7 @@ exports[`App w/ fitbs & tags 1`] = `
     <ul>
       <li>
         <div
-          class="leading-loose text-lg py-6 border-b border-gray-500"
+          class="border-b border-gray-500 leading-loose py-8 text-lg"
         >
           Do you know the way to 
           <span
@@ -149,10 +149,10 @@ exports[`App w/ fitbs & tags 1`] = `
       </li>
     </ul>
     <small
-      class="font-normal text-gray-700 text-sm"
+      class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.1
+      0.13.2
     </small>
   </div>
 </div>
@@ -164,7 +164,7 @@ exports[`App w/ fitbs error 1`] = `
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
     <h1
-      class="font-bold text-4xl text-gray-900"
+      class="font-bold my-8 text-4xl text-gray-900"
     >
       TeamPrompts
     </h1>
@@ -172,10 +172,10 @@ exports[`App w/ fitbs error 1`] = `
       {}
     </pre>
     <small
-      class="font-normal text-gray-700 text-sm"
+      class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.1
+      0.13.2
     </small>
   </div>
 </div>
@@ -187,7 +187,7 @@ exports[`App w/ tags error 1`] = `
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
     <h1
-      class="font-bold text-4xl text-gray-900"
+      class="font-bold my-8 text-4xl text-gray-900"
     >
       TeamPrompts
     </h1>
@@ -195,10 +195,10 @@ exports[`App w/ tags error 1`] = `
       {}
     </pre>
     <small
-      class="font-normal text-gray-700 text-sm"
+      class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.1
+      0.13.2
     </small>
   </div>
 </div>

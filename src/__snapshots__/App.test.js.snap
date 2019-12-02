@@ -17,7 +17,7 @@ exports[`App loading 1`] = `
   <h1
     className="capitalize font-normal font-bold text-4xl text-gray-900"
   >
-    bee-blues
+    teamprompts-app
   </h1>
   <svg
     aria-hidden="true"
@@ -40,7 +40,7 @@ exports[`App loading 1`] = `
     className="font-normal text-gray-700 text-sm"
   >
     v
-    0.12.9
+    0.13.0
   </small>
 </div>
 `;
@@ -53,7 +53,7 @@ exports[`App w/ fitbs & tags 1`] = `
     <h1
       class="capitalize font-normal font-bold text-4xl text-gray-900"
     >
-      bee-blues
+      teamprompts-app
     </h1>
     <ul
       class="flex flex-wrap"
@@ -155,7 +155,7 @@ exports[`App w/ fitbs & tags 1`] = `
       class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.9
+      0.13.0
     </small>
   </div>
 </div>
@@ -169,7 +169,7 @@ exports[`App w/ fitbs error 1`] = `
     <h1
       class="capitalize font-normal font-bold text-4xl text-gray-900"
     >
-      bee-blues
+      teamprompts-app
     </h1>
     <pre>
       {}
@@ -178,7 +178,7 @@ exports[`App w/ fitbs error 1`] = `
       class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.9
+      0.13.0
     </small>
   </div>
 </div>
@@ -192,7 +192,7 @@ exports[`App w/ tags error 1`] = `
     <h1
       class="capitalize font-normal font-bold text-4xl text-gray-900"
     >
-      bee-blues
+      teamprompts-app
     </h1>
     <pre>
       {}
@@ -201,7 +201,7 @@ exports[`App w/ tags error 1`] = `
       class="font-normal text-gray-700 text-sm"
     >
       v
-      0.12.9
+      0.13.0
     </small>
   </div>
 </div>

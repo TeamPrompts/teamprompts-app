@@ -57,14 +57,12 @@ function App() {
         <pre>{JSON.stringify(error, 0, 2)}</pre>
       ) : (
         <>
-          <div className="border-b-2">
-            <FiltersWithRouter
-              filter={filter}
-              fitbs={fitbs}
-              onClick={tag => setFilter(tag)}
-              tags={tags}
-            />
-          </div>
+          <FiltersWithRouter
+            filter={filter}
+            fitbs={fitbs}
+            onClick={tag => setFilter(tag)}
+            tags={tags}
+          />
           <ul>
             {fitbs
               .filter(fitb => {

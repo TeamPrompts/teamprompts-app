@@ -2,7 +2,7 @@
 
 exports[`FiltersWithRouter to match snapshot 1`] = `
 <ul
-  className="flex flex-wrap"
+  className="border-b-2 flex flex-wrap"
 >
   <li
     className="mx-1 my-1"

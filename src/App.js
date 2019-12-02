@@ -1,7 +1,7 @@
 import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
-import { name, version } from '../package.json';
+import { version } from '../package.json';
 import selectFitbs from './api/selectFitbs';
 import selectTags from './api/selectTags';
 import tagAll, { ALL } from './api/tagAll';
@@ -46,9 +46,7 @@ function App() {
 
   return (
     <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
-      <h1 className="capitalize font-normal font-bold text-4xl text-gray-900">
-        {name}
-      </h1>
+      <h1 className="font-bold text-4xl text-gray-900">TeamPrompts</h1>
       {waiting ? (
         <FontAwesomeIcon
           className="text-4xl"
@@ -59,14 +57,12 @@ function App() {
         <pre>{JSON.stringify(error, 0, 2)}</pre>
       ) : (
         <>
-          <div className="border-b-2">
-            <FiltersWithRouter
-              filter={filter}
-              fitbs={fitbs}
-              onClick={tag => setFilter(tag)}
-              tags={tags}
-            />
-          </div>
+          <FiltersWithRouter
+            filter={filter}
+            fitbs={fitbs}
+            onClick={tag => setFilter(tag)}
+            tags={tags}
+          />
           <ul>
             {fitbs
               .filter(fitb => {

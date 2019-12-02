@@ -1,6 +1,6 @@
-# bee-blues
+# TeamPrompts
 
-bee-blues
+TeamPrompts
 
 ## Resources
 

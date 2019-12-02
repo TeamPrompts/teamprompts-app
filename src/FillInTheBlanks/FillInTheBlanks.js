@@ -7,7 +7,7 @@ function FillInTheBlanks({ fitb }) {
   const [mode, setMode] = useState(modes.input);
 
   return (
-    <div className="leading-loose text-lg my-5">
+    <div className="leading-loose text-lg py-6 border-b border-gray-500">
       <Content mode={mode} fitb={fitb} />
       {fitb.examples && (
         <Checkbox
@@ -23,7 +23,6 @@ function FillInTheBlanks({ fitb }) {
           value={mode === modes.examples ? values.on : values.off}
         />
       )}
-      <hr className="mt-3" />
     </div>
   );
 }

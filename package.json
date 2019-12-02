@@ -54,7 +54,7 @@
     "prettier": "^1.19.1",
     "tailwindcss": "^1.1.3"
   },
-  "homepage": "https://mattiaerre.github.io/bee-blues/",
+  "homepage": "https://teamprompts.com",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.js",

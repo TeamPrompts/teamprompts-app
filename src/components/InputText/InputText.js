@@ -12,6 +12,7 @@ function InputText({ dispatch, hint, id, value }) {
   return (
     <span className="inline-flex flex-col leading-none">
       <AutosizeInput
+        className="self-center"
         data-testid="input"
         inputClassName={classname({ 'bg-purple-100': value.length > 0 })}
         onChange={onChange}

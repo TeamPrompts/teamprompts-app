@@ -40,7 +40,7 @@ exports[`App loading 1`] = `
     className="font-normal my-8 text-gray-700 text-sm"
   >
     v
-    0.13.2
+    0.14.0
   </small>
 </div>
 `;
@@ -159,7 +159,7 @@ exports[`App w/ fitbs & tags 1`] = `
       class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.2
+      0.14.0
     </small>
   </div>
 </div>
@@ -182,7 +182,7 @@ exports[`App w/ fitbs error 1`] = `
       class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.2
+      0.14.0
     </small>
   </div>
 </div>
@@ -205,7 +205,7 @@ exports[`App w/ tags error 1`] = `
       class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.2
+      0.14.0
     </small>
   </div>
 </div>

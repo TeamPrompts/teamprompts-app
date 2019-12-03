@@ -5,7 +5,8 @@ import { BLANK, SEPARATOR, modes } from '../constants';
 import makeInitialState from './makeInitialState';
 import reducer from './reducer';
 
-function getValues(mode, { examples, prompts, source }) {
+// TODO: extract `getValues` and `interpolate`
+export function getValues(mode, { examples, prompts, source }) {
   let values = [];
   const blanks = source.match(/__BLANK__/g).map(() => BLANK); // INFO: not sure if I can interpolate inside a regex
   switch (mode) {
@@ -69,8 +70,17 @@ function interpolate({ dispatch, mode, source, state, values }) {
   return result;
 }
 
-function Content({ fitb, mode }) {
-  const [state, dispatch] = useReducer(reducer, makeInitialState(fitb.source));
+function Content({ callback, fitb, mode }) {
+  function middleware(state, action) {
+    const newState = reducer(state, action);
+    callback(newState);
+    return newState;
+  }
+
+  const [state, dispatch] = useReducer(
+    middleware,
+    makeInitialState(fitb.source)
+  );
   const values = getValues(mode, fitb);
   return interpolate({ dispatch, mode, source: fitb.source, state, values });
 }

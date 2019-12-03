@@ -7,15 +7,14 @@ import getValues from './getValues';
 import makeInitialState from './makeInitialState';
 import reducer from './reducer';
 
-function makeAdd({ dispatch, mode, state, values }) {
-  function add({ index, result }) {
+function makeBuild({ dispatch, mode, state, values }) {
+  function build({ index }) {
     let element;
     if (mode === modes.input) {
-      const hint = values[index];
       element = (
         <InputText
           dispatch={dispatch}
-          hint={hint}
+          hint={values[index]}
           id={index}
           key={index}
           value={state[index]}
@@ -35,9 +34,9 @@ function makeAdd({ dispatch, mode, state, values }) {
         </span>
       );
     }
-    result.push(element);
+    return element;
   }
-  return add;
+  return build;
 }
 
 function Content({ callback, fitb, mode }) {
@@ -54,7 +53,7 @@ function Content({ callback, fitb, mode }) {
 
   const values = getValues(mode, fitb);
   return compose({
-    add: makeAdd({ dispatch, mode, state, values }),
+    build: makeBuild({ dispatch, mode, state, values }),
     source: fitb.source,
     values
   });

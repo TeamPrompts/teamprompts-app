@@ -3,20 +3,21 @@ import { BLANK, modes } from '../constants';
 import compose from './compose';
 import getValues from './getValues';
 
-function makeAdd({ examples, inputs, mode }) {
-  function add({ index, result }) {
+function makeBuild({ inputs, mode, values }) {
+  function build({ index }) {
+    let element;
     if (mode === modes.input) {
       if (inputs && inputs[index]) {
-        result.push(inputs[index]);
+        element = inputs[index];
       } else {
-        result.push(BLANK);
+        element = BLANK;
       }
+    } else {
+      element = values[index];
     }
-    if (mode === modes.examples) {
-      result.push(examples[index]);
-    }
+    return element;
   }
-  return add;
+  return build;
 }
 
 function CopyButton({ fitb, inputs, mode, onClick }) {
@@ -27,7 +28,7 @@ function CopyButton({ fitb, inputs, mode, onClick }) {
       onClick={() => {
         const values = getValues(mode, fitb);
         const result = compose({
-          add: makeAdd({ examples: fitb.examples, inputs, mode }),
+          build: makeBuild({ inputs, mode, values }),
           source: fitb.source,
           values
         });

@@ -1,6 +1,6 @@
 import { SEPARATOR } from '../constants';
 
-function interpolate({ add, source, values }) {
+function compose({ add, source, values }) {
   const text = source.slice();
   const parts = text.split(SEPARATOR);
   const result = [];
@@ -13,4 +13,4 @@ function interpolate({ add, source, values }) {
   return result;
 }
 
-export default interpolate;
+export default compose;

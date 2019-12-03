@@ -1,7 +1,7 @@
 import React from 'react';
 import { BLANK, modes } from '../constants';
+import compose from './compose';
 import getValues from './getValues';
-import interpolate from './interpolate';
 
 function makeAdd({ examples, inputs, mode }) {
   function add({ index, result }) {
@@ -26,7 +26,7 @@ function CopyButton({ fitb, inputs, mode, onClick }) {
       data-testid="copy-button"
       onClick={() => {
         const values = getValues(mode, fitb);
-        const result = interpolate({
+        const result = compose({
           add: makeAdd({ examples: fitb.examples, inputs, mode }),
           source: fitb.source,
           values

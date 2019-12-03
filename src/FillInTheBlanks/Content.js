@@ -2,8 +2,8 @@ import classnames from 'classnames';
 import React, { useReducer } from 'react';
 import InputText from '../components/InputText/InputText';
 import { modes } from '../constants';
+import compose from './compose';
 import getValues from './getValues';
-import interpolate from './interpolate';
 import makeInitialState from './makeInitialState';
 import reducer from './reducer';
 
@@ -51,8 +51,9 @@ function Content({ callback, fitb, mode }) {
     middleware,
     makeInitialState(fitb.source)
   );
+
   const values = getValues(mode, fitb);
-  return interpolate({
+  return compose({
     add: makeAdd({ dispatch, mode, state, values }),
     source: fitb.source,
     values

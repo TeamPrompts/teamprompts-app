@@ -1,6 +1,6 @@
 {
   "name": "teamprompts-app",
-  "version": "0.14.0",
+  "version": "0.14.1",
   "private": true,
   "dependencies": {
     "@amplitude/react-amplitude": "^1.0.0",

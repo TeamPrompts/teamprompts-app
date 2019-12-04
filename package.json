@@ -1,7 +1,7 @@
 {
   "name": "teamprompts-app",
-  "version": "0.14.4",
-  "description": "TeamPrompts - Help your team get on the same page.Help your team get on the same page.",
+  "version": "0.14.5",
+  "description": "TeamPrompts - Help your team get on the same page.",
   "private": true,
   "dependencies": {
     "@amplitude/react-amplitude": "^1.0.0",

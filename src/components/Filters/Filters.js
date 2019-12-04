@@ -46,15 +46,18 @@ function Filters({ filter, fitbs, onClick, tags }) {
         onClick={onClick}
         tag={tagAll}
       />
-      {tags.map(tag => (
-        <Item
-          counter={counters[tag.id]}
-          filter={filter}
-          key={tag.id}
-          onClick={onClick}
-          tag={tag}
-        />
-      ))}
+      {tags.map(
+        tag =>
+          counters[tag.id] && (
+            <Item
+              counter={counters[tag.id]}
+              filter={filter}
+              key={tag.id}
+              onClick={onClick}
+              tag={tag}
+            />
+          )
+      )}
     </ul>
   );
 }

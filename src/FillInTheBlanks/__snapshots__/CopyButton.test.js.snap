@@ -1,8 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`CopyButton examples 1`] = `"We believe that increasing speed of onboarding causes increases in some rate of overall adoption. There are a number of assumptions/factors underpinning that causal relationship including their ability to see value earlier."`;
+
+exports[`CopyButton input 1`] = `"We believe that decreasing quality control causes an increase in some ________________. There are a number of assumptions/factors underpinning that causal relationship including ________________."`;
+
 exports[`CopyButton to match snapshot 1`] = `
 <button
-  className="bg-blue-500 font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+  className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+  data-testid="copy-button"
   onClick={[Function]}
   type="button"
 >

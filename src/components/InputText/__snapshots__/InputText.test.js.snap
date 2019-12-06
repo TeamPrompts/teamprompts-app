@@ -5,6 +5,7 @@ exports[`InputText to match snapshot 1`] = `
   className="inline-flex flex-col leading-none"
 >
   <div
+    className="self-center"
     style={
       Object {
         "display": "inline-block",

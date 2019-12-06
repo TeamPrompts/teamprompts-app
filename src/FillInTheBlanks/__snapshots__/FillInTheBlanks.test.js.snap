@@ -9,6 +9,7 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
     className="inline-flex flex-col leading-none"
   >
     <div
+      className="self-center"
       style={
         Object {
           "display": "inline-block",
@@ -89,6 +90,14 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
       />
     </label>
   </span>
+  <button
+    className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+    data-testid="copy-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Ctrl+C
+  </button>
 </div>
 `;
 
@@ -125,6 +134,13 @@ exports[`FillInTheBlanks toggle 1`] = `
         />
       </label>
     </span>
+    <button
+      class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+      data-testid="copy-button"
+      type="button"
+    >
+      Ctrl+C
+    </button>
   </div>
 </div>
 `;
@@ -139,6 +155,7 @@ exports[`FillInTheBlanks toggle 2`] = `
       class="inline-flex flex-col leading-none"
     >
       <div
+        class="self-center"
         style="display: inline-block;"
       >
         <input
@@ -185,6 +202,13 @@ exports[`FillInTheBlanks toggle 2`] = `
         />
       </label>
     </span>
+    <button
+      class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+      data-testid="copy-button"
+      type="button"
+    >
+      Ctrl+C
+    </button>
   </div>
 </div>
 `;

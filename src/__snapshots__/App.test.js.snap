@@ -40,7 +40,7 @@ exports[`App loading 1`] = `
     className="font-normal my-8 text-gray-700 text-sm"
   >
     v
-    0.13.2
+    0.15.0
   </small>
 </div>
 `;
@@ -99,6 +99,7 @@ exports[`App w/ fitbs & tags 1`] = `
             class="inline-flex flex-col leading-none"
           >
             <div
+              class="self-center"
               style="display: inline-block;"
             >
               <input
@@ -145,6 +146,13 @@ exports[`App w/ fitbs & tags 1`] = `
               />
             </label>
           </span>
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Ctrl+C
+          </button>
         </div>
       </li>
     </ul>
@@ -152,7 +160,7 @@ exports[`App w/ fitbs & tags 1`] = `
       class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.2
+      0.15.0
     </small>
   </div>
 </div>
@@ -175,7 +183,7 @@ exports[`App w/ fitbs error 1`] = `
       class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.2
+      0.15.0
     </small>
   </div>
 </div>
@@ -198,7 +206,7 @@ exports[`App w/ tags error 1`] = `
       class="font-normal my-8 text-gray-700 text-sm"
     >
       v
-      0.13.2
+      0.15.0
     </small>
   </div>
 </div>

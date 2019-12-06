@@ -52,4 +52,13 @@ describe('CopyButton', () => {
 
     expect(mockOnClick.mock.calls[0][0]).toMatchSnapshot();
   });
+
+  it('examples', () => {
+    const copy = { ...props, mode: modes.examples };
+    const { getByTestId } = render(<CopyButton {...copy} />);
+
+    fireEvent.click(getByTestId('copy-button'));
+
+    expect(mockOnClick.mock.calls[1][0]).toMatchSnapshot();
+  });
 });

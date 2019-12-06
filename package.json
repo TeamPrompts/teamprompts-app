@@ -1,6 +1,6 @@
 {
   "name": "teamprompts-app",
-  "version": "0.14.5",
+  "version": "0.14.6",
   "description": "TeamPrompts - Help your team get on the same page.",
   "private": true,
   "dependencies": {
@@ -14,6 +14,7 @@
     "classnames": "^2.2.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-ga": "^2.7.0",
     "react-input-autosize": "^2.2.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
@@ -61,6 +62,7 @@
     "collectCoverageFrom": [
       "src/**/*.js",
       "!src/index.js",
+      "!src/initializeReactGA.js",
       "!src/serviceWorker.js",
       "!src/api/select.js",
       "!src/api/selectFitbs.js",

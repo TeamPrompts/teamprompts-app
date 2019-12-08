@@ -1,3 +1,5 @@
+import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import {
   Link,
@@ -10,10 +12,8 @@ import { version } from '../../../package.json';
 import selectFitbs from '../../api/selectFitbs';
 import selectTags from '../../api/selectTags';
 import Footer from '../../components/Footer/Footer';
-import compose from '../../FillInTheBlanks/compose';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
-import getValues from '../../FillInTheBlanks/getValues';
-import { modes, BLANK_XS } from '../../constants';
+import { BLANK_XS } from '../../constants';
 
 const UNKNOWN = 'Unknown';
 
@@ -126,6 +126,7 @@ function Home({ fitbs, tags }) {
   );
 }
 
+/*
 function beginning({ fitb }) {
   const values = getValues(modes.blanksXS, fitb);
   const result = compose({
@@ -139,6 +140,7 @@ function beginning({ fitb }) {
     .slice(0, 6)
     .join(' ');
 }
+*/
 
 function TagPage({ fitbs, tags }) {
   const { slug } = useParams();
@@ -156,13 +158,16 @@ function TagPage({ fitbs, tags }) {
       <ul>
         {fitbsByTag({ fitbs, tag, tags }).map(fitb => (
           <li key={fitb.id}>
-            {beginning({ fitb })}{' '}
-            <Link
-              className="text-indigo-700 underline"
-              to={`/${tag.slug}/${fitb.id}`}
-            >
-              ...
-            </Link>
+            <FillInTheBlanks fitb={fitb} />
+            <div className="italic text-right text-sm">
+              <span className="mr-2">{fitb.author}</span>
+              <Link
+                className="text-indigo-700 underline"
+                to={`/${tag.slug}/${fitb.id}`}
+              >
+                <FontAwesomeIcon icon={faLink} />
+              </Link>
+            </div>
           </li>
         ))}
       </ul>

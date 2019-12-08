@@ -73,7 +73,12 @@ function DetailsPage({ fitbs, tags }) {
         {' > '}
         <span className="">Prompt</span>
       </h1>
-      {fitb && <FillInTheBlanks fitb={fitb} />}
+      {fitb && (
+        <>
+          <FillInTheBlanks fitb={fitb} />
+          <div className="italic self-end text-sm">{fitb.author}</div>
+        </>
+      )}
     </>
   );
 }

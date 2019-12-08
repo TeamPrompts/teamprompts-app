@@ -13,7 +13,7 @@ import Footer from '../../components/Footer/Footer';
 import compose from '../../FillInTheBlanks/compose';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
 import getValues from '../../FillInTheBlanks/getValues';
-import { modes } from '../../constants';
+import { modes, BLANK_XS } from '../../constants';
 
 const UNKNOWN = 'Unknown';
 
@@ -57,13 +57,19 @@ function tagsWithActiveFitbs({ fitbs, tags }) {
     });
 }
 
+function Heading() {
+  return (
+    <h1 className="font-bold mb-8 mt-2 text-4xl text-gray-900">TeamPrompts</h1>
+  );
+}
+
 function DetailsPage({ fitbs, tags }) {
   const { id, slug } = useParams();
   const tag = tagBySlug({ slug, tags });
   const fitb = fitbs.find(fitb => fitb.id === id);
   return (
     <>
-      <h1 className="font-bold my-8 text-4xl text-gray-900">
+      <div className="mt-2">
         <Link className="text-indigo-700 underline" to="/">
           Home
         </Link>
@@ -75,8 +81,9 @@ function DetailsPage({ fitbs, tags }) {
           {tag.name}
         </Link>
         {' > '}
-        <span className="">Prompt</span>
-      </h1>
+        {BLANK_XS}
+      </div>
+      <Heading />
       {fitb && (
         <>
           <FillInTheBlanks fitb={fitb} />
@@ -88,13 +95,21 @@ function DetailsPage({ fitbs, tags }) {
 }
 
 function Loading() {
-  return <h1 className="font-bold my-8 text-4xl text-gray-900">Loading ...</h1>;
+  return (
+    <>
+      <div className="mt-2">&nbsp;</div>
+      <h1 className="font-bold mb-8 mt-2 text-4xl text-gray-900">
+        Loading ...
+      </h1>
+    </>
+  );
 }
 
 function Home({ fitbs, tags }) {
   return (
     <>
-      <h1 className="font-bold my-8 text-4xl text-gray-900">Home</h1>
+      <div className="mt-2">Home</div>
+      <Heading />
       <ul>
         {tagsWithActiveFitbs({ fitbs, tags }).map(tag => (
           <li key={tag.id}>
@@ -130,13 +145,14 @@ function TagPage({ fitbs, tags }) {
   const tag = tagBySlug({ slug, tags });
   return (
     <>
-      <h1 className="font-bold my-8 text-4xl text-gray-900">
+      <div className="mt-2">
         <Link className="text-indigo-700 underline" to="/">
           Home
         </Link>
         {' > '}
         <span className="capitalize">{tag.name}</span>
-      </h1>
+      </div>
+      <Heading />
       <ul>
         {fitbsByTag({ fitbs, tag, tags }).map(fitb => (
           <li key={fitb.id}>

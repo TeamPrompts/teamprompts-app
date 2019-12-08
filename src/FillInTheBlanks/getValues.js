@@ -1,12 +1,19 @@
-import { BLANK, modes } from '../constants';
+import { BLANK, BLANK_XS, modes } from '../constants';
+
+function makeBlanks({ blank, source }) {
+  return source.match(/__BLANK__/g).map(() => blank); // INFO: not sure if I can interpolate inside a regex
+}
 
 function getValues(mode, { examples, prompts, source }) {
   let values = [];
-  const blanks = source.match(/__BLANK__/g).map(() => BLANK); // INFO: not sure if I can interpolate inside a regex
+  const blanks = makeBlanks({ blank: BLANK, source });
   switch (mode) {
     case modes.blanks:
     default:
       values = blanks;
+      break;
+    case modes.blanksXS:
+      values = makeBlanks({ blank: BLANK_XS, source });
       break;
     case modes.examples:
       values = examples;

@@ -9,7 +9,11 @@ import {
 import { version } from '../../../package.json';
 import selectFitbs from '../../api/selectFitbs';
 import selectTags from '../../api/selectTags';
+import Footer from '../../components/Footer/Footer';
+import compose from '../../FillInTheBlanks/compose';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
+import getValues from '../../FillInTheBlanks/getValues';
+import { modes } from '../../constants';
 
 const UNKNOWN = 'Unknown';
 
@@ -83,12 +87,6 @@ function DetailsPage({ fitbs, tags }) {
   );
 }
 
-function Footer({ version }) {
-  return (
-    <small className="font-normal my-8 text-gray-700 text-sm">v{version}</small>
-  );
-}
-
 function Loading() {
   return <h1 className="font-bold my-8 text-4xl text-gray-900">Loading ...</h1>;
 }
@@ -113,6 +111,20 @@ function Home({ fitbs, tags }) {
   );
 }
 
+function beginning({ fitb }) {
+  const values = getValues(modes.blanksXS, fitb);
+  const result = compose({
+    build: ({ index }) => values[index],
+    source: fitb.source,
+    values
+  });
+  return result
+    .join('')
+    .split(' ')
+    .slice(0, 6)
+    .join(' ');
+}
+
 function TagPage({ fitbs, tags }) {
   const { slug } = useParams();
   const tag = tagBySlug({ slug, tags });
@@ -128,11 +140,12 @@ function TagPage({ fitbs, tags }) {
       <ul>
         {fitbsByTag({ fitbs, tag, tags }).map(fitb => (
           <li key={fitb.id}>
+            {beginning({ fitb })}{' '}
             <Link
               className="text-indigo-700 underline"
               to={`/${tag.slug}/${fitb.id}`}
             >
-              {fitb.id}
+              ...
             </Link>
           </li>
         ))}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {
   Link,
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   useParams
@@ -30,7 +30,6 @@ function tagsWithActiveFitbs({ fitbs, tags }) {
   return tags
     .reduce((accumulator, current) => {
       if (current.fitbs) {
-        // console.log(current.fitbs);
         let hasActiveFitbs = false;
         current.fitbs.forEach(id => {
           if (fitbs.find(fitb => fitb.id === id)) {
@@ -58,7 +57,6 @@ function DetailsPage({ fitbs, tags }) {
   const { id, slug } = useParams();
   const tag = tagBySlug({ slug, tags });
   const fitb = fitbs.find(fitb => fitb.id === id);
-  // console.log(fitb);
   return (
     <>
       <h1 className="font-bold my-8 text-4xl text-gray-900">
@@ -73,7 +71,7 @@ function DetailsPage({ fitbs, tags }) {
           {tag.name}
         </Link>
         {' > '}
-        <span className="">Details</span>
+        <span className="">Prompt</span>
       </h1>
       {fitb && <FillInTheBlanks fitb={fitb} />}
     </>

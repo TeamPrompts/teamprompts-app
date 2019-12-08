@@ -1,6 +1,6 @@
 {
   "name": "teamprompts-app",
-  "version": "0.16.3",
+  "version": "0.16.4",
   "description": "TeamPrompts - Help your team get on the same page.",
   "private": true,
   "dependencies": {

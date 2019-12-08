@@ -6,6 +6,7 @@ import selectFitbs from './api/selectFitbs';
 import selectTags from './api/selectTags';
 import tagAll, { ALL } from './api/tagAll';
 import FiltersWithRouter from './components/Filters/FiltersWithRouter';
+import Footer from './components/Footer/Footer';
 import FillInTheBlanks from './FillInTheBlanks/FillInTheBlanks';
 
 function App() {
@@ -84,9 +85,7 @@ function App() {
           </ul>
         </>
       )}
-      <small className="font-normal my-8 text-gray-700 text-sm">
-        v{version}
-      </small>
+      <Footer version={version} />
     </div>
   );
 }

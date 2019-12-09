@@ -11,7 +11,7 @@ function fitbsByTag({ fitbs, tag, tags }) {
   return fitbs.filter(fitb => fitb.tags.includes(tag.id));
 }
 
-function CategoryPage({ fitbs, tags }) {
+function CategoryPage({ fitbs, history, tags }) {
   const { slug } = useParams();
   const tag = tagBySlug({ slug, tags });
   return (
@@ -28,7 +28,7 @@ function CategoryPage({ fitbs, tags }) {
       <ul>
         {fitbsByTag({ fitbs, tag, tags }).map(fitb => (
           <li key={fitb.id}>
-            <FillInTheBlanks fitb={fitb} tag={tag} />
+            <FillInTheBlanks fitb={fitb} history={history} tag={tag} />
           </li>
         ))}
       </ul>

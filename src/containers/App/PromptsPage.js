@@ -7,7 +7,7 @@ import Heading from './Heading';
 import Breadcrumbs from './Breadcrumbs';
 import tagBySlug from './tagBySlug';
 
-function PromptsPage({ fitbs, tags }) {
+function PromptsPage({ fitbs, history, tags }) {
   const { id, slug } = useParams();
   const tag = tagBySlug({ slug, tags });
   const fitb = fitbs.find(fitb => fitb.id === id);
@@ -26,7 +26,7 @@ function PromptsPage({ fitbs, tags }) {
         {fitb &&
           [fitb].map(fitb => (
             <li key={fitb.id}>
-              <FillInTheBlanks fitb={fitb} tag={tag} />
+              <FillInTheBlanks fitb={fitb} history={history} tag={tag} />
             </li>
           ))}
       </ul>

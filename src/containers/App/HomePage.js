@@ -4,7 +4,7 @@ import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
 import Breadcrumbs from './Breadcrumbs';
 import Heading from './Heading';
 
-function HomePage({ fitbs, tags }) {
+function HomePage({ fitbs, history, tags }) {
   return (
     <>
       <Breadcrumbs />
@@ -19,7 +19,7 @@ function HomePage({ fitbs, tags }) {
       <ul>
         {fitbs.map(fitb => (
           <li key={fitb.id}>
-            <FillInTheBlanks fitb={fitb} />
+            <FillInTheBlanks fitb={fitb} hystory={history} />
           </li>
         ))}
       </ul>

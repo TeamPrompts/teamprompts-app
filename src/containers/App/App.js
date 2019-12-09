@@ -81,17 +81,23 @@ function App() {
         <Router>
           <Switch>
             <Route
-              children={<PromptsPage fitbs={fitbs} tags={tags} />}
+              children={props => (
+                <PromptsPage {...props} fitbs={fitbs} tags={tags} />
+              )}
               exact={true}
               path="/:slug/:id"
             />
             <Route
-              children={<CategoryPage fitbs={fitbs} tags={tags} />}
+              children={props => (
+                <CategoryPage {...props} fitbs={fitbs} tags={tags} />
+              )}
               exact={true}
               path="/:slug"
             />
             <Route
-              children={<HomePage fitbs={fitbs} tags={tags} />}
+              children={props => (
+                <HomePage {...props} fitbs={fitbs} tags={tags} />
+              )}
               default={true}
               path="/"
             />

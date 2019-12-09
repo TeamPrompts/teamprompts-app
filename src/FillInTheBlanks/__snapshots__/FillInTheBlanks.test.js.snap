@@ -3,6 +3,7 @@
 exports[`FillInTheBlanks to match snapshot 1`] = `
 <div
   className="border-b border-gray-500 leading-loose py-8 text-lg"
+  onClick={[Function]}
 >
   Do you know the way to 
   <span

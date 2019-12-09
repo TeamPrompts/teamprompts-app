@@ -24,7 +24,7 @@ function Footer({ version }) {
       <small className="font-normal text-gray-700 text-sm">v{version}</small>
       <button
         className="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-        data-testid="copy-button"
+        data-testid="βeta-button"
         onClick={() => {
           if (toggle === TRY) {
             setExperiment(MASTER_DETAIL_V1);

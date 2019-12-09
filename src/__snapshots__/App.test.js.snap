@@ -47,7 +47,7 @@ exports[`App loading 1`] = `
     </small>
     <button
       className="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-      data-testid="copy-button"
+      data-testid="βeta-button"
       onClick={[Function]}
       type="button"
     >
@@ -179,7 +179,7 @@ exports[`App w/ fitbs & tags 1`] = `
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-        data-testid="copy-button"
+        data-testid="βeta-button"
         type="button"
       >
         try the βeta
@@ -213,7 +213,7 @@ exports[`App w/ fitbs error 1`] = `
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-        data-testid="copy-button"
+        data-testid="βeta-button"
         type="button"
       >
         try the βeta
@@ -247,7 +247,7 @@ exports[`App w/ tags error 1`] = `
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-        data-testid="copy-button"
+        data-testid="βeta-button"
         type="button"
       >
         try the βeta

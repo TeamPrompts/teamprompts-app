@@ -98,6 +98,7 @@ function App() {
           </Switch>
         </Router>
       </Wrapper>
+      {error && <pre>{JSON.stringify(error, 0, 2)}</pre>}
       <Footer version={version} />
     </div>
   );

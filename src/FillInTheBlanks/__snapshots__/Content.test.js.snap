@@ -85,7 +85,7 @@ Array [
     <label
       className="self-center text-sm"
     >
-      [place]
+      place
     </label>
   </span>,
   "?",
@@ -161,7 +161,7 @@ Array [
   <span
     className="bg-blue-200"
   >
-    [place]
+    place
   </span>,
   "?",
 ]

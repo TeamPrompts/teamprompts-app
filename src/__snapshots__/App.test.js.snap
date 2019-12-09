@@ -133,7 +133,7 @@ exports[`App w/ fitbs & tags 1`] = `
             <label
               class="self-center text-sm"
             >
-              [place]
+              place
             </label>
           </span>
           ?

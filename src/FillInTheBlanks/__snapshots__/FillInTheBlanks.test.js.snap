@@ -63,7 +63,7 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
     <label
       className="self-center text-sm"
     >
-      [place]
+      place
     </label>
   </span>
   ?
@@ -177,7 +177,7 @@ exports[`FillInTheBlanks toggle 2`] = `
       <label
         class="self-center text-sm"
       >
-        [place]
+        place
       </label>
     </span>
     ?

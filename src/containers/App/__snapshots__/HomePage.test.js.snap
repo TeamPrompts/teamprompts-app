@@ -97,7 +97,7 @@ Array [
           <label
             className="self-center text-sm"
           >
-            [place]
+            place
           </label>
         </span>
         ?

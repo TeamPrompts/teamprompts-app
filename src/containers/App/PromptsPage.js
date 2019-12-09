@@ -35,11 +35,12 @@ function PromptsPage({ fitbs, tags }) {
         tags={tags}
       />
       <ul>
-        {[fitb].map(fitb => (
-          <li key={fitb.id}>
-            <FillInTheBlanks fitb={fitb} tag={tag} />
-          </li>
-        ))}
+        {fitb &&
+          [fitb].map(fitb => (
+            <li key={fitb.id}>
+              <FillInTheBlanks fitb={fitb} tag={tag} />
+            </li>
+          ))}
       </ul>
     </>
   );

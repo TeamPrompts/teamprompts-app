@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Filters from '../../components/Filters/Filters';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
+import { pageTypes } from '../../constants';
+import Breadcrumbs from './Breadcrumbs';
 import Heading from './Heading';
 import tagBySlug from './tagBySlug';
 
@@ -14,13 +16,7 @@ function CategoryPage({ fitbs, tags }) {
   const tag = tagBySlug({ slug, tags });
   return (
     <>
-      <div className="mt-2">
-        <Link className="text-indigo-700 underline" to="/">
-          Home
-        </Link>
-        {' > '}
-        <span className="capitalize">{tag.name}</span>
-      </div>
+      <Breadcrumbs pageType={pageTypes.CategoryPage} tag={tag} />
       <Heading title="TeamPrompts" />
       <Filters
         allOff={true}

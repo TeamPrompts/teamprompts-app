@@ -4,6 +4,7 @@ import { version } from '../../../package.json';
 import selectFitbs from '../../api/selectFitbs';
 import selectTags from '../../api/selectTags';
 import Footer from '../../components/Footer/Footer';
+import Breadcrumbs from './Breadcrumbs';
 import Heading from './Heading';
 import CategoryPage from './CategoryPage';
 import HomePage from './HomePage';
@@ -72,7 +73,7 @@ function App() {
         }}
         loading={
           <>
-            <div className="mt-2">&nbsp;</div>
+            <Breadcrumbs />
             <Heading title="Loading ..." />
           </>
         }

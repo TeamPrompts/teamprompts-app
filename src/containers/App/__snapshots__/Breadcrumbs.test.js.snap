@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs CategoryPage 1`] = `
+<div
+  className="mt-2"
+>
+  <a
+    className="text-indigo-700 underline"
+    href="#/"
+    onClick={[Function]}
+  >
+    Home
+  </a>
+   &gt; 
+  <span
+    className="capitalize"
+  >
+    retrospectives
+  </span>
+</div>
+`;
+
+exports[`Breadcrumbs HomePage 1`] = `
+<div
+  className="mt-2"
+>
+   
+</div>
+`;
+
+exports[`Breadcrumbs PromptsPage 1`] = `
+<div
+  className="mt-2"
+>
+  <a
+    className="text-indigo-700 underline"
+    href="#/"
+    onClick={[Function]}
+  >
+    Home
+  </a>
+   &gt; 
+  <a
+    className="capitalize text-indigo-700 underline"
+    href="#/retrospectives"
+    onClick={[Function]}
+  >
+    retrospectives
+  </a>
+   &gt; 
+  ____
+</div>
+`;
+
+exports[`Breadcrumbs no page type 1`] = `
+<div
+  className="mt-2"
+>
+   
+</div>
+`;

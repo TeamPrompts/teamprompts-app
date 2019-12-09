@@ -14,3 +14,9 @@ export const modes = {
   input: 'input',
   prompts: 'prompts'
 };
+
+export const pageTypes = {
+  CategoryPage: 'CategoryPage',
+  HomePage: 'HomePage',
+  PromptsPage: 'PromptsPage'
+};

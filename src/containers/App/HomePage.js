@@ -1,12 +1,13 @@
 import React from 'react';
 import Filters from '../../components/Filters/Filters';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
+import Breadcrumbs from './Breadcrumbs';
 import Heading from './Heading';
 
 function HomePage({ fitbs, tags }) {
   return (
     <>
-      <div className="mt-2">&nbsp;</div>
+      <Breadcrumbs />
       <Heading title="TeamPrompts" />
       <Filters
         allOff={true}

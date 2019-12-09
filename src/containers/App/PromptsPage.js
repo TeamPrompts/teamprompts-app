@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Filters from '../../components/Filters/Filters';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
-import { BLANK_XS } from '../../constants';
+import { pageTypes } from '../../constants';
 import Heading from './Heading';
+import Breadcrumbs from './Breadcrumbs';
 import tagBySlug from './tagBySlug';
 
 function PromptsPage({ fitbs, tags }) {
@@ -12,20 +13,7 @@ function PromptsPage({ fitbs, tags }) {
   const fitb = fitbs.find(fitb => fitb.id === id);
   return (
     <>
-      <div className="mt-2">
-        <Link className="text-indigo-700 underline" to="/">
-          Home
-        </Link>
-        {' > '}
-        <Link
-          className="capitalize text-indigo-700 underline"
-          to={`/${tag.slug}`}
-        >
-          {tag.name}
-        </Link>
-        {' > '}
-        {BLANK_XS}
-      </div>
+      <Breadcrumbs pageType={pageTypes.PromptsPage} tag={tag} />
       <Heading title="TeamPrompts" />
       <Filters
         allOff={true}

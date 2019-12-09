@@ -20,6 +20,7 @@ function makeBuild({ inputs, mode, values }) {
   return build;
 }
 
+// TODO: read inputs from the local storage
 function CopyButton({ fitb, inputs, mode, onClick }) {
   return (
     <button

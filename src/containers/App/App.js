@@ -1,5 +1,3 @@
-import { faLink } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import {
   Link,
@@ -84,12 +82,7 @@ function DetailsPage({ fitbs, tags }) {
         {BLANK_XS}
       </div>
       <Heading />
-      {fitb && (
-        <>
-          <FillInTheBlanks fitb={fitb} />
-          <div className="italic self-end text-sm">{fitb.author}</div>
-        </>
-      )}
+      {fitb && <FillInTheBlanks fitb={fitb} tag={tag} />}
     </>
   );
 }
@@ -158,16 +151,7 @@ function TagPage({ fitbs, tags }) {
       <ul>
         {fitbsByTag({ fitbs, tag, tags }).map(fitb => (
           <li key={fitb.id}>
-            <FillInTheBlanks fitb={fitb} />
-            <div className="italic text-right text-sm">
-              <span className="mr-2">{fitb.author}</span>
-              <Link
-                className="text-indigo-700 underline"
-                to={`/${tag.slug}/${fitb.id}`}
-              >
-                <FontAwesomeIcon icon={faLink} />
-              </Link>
-            </div>
+            <FillInTheBlanks fitb={fitb} tag={tag} />
           </li>
         ))}
       </ul>

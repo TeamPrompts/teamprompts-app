@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App click retrospectives 1`] = `
+<button
+  class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+  data-testid="retrospectives"
+  type="button"
+>
+  retrospectives (1)
+</button>
+`;
+
+exports[`App loading 1`] = `
+<div
+  className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
+>
+  <div
+    className="mt-2"
+  >
+     
+  </div>
+  <h1
+    className="font-bold mb-8 mt-2 text-4xl text-gray-900"
+  >
+    Loading ...
+  </h1>
+  <p
+    className="my-8"
+  >
+    <small
+      className="font-normal text-gray-700 text-sm"
+    >
+      v
+      0.16.10
+    </small>
+    <button
+      className="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
+      data-testid="βeta-button"
+      onClick={[Function]}
+      type="button"
+    >
+      try the βeta
+    </button>
+  </p>
+</div>
+`;
+
+exports[`App w/ fitbs & tags 1`] = `
+<div>
+  <div
+    class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
+  >
+    <div
+      class="mt-2"
+    >
+       
+    </div>
+    <h1
+      class="font-bold mb-8 mt-2 text-4xl text-gray-900"
+    >
+      TeamPrompts
+    </h1>
+    <ul
+      class="flex flex-wrap mb-4"
+    >
+      <li
+        class="mx-1 my-1"
+      >
+        <a
+          href="#/retrospectives"
+        >
+          <button
+            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+            data-testid="retrospectives"
+            type="button"
+          >
+            retrospectives (1)
+          </button>
+        </a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose py-8 text-lg"
+        >
+          Do you know the way to 
+          <span
+            class="inline-flex flex-col leading-none"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              [place]
+            </label>
+          </span>
+          ?
+          <span
+            class="inline-block ml-3 relative"
+          >
+            <input
+              class="hidden"
+              data-testid="receM4Gus7HH43oLM"
+              id="receM4Gus7HH43oLM"
+              type="checkbox"
+            />
+            <label
+              class="cursor-pointer"
+              for="receM4Gus7HH43oLM"
+            >
+              <div
+                class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+              />
+              <div
+                class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+              />
+            </label>
+          </span>
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Ctrl+C
+          </button>
+        </div>
+      </li>
+    </ul>
+    <p
+      class="my-8"
+    >
+      <small
+        class="font-normal text-gray-700 text-sm"
+      >
+        v
+        0.16.10
+      </small>
+      <button
+        class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
+        data-testid="βeta-button"
+        type="button"
+      >
+        try the βeta
+      </button>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`App w/ fitbs error 1`] = `
+<div>
+  <div
+    class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
+  >
+    <div
+      class="mt-2"
+    >
+       
+    </div>
+    <h1
+      class="font-bold mb-8 mt-2 text-4xl text-gray-900"
+    >
+      TeamPrompts
+    </h1>
+    <ul
+      class="flex flex-wrap mb-4"
+    />
+    <ul />
+    <p
+      class="my-8"
+    >
+      <small
+        class="font-normal text-gray-700 text-sm"
+      >
+        v
+        0.16.10
+      </small>
+      <button
+        class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
+        data-testid="βeta-button"
+        type="button"
+      >
+        try the βeta
+      </button>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`App w/ tags error 1`] = `
+<div>
+  <div
+    class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
+  >
+    <div
+      class="mt-2"
+    >
+       
+    </div>
+    <h1
+      class="font-bold mb-8 mt-2 text-4xl text-gray-900"
+    >
+      TeamPrompts
+    </h1>
+    <ul
+      class="flex flex-wrap mb-4"
+    />
+    <ul>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose py-8 text-lg"
+        >
+          Do you know the way to 
+          <span
+            class="inline-flex flex-col leading-none"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              [place]
+            </label>
+          </span>
+          ?
+          <span
+            class="inline-block ml-3 relative"
+          >
+            <input
+              class="hidden"
+              data-testid="receM4Gus7HH43oLM"
+              id="receM4Gus7HH43oLM"
+              type="checkbox"
+            />
+            <label
+              class="cursor-pointer"
+              for="receM4Gus7HH43oLM"
+            >
+              <div
+                class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+              />
+              <div
+                class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+              />
+            </label>
+          </span>
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Ctrl+C
+          </button>
+        </div>
+      </li>
+    </ul>
+    <p
+      class="my-8"
+    >
+      <small
+        class="font-normal text-gray-700 text-sm"
+      >
+        v
+        0.16.10
+      </small>
+      <button
+        class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
+        data-testid="βeta-button"
+        type="button"
+      >
+        try the βeta
+      </button>
+    </p>
+  </div>
+</div>
+`;

@@ -47,23 +47,28 @@ function Wrapper({ callback, children, loading }) {
 
   useEffect(() => {
     if (!waiting) {
-      callback({ fitbs, tags });
+      callback(error, { fitbs, tags });
     }
-  }, [callback, fitbs, tags, waiting]);
+  }, [callback, error, fitbs, tags, waiting]);
 
   return waiting ? loading : children;
 }
 
 function App() {
+  const [error, setError] = useState();
   const [fitbs, setFitbs] = useState([]);
   const [tags, setTags] = useState([]);
 
   return (
     <div className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto">
       <Wrapper
-        callback={({ fitbs, tags }) => {
-          setFitbs(fitbs);
-          setTags(tags);
+        callback={(error, { fitbs, tags }) => {
+          if (error) {
+            setError(error);
+          } else {
+            setFitbs(fitbs);
+            setTags(tags);
+          }
         }}
         loading={
           <>

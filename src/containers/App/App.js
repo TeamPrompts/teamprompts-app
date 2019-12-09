@@ -9,6 +9,7 @@ import {
 import { version } from '../../../package.json';
 import selectFitbs from '../../api/selectFitbs';
 import selectTags from '../../api/selectTags';
+import Filters from '../../components/Filters/Filters';
 import Footer from '../../components/Footer/Footer';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
 import { BLANK_XS } from '../../constants';
@@ -26,33 +27,6 @@ function tagBySlug({ slug, tags }) {
     return tag || { ...empty, name: UNKNOWN };
   }
   return empty;
-}
-
-function tagsWithActiveFitbs({ fitbs, tags }) {
-  return tags
-    .reduce((accumulator, current) => {
-      if (current.fitbs) {
-        let hasActiveFitbs = false;
-        current.fitbs.forEach(id => {
-          if (fitbs.find(fitb => fitb.id === id)) {
-            hasActiveFitbs = true;
-          }
-        });
-        if (hasActiveFitbs) {
-          accumulator.push(current);
-        }
-      }
-      return accumulator;
-    }, [])
-    .sort((a, b) => {
-      if (a.slug > b.slug) {
-        return 1;
-      }
-      if (a.slug < b.slug) {
-        return -1;
-      }
-      return 0;
-    });
 }
 
 function Heading() {
@@ -82,6 +56,13 @@ function DetailsPage({ fitbs, tags }) {
         {BLANK_XS}
       </div>
       <Heading />
+      <Filters
+        allOff={true}
+        filter={{ name: tag.name }}
+        fitbs={fitbs}
+        onClick={console.log}
+        tags={tags}
+      />
       {fitb && <FillInTheBlanks fitb={fitb} tag={tag} />}
     </>
   );
@@ -103,37 +84,23 @@ function Home({ fitbs, tags }) {
     <>
       <div className="mt-2">Home</div>
       <Heading />
+      <Filters
+        allOff={true}
+        filter={{}}
+        fitbs={fitbs}
+        onClick={console.log}
+        tags={tags}
+      />
       <ul>
-        {tagsWithActiveFitbs({ fitbs, tags }).map(tag => (
-          <li key={tag.id}>
-            <Link
-              className="capitalize text-indigo-700 underline"
-              to={`/${tag.slug}`}
-            >
-              {tag.name}
-            </Link>
+        {fitbs.map(fitb => (
+          <li key={fitb.id}>
+            <FillInTheBlanks fitb={fitb} />
           </li>
         ))}
       </ul>
     </>
   );
 }
-
-/*
-function beginning({ fitb }) {
-  const values = getValues(modes.blanksXS, fitb);
-  const result = compose({
-    build: ({ index }) => values[index],
-    source: fitb.source,
-    values
-  });
-  return result
-    .join('')
-    .split(' ')
-    .slice(0, 6)
-    .join(' ');
-}
-*/
 
 function TagPage({ fitbs, tags }) {
   const { slug } = useParams();
@@ -148,6 +115,13 @@ function TagPage({ fitbs, tags }) {
         <span className="capitalize">{tag.name}</span>
       </div>
       <Heading />
+      <Filters
+        allOff={true}
+        filter={{ name: tag.name }}
+        fitbs={fitbs}
+        onClick={console.log}
+        tags={tags}
+      />
       <ul>
         {fitbsByTag({ fitbs, tag, tags }).map(fitb => (
           <li key={fitb.id}>

@@ -26,7 +26,7 @@ function Item({ counter, filter, onClick, tag }) {
   );
 }
 
-function Filters({ filter, fitbs, onClick, tags }) {
+function Filters({ allOff, filter, fitbs, onClick, tags }) {
   const counters = fitbs.reduce((accumulator, current) => {
     current.tags.forEach(tag => {
       if (accumulator[tag]) {
@@ -40,12 +40,14 @@ function Filters({ filter, fitbs, onClick, tags }) {
 
   return (
     <ul className="flex flex-wrap mb-4">
-      <Item
-        counter={fitbs.length}
-        filter={filter}
-        onClick={onClick}
-        tag={tagAll}
-      />
+      {!allOff && (
+        <Item
+          counter={fitbs.length}
+          filter={filter}
+          onClick={onClick}
+          tag={tagAll}
+        />
+      )}
       {tags.map(
         tag =>
           counters[tag.id] && (

@@ -18,9 +18,8 @@ exports[`App loading 1`] = `
     className="font-bold mb-8 mt-2 text-4xl text-gray-900"
   >
     Loading ...
-     
     <span
-      className="antialiased text-base text-gray-600"
+      className="font-bold font-mono ml-1 text-base text-gray-500"
     >
       βeta
     </span>
@@ -32,7 +31,7 @@ exports[`App loading 1`] = `
       className="font-normal text-gray-700 text-sm"
     >
       v
-      0.16.12
+      0.16.13
     </small>
     <button
       className="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -55,9 +54,8 @@ exports[`App w/ fitbs & tags 1`] = `
       class="font-bold mb-8 mt-2 text-4xl text-gray-900"
     >
       TeamPrompts
-       
       <span
-        class="antialiased text-base text-gray-600"
+        class="font-bold font-mono ml-1 text-base text-gray-500"
       >
         βeta
       </span>
@@ -170,7 +168,7 @@ exports[`App w/ fitbs & tags 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.12
+        0.16.13
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -193,9 +191,8 @@ exports[`App w/ fitbs error 1`] = `
       class="font-bold mb-8 mt-2 text-4xl text-gray-900"
     >
       TeamPrompts
-       
       <span
-        class="antialiased text-base text-gray-600"
+        class="font-bold font-mono ml-1 text-base text-gray-500"
       >
         βeta
       </span>
@@ -230,7 +227,7 @@ exports[`App w/ fitbs error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.12
+        0.16.13
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -253,9 +250,8 @@ exports[`App w/ tags error 1`] = `
       class="font-bold mb-8 mt-2 text-4xl text-gray-900"
     >
       TeamPrompts
-       
       <span
-        class="antialiased text-base text-gray-600"
+        class="font-bold font-mono ml-1 text-base text-gray-500"
       >
         βeta
       </span>
@@ -290,7 +286,7 @@ exports[`App w/ tags error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.12
+        0.16.13
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"

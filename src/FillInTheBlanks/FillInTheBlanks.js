@@ -1,8 +1,5 @@
-import { faLink } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classnames from 'classnames';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useClipboard } from 'use-clipboard-copy';
 import Checkbox, { values } from '../components/Checkbox/Checkbox';
 import { modes } from '../constants';
@@ -58,14 +55,6 @@ function FillInTheBlanks({ fitb, history, tag }) {
           clipboard.copy(value);
         }}
       />
-      {false && tag && (
-        <Link
-          className="ml-3 text-indigo-700 underline"
-          to={`/${tag.slug}/${fitb.id}`}
-        >
-          <FontAwesomeIcon icon={faLink} />
-        </Link>
-      )}
     </div>
   );
 }

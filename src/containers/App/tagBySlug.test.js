@@ -3,11 +3,11 @@ import tag from '../../mocks/tag';
 import tagBySlug from './tagBySlug';
 
 describe('tagBySlug', () => {
-  it('empty', () => {
-    expect(tagBySlug({ slug: '', tags: [] })).toEqual({ name: '', slug: '' });
+  it('all', () => {
+    expect(tagBySlug({ slug: 'strategy', tags: [tag] })).toEqual(tagAll);
   });
 
-  it('Unknown', () => {
-    expect(tagBySlug({ slug: 'strategy', tags: [tag] })).toEqual(tagAll);
+  it('empty', () => {
+    expect(tagBySlug({ slug: '', tags: [] })).toEqual({ name: '', slug: '' });
   });
 });

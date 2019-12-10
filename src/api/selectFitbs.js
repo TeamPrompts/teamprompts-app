@@ -3,10 +3,10 @@ import fitb from '../mocks/fitb';
 import makeFitb from './makeFitb';
 import select from './select';
 
-const { REACT_APP_FLIGHT_MODE } = process.env;
+const { REACT_APP_AIRPLAIN_MODE } = process.env;
 
 function selectFitbs(callback) {
-  if (REACT_APP_FLIGHT_MODE === 'on') {
+  if (REACT_APP_AIRPLAIN_MODE === 'on') {
     callback(null, [fitb]);
   } else {
     select({

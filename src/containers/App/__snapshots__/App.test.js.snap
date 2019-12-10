@@ -97,7 +97,7 @@ exports[`App w/ fitbs & tags 1`] = `
     <ul>
       <li>
         <div
-          class="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg hover:bg-gray-100 cursor-pointer"
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer  py-8 shadow text-lg"
         >
           Do you know the way to 
           <span

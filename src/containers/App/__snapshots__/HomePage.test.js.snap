@@ -53,7 +53,7 @@ Array [
   <ul>
     <li>
       <div
-        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        className="border-b border-gray-500 leading-loose mb-2 px-4  py-8 shadow text-lg"
         onClick={[Function]}
       >
         Do you know the way to 

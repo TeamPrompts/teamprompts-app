@@ -4,6 +4,7 @@ import Filters from '../../components/Filters/Filters';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
 import Heading from './Heading';
 import tagBySlug from './tagBySlug';
+import { pageTypes } from '../../constants';
 
 function PromptsPage({ fitbs, history, tags }) {
   const { id, slug } = useParams();
@@ -22,7 +23,12 @@ function PromptsPage({ fitbs, history, tags }) {
         {fitb &&
           [fitb].map(fitb => (
             <li key={fitb.id}>
-              <FillInTheBlanks fitb={fitb} history={history} tag={tag} />
+              <FillInTheBlanks
+                fitb={fitb}
+                history={history}
+                pageType={pageTypes.PromptsPage}
+                tag={tag}
+              />
             </li>
           ))}
       </ul>

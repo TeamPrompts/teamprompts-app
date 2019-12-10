@@ -14,15 +14,16 @@ exports[`App loading 1`] = `
 <div
   className="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
 >
-  <div
-    className="mt-2"
-  >
-     
-  </div>
   <h1
     className="font-bold mb-8 mt-2 text-4xl text-gray-900"
   >
     Loading ...
+     
+    <span
+      className="antialiased text-base text-gray-600"
+    >
+      βeta
+    </span>
   </h1>
   <p
     className="my-8"
@@ -31,7 +32,7 @@ exports[`App loading 1`] = `
       className="font-normal text-gray-700 text-sm"
     >
       v
-      0.16.11
+      0.16.12
     </small>
     <button
       className="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -50,19 +51,35 @@ exports[`App w/ fitbs & tags 1`] = `
   <div
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
-    <div
-      class="mt-2"
-    >
-       
-    </div>
     <h1
       class="font-bold mb-8 mt-2 text-4xl text-gray-900"
     >
       TeamPrompts
+       
+      <span
+        class="antialiased text-base text-gray-600"
+      >
+        βeta
+      </span>
     </h1>
     <ul
       class="flex flex-wrap mb-4"
     >
+      <li
+        class="mx-1 my-1"
+      >
+        <a
+          href="#/all"
+        >
+          <button
+            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+            data-testid="all"
+            type="button"
+          >
+            all (1)
+          </button>
+        </a>
+      </li>
       <li
         class="mx-1 my-1"
       >
@@ -82,7 +99,7 @@ exports[`App w/ fitbs & tags 1`] = `
     <ul>
       <li>
         <div
-          class="border-b border-gray-500 leading-loose py-8 text-lg"
+          class="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg hover:bg-gray-100 cursor-pointer"
         >
           Do you know the way to 
           <span
@@ -153,7 +170,7 @@ exports[`App w/ fitbs & tags 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.11
+        0.16.12
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -172,19 +189,36 @@ exports[`App w/ fitbs error 1`] = `
   <div
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
-    <div
-      class="mt-2"
-    >
-       
-    </div>
     <h1
       class="font-bold mb-8 mt-2 text-4xl text-gray-900"
     >
       TeamPrompts
+       
+      <span
+        class="antialiased text-base text-gray-600"
+      >
+        βeta
+      </span>
     </h1>
     <ul
       class="flex flex-wrap mb-4"
-    />
+    >
+      <li
+        class="mx-1 my-1"
+      >
+        <a
+          href="#/all"
+        >
+          <button
+            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+            data-testid="all"
+            type="button"
+          >
+            all (0)
+          </button>
+        </a>
+      </li>
+    </ul>
     <ul />
     <pre>
       {}
@@ -196,7 +230,7 @@ exports[`App w/ fitbs error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.11
+        0.16.12
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -215,19 +249,36 @@ exports[`App w/ tags error 1`] = `
   <div
     class="flex flex-col font-serif items-center max-w-4xl mx-16 sm:mx-32 md:mx-32 lg:mx-32 xl:mx-auto"
   >
-    <div
-      class="mt-2"
-    >
-       
-    </div>
     <h1
       class="font-bold mb-8 mt-2 text-4xl text-gray-900"
     >
       TeamPrompts
+       
+      <span
+        class="antialiased text-base text-gray-600"
+      >
+        βeta
+      </span>
     </h1>
     <ul
       class="flex flex-wrap mb-4"
-    />
+    >
+      <li
+        class="mx-1 my-1"
+      >
+        <a
+          href="#/all"
+        >
+          <button
+            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+            data-testid="all"
+            type="button"
+          >
+            all (0)
+          </button>
+        </a>
+      </li>
+    </ul>
     <ul />
     <pre>
       {}
@@ -239,7 +290,7 @@ exports[`App w/ tags error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.11
+        0.16.12
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"

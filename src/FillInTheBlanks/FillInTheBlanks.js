@@ -15,17 +15,21 @@ function FillInTheBlanks({ fitb, history, tag }) {
   const [mode, setMode] = useState(modes.input);
 
   function onClick() {
-    if (history && tag) {
-      history.push(`/${tag.slug}/${fitb.id}`);
+    if (history) {
+      if (tag) {
+        history.push(`/${tag.slug}/${fitb.id}`);
+      } else {
+        history.push(`/all/${fitb.id}`);
+      }
     }
   }
 
   return (
     <div
       className={classnames(
-        'border-b border-gray-500 leading-loose py-8 text-lg',
+        'border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg',
         {
-          'hover:bg-gray-100 cursor-pointer': history && tag
+          'hover:bg-gray-100 cursor-pointer': history
         }
       )}
       onClick={onClick}

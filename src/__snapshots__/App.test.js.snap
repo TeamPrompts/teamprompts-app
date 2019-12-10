@@ -43,7 +43,7 @@ exports[`App loading 1`] = `
       className="font-normal text-gray-700 text-sm"
     >
       v
-      0.16.11
+      0.16.12
     </small>
     <button
       className="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -104,7 +104,7 @@ exports[`App w/ fitbs & tags 1`] = `
     <ul>
       <li>
         <div
-          class="border-b border-gray-500 leading-loose py-8 text-lg"
+          class="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         >
           Do you know the way to 
           <span
@@ -175,7 +175,7 @@ exports[`App w/ fitbs & tags 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.11
+        0.16.12
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -209,7 +209,7 @@ exports[`App w/ fitbs error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.11
+        0.16.12
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
@@ -243,7 +243,7 @@ exports[`App w/ tags error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.11
+        0.16.12
       </small>
       <button
         class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"

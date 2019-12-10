@@ -2,8 +2,6 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Filters from '../../components/Filters/Filters';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
-import { pageTypes } from '../../constants';
-import Breadcrumbs from './Breadcrumbs';
 import Heading from './Heading';
 import tagBySlug from './tagBySlug';
 
@@ -16,13 +14,11 @@ function CategoryPage({ fitbs, history, tags }) {
   const tag = tagBySlug({ slug, tags });
   return (
     <>
-      <Breadcrumbs pageType={pageTypes.CategoryPage} tag={tag} />
       <Heading title="TeamPrompts" />
       <Filters
-        allOff={true}
         filter={{ name: tag.name }}
         fitbs={fitbs}
-        onClick={console.log}
+        onClick={() => {}}
         tags={tags}
       />
       <ul>

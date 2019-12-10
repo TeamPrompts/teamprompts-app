@@ -2,9 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Filters from '../../components/Filters/Filters';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
-import { pageTypes } from '../../constants';
 import Heading from './Heading';
-import Breadcrumbs from './Breadcrumbs';
 import tagBySlug from './tagBySlug';
 
 function PromptsPage({ fitbs, history, tags }) {
@@ -13,13 +11,11 @@ function PromptsPage({ fitbs, history, tags }) {
   const fitb = fitbs.find(fitb => fitb.id === id);
   return (
     <>
-      <Breadcrumbs pageType={pageTypes.PromptsPage} tag={tag} />
       <Heading title="TeamPrompts" />
       <Filters
-        allOff={true}
         filter={{ name: tag.name }}
         fitbs={fitbs}
-        onClick={console.log}
+        onClick={() => {}}
         tags={tags}
       />
       <ul>

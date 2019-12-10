@@ -1,3 +1,4 @@
+import tagAll from '../../api/tagAll';
 import tag from '../../mocks/tag';
 import tagBySlug from './tagBySlug';
 
@@ -7,9 +8,6 @@ describe('tagBySlug', () => {
   });
 
   it('Unknown', () => {
-    expect(tagBySlug({ slug: 'strategy', tags: [tag] })).toEqual({
-      name: 'Unknown',
-      slug: ''
-    });
+    expect(tagBySlug({ slug: 'strategy', tags: [tag] })).toEqual(tagAll);
   });
 });

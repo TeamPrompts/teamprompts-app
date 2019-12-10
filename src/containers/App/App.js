@@ -4,7 +4,6 @@ import { version } from '../../../package.json';
 import selectFitbs from '../../api/selectFitbs';
 import selectTags from '../../api/selectTags';
 import Footer from '../../components/Footer/Footer';
-import Breadcrumbs from './Breadcrumbs';
 import Heading from './Heading';
 import CategoryPage from './CategoryPage';
 import HomePage from './HomePage';
@@ -73,7 +72,6 @@ function App() {
         }}
         loading={
           <>
-            <Breadcrumbs />
             <Heading title="Loading ..." />
           </>
         }
@@ -85,7 +83,21 @@ function App() {
                 <PromptsPage {...props} fitbs={fitbs} tags={tags} />
               )}
               exact={true}
+              path="/all/:id"
+            />
+            <Route
+              children={props => (
+                <PromptsPage {...props} fitbs={fitbs} tags={tags} />
+              )}
+              exact={true}
               path="/:slug/:id"
+            />
+            <Route
+              children={props => (
+                <HomePage {...props} fitbs={fitbs} tags={tags} />
+              )}
+              exact={true}
+              path="/all"
             />
             <Route
               children={props => (

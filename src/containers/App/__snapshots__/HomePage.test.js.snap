@@ -2,19 +2,37 @@
 
 exports[`HomePage to match snapshot 1`] = `
 Array [
-  <div
-    className="mt-2"
-  >
-     
-  </div>,
   <h1
     className="font-bold mb-8 mt-2 text-4xl text-gray-900"
   >
     TeamPrompts
+     
+    <span
+      className="antialiased text-base text-gray-600"
+    >
+      βeta
+    </span>
   </h1>,
   <ul
     className="flex flex-wrap mb-4"
   >
+    <li
+      className="mx-1 my-1"
+    >
+      <a
+        href="#/all"
+        onClick={[Function]}
+      >
+        <button
+          className="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+          data-testid="all"
+          onClick={[Function]}
+          type="button"
+        >
+          all (1)
+        </button>
+      </a>
+    </li>
     <li
       className="mx-1 my-1"
     >
@@ -36,7 +54,7 @@ Array [
   <ul>
     <li>
       <div
-        className="border-b border-gray-500 leading-loose py-8 text-lg"
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         onClick={[Function]}
       >
         Do you know the way to 

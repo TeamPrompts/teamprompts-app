@@ -54,6 +54,7 @@ Array [
         Do you know the way to 
         <span
           className="inline-flex flex-col leading-none"
+          onClick={[Function]}
         >
           <div
             className="self-center"
@@ -116,6 +117,7 @@ Array [
         ?
         <span
           className="inline-block ml-3 relative"
+          onClick={[Function]}
         >
           <input
             checked={false}

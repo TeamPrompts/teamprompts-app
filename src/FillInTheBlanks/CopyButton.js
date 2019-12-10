@@ -26,7 +26,8 @@ function CopyButton({ fitb, inputs, mode, onClick }) {
     <button
       className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
       data-testid="copy-button"
-      onClick={() => {
+      onClick={event => {
+        event.stopPropagation();
         const values = getValues(mode, fitb);
         const result = compose({
           build: makeBuild({ inputs, mode, values }),

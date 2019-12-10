@@ -3,6 +3,7 @@
 exports[`Checkbox to match snapshot 1`] = `
 <span
   className="inline-block ml-3 relative"
+  onClick={[Function]}
 >
   <input
     checked={true}

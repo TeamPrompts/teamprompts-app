@@ -44,7 +44,11 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
             className="text-right"
             onClick={() => {
               if (history) {
-                history.goBack();
+                if (tag) {
+                  history.push(`/${tag.slug}`);
+                } else {
+                  history.push(`/all`);
+                }
               }
             }}
           >

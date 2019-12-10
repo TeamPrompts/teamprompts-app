@@ -4,13 +4,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import useCookie from '@devhammed/use-cookie';
 import { name, version } from '../package.json';
-import AppV2 from './containers/App/App';
-import App from './App';
-import {
-  MASTER_DETAIL_V1,
-  NONE,
-  TEAMPROMPTS_APP_EXPERIMENT
-} from './constants';
+import App from './containers/App/App';
+import { NONE, TEAMPROMPTS_APP_EXPERIMENT, UNKNOWN } from './constants';
 import initializeReactGA from './initializeReactGA';
 import * as serviceWorker from './serviceWorker';
 import './styles.css';
@@ -19,7 +14,7 @@ const { NODE_ENV, REACT_APP_AMPLITUDE_KEY } = process.env;
 
 function Wrapper() {
   const [experiment] = useCookie(TEAMPROMPTS_APP_EXPERIMENT, NONE);
-  return experiment === MASTER_DETAIL_V1 ? <AppV2 /> : <App />;
+  return experiment === UNKNOWN ? <div>UNKNOWN</div> : <App />;
 }
 
 ReactDOM.render(

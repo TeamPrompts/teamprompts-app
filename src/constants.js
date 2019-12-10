@@ -6,6 +6,7 @@ export const MASTER_DETAIL_V1 = 'MASTER_DETAIL_V1';
 export const NONE = 'NONE';
 export const SEPARATOR = '__BLANK__';
 export const TEAMPROMPTS_APP_EXPERIMENT = 'TEAMPROMPTS_APP_EXPERIMENT';
+export const UNKNOWN = 'UNKNOWN';
 
 export const modes = {
   blanks: 'blanks',

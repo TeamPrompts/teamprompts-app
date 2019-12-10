@@ -43,16 +43,8 @@ exports[`App loading 1`] = `
       className="font-normal text-gray-700 text-sm"
     >
       v
-      0.16.14
+      0.16.15
     </small>
-    <button
-      className="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-      data-testid="βeta-button"
-      onClick={[Function]}
-      type="button"
-    >
-      try the βeta
-    </button>
   </p>
 </div>
 `;
@@ -175,15 +167,8 @@ exports[`App w/ fitbs & tags 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.14
+        0.16.15
       </small>
-      <button
-        class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-        data-testid="βeta-button"
-        type="button"
-      >
-        try the βeta
-      </button>
     </p>
   </div>
 </div>
@@ -209,15 +194,8 @@ exports[`App w/ fitbs error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.14
+        0.16.15
       </small>
-      <button
-        class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-        data-testid="βeta-button"
-        type="button"
-      >
-        try the βeta
-      </button>
     </p>
   </div>
 </div>
@@ -243,15 +221,8 @@ exports[`App w/ tags error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.14
+        0.16.15
       </small>
-      <button
-        class="bg-red-500 focus:outline-none font-bold font-mono hover:bg-red-700 ml-3 px-2 rounded text-sm text-white"
-        data-testid="βeta-button"
-        type="button"
-      >
-        try the βeta
-      </button>
     </p>
   </div>
 </div>

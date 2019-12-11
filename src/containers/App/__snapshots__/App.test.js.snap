@@ -26,7 +26,7 @@ exports[`App loading 1`] = `
       className="font-normal text-gray-700 text-sm"
     >
       v
-      0.16.17
+      0.16.18
     </small>
   </p>
 </div>
@@ -150,7 +150,7 @@ exports[`App w/ fitbs & tags 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.17
+        0.16.18
       </small>
     </p>
   </div>
@@ -197,7 +197,7 @@ exports[`App w/ fitbs error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.17
+        0.16.18
       </small>
     </p>
   </div>
@@ -244,7 +244,7 @@ exports[`App w/ tags error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.17
+        0.16.18
       </small>
     </p>
   </div>

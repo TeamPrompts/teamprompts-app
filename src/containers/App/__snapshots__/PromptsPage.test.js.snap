@@ -48,7 +48,7 @@ Array [
   <ul>
     <li>
       <div
-        className="border-b border-gray-500 leading-loose mb-2 px-4 bg-pink-100  pb-8 shadow-xl text-xl"
+        className="border-b border-gray-500 leading-loose mb-2 px-4 bg-gray-100 pb-8 shadow-xl text-xl"
         onClick={[Function]}
       >
         <div

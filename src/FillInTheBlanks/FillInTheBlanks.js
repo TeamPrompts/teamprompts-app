@@ -32,7 +32,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
         {
           'hover:bg-gray-100 cursor-pointer': enable(),
           ' py-8 shadow text-lg': pageType !== pageTypes.PromptsPage,
-          'bg-pink-100  pb-8 shadow-xl text-xl':
+          'bg-gray-100 pb-8 shadow-xl text-xl':
             pageType === pageTypes.PromptsPage
         }
       )}

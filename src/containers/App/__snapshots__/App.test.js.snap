@@ -2,7 +2,7 @@
 
 exports[`App click retrospectives 1`] = `
 <button
-  class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+  class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
   data-testid="retrospectives"
   type="button"
 >
@@ -26,7 +26,7 @@ exports[`App loading 1`] = `
       className="font-normal text-gray-700 text-sm"
     >
       v
-      0.16.18
+      0.16.19
     </small>
   </p>
 </div>
@@ -52,7 +52,7 @@ exports[`App w/ fitbs & tags 1`] = `
           href="#/all"
         >
           <button
-            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+            class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
             data-testid="all"
             type="button"
           >
@@ -67,7 +67,7 @@ exports[`App w/ fitbs & tags 1`] = `
           href="#/retrospectives"
         >
           <button
-            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+            class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
             data-testid="retrospectives"
             type="button"
           >
@@ -79,11 +79,13 @@ exports[`App w/ fitbs & tags 1`] = `
     <ul>
       <li>
         <div
-          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer  py-8 shadow text-lg"
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
         >
           Do you know the way to 
           <span
             class="inline-flex flex-col leading-none"
+            data-testid="input-container"
           >
             <div
               class="self-center"
@@ -150,7 +152,7 @@ exports[`App w/ fitbs & tags 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.18
+        0.16.19
       </small>
     </p>
   </div>
@@ -177,7 +179,7 @@ exports[`App w/ fitbs error 1`] = `
           href="#/all"
         >
           <button
-            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+            class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
             data-testid="all"
             type="button"
           >
@@ -197,7 +199,7 @@ exports[`App w/ fitbs error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.18
+        0.16.19
       </small>
     </p>
   </div>
@@ -224,7 +226,7 @@ exports[`App w/ tags error 1`] = `
           href="#/all"
         >
           <button
-            class="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+            class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
             data-testid="all"
             type="button"
           >
@@ -244,7 +246,7 @@ exports[`App w/ tags error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.18
+        0.16.19
       </small>
     </p>
   </div>

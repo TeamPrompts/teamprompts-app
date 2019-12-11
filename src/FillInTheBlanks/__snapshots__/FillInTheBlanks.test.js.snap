@@ -2,12 +2,14 @@
 
 exports[`FillInTheBlanks to match snapshot 1`] = `
 <div
-  className="border-b border-gray-500 leading-loose mb-2 px-4  py-8 shadow text-lg"
+  className="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+  data-testid="container"
   onClick={[Function]}
 >
   Do you know the way to 
   <span
     className="inline-flex flex-col leading-none"
+    data-testid="input-container"
     onClick={[Function]}
   >
     <div
@@ -107,7 +109,8 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
 exports[`FillInTheBlanks toggle 1`] = `
 <div>
   <div
-    class="border-b border-gray-500 leading-loose mb-2 px-4  py-8 shadow text-lg"
+    class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+    data-testid="container"
   >
     Do you know the way to 
     <span
@@ -151,11 +154,13 @@ exports[`FillInTheBlanks toggle 1`] = `
 exports[`FillInTheBlanks toggle 2`] = `
 <div>
   <div
-    class="border-b border-gray-500 leading-loose mb-2 px-4  py-8 shadow text-lg"
+    class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+    data-testid="container"
   >
     Do you know the way to 
     <span
       class="inline-flex flex-col leading-none"
+      data-testid="input-container"
     >
       <div
         class="self-center"

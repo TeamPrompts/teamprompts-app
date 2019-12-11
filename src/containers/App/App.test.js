@@ -43,4 +43,6 @@ describe('App', () => {
     fireEvent.click(getByTestId(tag.name));
     expect(getByTestId(tag.name)).toMatchSnapshot();
   });
+
+  // TODO: test routes
 });

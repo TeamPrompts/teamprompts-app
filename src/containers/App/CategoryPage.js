@@ -15,12 +15,7 @@ function CategoryPage({ fitbs, history, tags }) {
   return (
     <>
       <Heading title="TeamPrompts" />
-      <Filters
-        filter={{ name: tag.name }}
-        fitbs={fitbs}
-        onClick={() => {}}
-        tags={tags}
-      />
+      <Filters filter={{ name: tag.name }} fitbs={fitbs} tags={tags} />
       <ul>
         {fitbsByTag({ fitbs, tag, tags }).map(fitb => (
           <li key={fitb.id}>

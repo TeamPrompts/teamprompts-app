@@ -29,6 +29,7 @@ Array [
   "Do you know the way to ",
   <span
     className="inline-flex flex-col leading-none"
+    data-testid="input-container"
     onClick={[Function]}
   >
     <div
@@ -98,6 +99,7 @@ Array [
   "Do you know the way to ",
   <span
     className="inline-flex flex-col leading-none"
+    data-testid="input-container"
     onClick={[Function]}
   >
     <div

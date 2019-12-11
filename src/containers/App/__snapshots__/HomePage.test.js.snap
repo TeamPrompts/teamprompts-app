@@ -18,9 +18,8 @@ Array [
         onClick={[Function]}
       >
         <button
-          className="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+          className="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
           data-testid="all"
-          onClick={[Function]}
           type="button"
         >
           all (1)
@@ -35,9 +34,8 @@ Array [
         onClick={[Function]}
       >
         <button
-          className="focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          className="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
           data-testid="retrospectives"
-          onClick={[Function]}
           type="button"
         >
           retrospectives (1)
@@ -48,12 +46,14 @@ Array [
   <ul>
     <li>
       <div
-        className="border-b border-gray-500 leading-loose mb-2 px-4  py-8 shadow text-lg"
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
         onClick={[Function]}
       >
         Do you know the way to 
         <span
           className="inline-flex flex-col leading-none"
+          data-testid="input-container"
           onClick={[Function]}
         >
           <div

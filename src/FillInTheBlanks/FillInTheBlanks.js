@@ -31,17 +31,19 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
         'border-b border-gray-500 leading-loose mb-2 px-4',
         {
           'hover:bg-gray-100 cursor-pointer': enable(),
-          ' py-8 shadow text-lg': pageType !== pageTypes.PromptsPage,
+          'py-8 shadow text-lg': pageType !== pageTypes.PromptsPage,
           'bg-gray-100 pb-8 shadow-xl text-xl':
             pageType === pageTypes.PromptsPage
         }
       )}
+      data-testid="container"
       onClick={onClick}
     >
       {pageType === pageTypes.PromptsPage && (
         <div className="text-right">
           <button
-            className="text-right"
+            className="focus:outline-none text-right"
+            data-testid="go-to-category"
             onClick={() => {
               if (history) {
                 if (tag) {

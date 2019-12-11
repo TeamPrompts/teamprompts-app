@@ -3,6 +3,7 @@
 exports[`InputText to match snapshot 1`] = `
 <span
   className="inline-flex flex-col leading-none"
+  data-testid="input-container"
   onClick={[Function]}
 >
   <div

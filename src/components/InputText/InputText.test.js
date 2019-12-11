@@ -28,4 +28,18 @@ describe('InputText', () => {
 
     expect(mockDispatch).toBeCalled();
   });
+
+  it('stop propagation', () => {
+    const mockOnClick = jest.fn();
+
+    const { getByTestId } = render(
+      <div onClick={mockOnClick}>
+        <InputText {...props} />
+      </div>
+    );
+
+    fireEvent.click(getByTestId('input-container'));
+
+    expect(mockOnClick).not.toBeCalled();
+  });
 });

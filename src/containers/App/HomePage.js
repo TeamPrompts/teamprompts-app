@@ -8,7 +8,7 @@ function HomePage({ fitbs, history, tags }) {
   return (
     <>
       <Heading title="TeamPrompts" />
-      <Filters filter={tagAll} fitbs={fitbs} onClick={() => {}} tags={tags} />
+      <Filters filter={tagAll} fitbs={fitbs} tags={tags} />
       <ul>
         {fitbs.map(fitb => (
           <li key={fitb.id}>

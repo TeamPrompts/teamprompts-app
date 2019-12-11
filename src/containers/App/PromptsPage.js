@@ -13,12 +13,7 @@ function PromptsPage({ fitbs, history, tags }) {
   return (
     <>
       <Heading title="TeamPrompts" />
-      <Filters
-        filter={{ name: tag.name }}
-        fitbs={fitbs}
-        onClick={() => {}}
-        tags={tags}
-      />
+      <Filters filter={{ name: tag.name }} fitbs={fitbs} tags={tags} />
       <ul>
         {fitb &&
           [fitb].map(fitb => (

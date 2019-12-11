@@ -40,6 +40,7 @@ function makeBuild({ dispatch, mode, state, values }) {
   return build;
 }
 
+// TODO: move reducer to FillInTheBlanks component
 function Content({ callback, fitb, mode }) {
   const [initialState, setinitialState] = useLocalStorage(
     fitb.id,

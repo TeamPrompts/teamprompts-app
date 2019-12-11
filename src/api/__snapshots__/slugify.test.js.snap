@@ -3,6 +3,7 @@
 exports[`slugify 1`] = `
 Array [
   "1-1s",
+  "decision-making",
   "interview",
   "measurement",
   "product-management",

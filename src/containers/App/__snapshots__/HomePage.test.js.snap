@@ -22,7 +22,39 @@ Array [
           data-testid="all"
           type="button"
         >
-          all (1)
+          all (11)
+        </button>
+      </a>
+    </li>
+    <li
+      className="mx-1 my-1"
+    >
+      <a
+        href="#/decision-making"
+        onClick={[Function]}
+      >
+        <button
+          className="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="decision making"
+          type="button"
+        >
+          decision making (2)
+        </button>
+      </a>
+    </li>
+    <li
+      className="mx-1 my-1"
+    >
+      <a
+        href="#/measurement"
+        onClick={[Function]}
+      >
+        <button
+          className="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="measurement"
+          type="button"
+        >
+          measurement (5)
         </button>
       </a>
     </li>
@@ -38,7 +70,23 @@ Array [
           data-testid="retrospectives"
           type="button"
         >
-          retrospectives (1)
+          retrospectives (2)
+        </button>
+      </a>
+    </li>
+    <li
+      className="mx-1 my-1"
+    >
+      <a
+        href="#/strategy"
+        onClick={[Function]}
+      >
+        <button
+          className="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="strategy"
+          type="button"
+        >
+          strategy (5)
         </button>
       </a>
     </li>
@@ -50,7 +98,7 @@ Array [
         data-testid="container"
         onClick={[Function]}
       >
-        Do you know the way to 
+        I used to find 
         <span
           className="inline-flex flex-col leading-none"
           data-testid="input-container"
@@ -111,10 +159,2449 @@ Array [
           <label
             className="self-center text-sm"
           >
-            place
+            aspect of how you work
           </label>
         </span>
-        ?
+         to be highly counterintuitive. It seemed destined to fail because 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            reason
+          </label>
+        </span>
+        . I now see things differently. The big shift was realizing that 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            realization
+          </label>
+        </span>
+        .
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="recevUpbRFDbVHx7L"
+            id="recevUpbRFDbVHx7L"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="recevUpbRFDbVHx7L"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        We believe that 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            increasing/decreasing
+          </label>
+        </span>
+         
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some activity
+          </label>
+        </span>
+         causes 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            increases/decreases
+          </label>
+        </span>
+         in some 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            key performance metric, financial metric, etc.
+          </label>
+        </span>
+        . There are a number of assumptions/factors underpinning that causal relationship including 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            factors, caveats, assumptions
+          </label>
+        </span>
+        .
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="recglWG0JkW6S4z5T"
+            id="recglWG0JkW6S4z5T"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="recglWG0JkW6S4z5T"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        If you look at our near-time three month roadmap, you will see a number of bets. The riskiest bet, with the highest potential upside, is our bet to focus on 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some opportunity
+          </label>
+        </span>
+         by trying to 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some intervention
+          </label>
+        </span>
+        . We will 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            know/be more confident
+          </label>
+        </span>
+         this was the right bet if we observe 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some leading indicator
+          </label>
+        </span>
+        . We can actively de-risk this bet by 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some approach to de-risking
+          </label>
+        </span>
+        .
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        The writing is on the wall about 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some sea-change in technology adoption and/or some shift in consumer behavior
+          </label>
+        </span>
+        . What is unclear is timing. As a company, we are betting that this will occur 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            fast/slower
+          </label>
+        </span>
+         than expected, which will influence our strategy by 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            forcing/allowing
+          </label>
+        </span>
+         us to 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some activity
+          </label>
+        </span>
+        , and 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            forcing/allowing
+          </label>
+        </span>
+         us to 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some other activity
+          </label>
+        </span>
+        .
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        To feel more confident about our decision to 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+        </span>
+        , I would like to observe 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+        </span>
+        .
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="recQ2jud83D1dCxr4"
+            id="recQ2jud83D1dCxr4"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="recQ2jud83D1dCxr4"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        I’m concerned that if we 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+        </span>
+        , we may miss the opportunity to 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+        </span>
+        .
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="recrYoglrdF32klOv"
+            id="recrYoglrdF32klOv"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="recrYoglrdF32klOv"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        We seem to be treating 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            an assumption
+          </label>
+        </span>
+         as a foregone conclusion. I’m not sure it is that simple. If we were proven wrong (or less right) about 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            that assumption
+          </label>
+        </span>
+         , it would impact us in the following ways: 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            a list of ways
+          </label>
+        </span>
+          .
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="recm6xCbOJSJZ6jwY"
+            id="recm6xCbOJSJZ6jwY"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="recm6xCbOJSJZ6jwY"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        To even know where to start, we would need to better understand 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+        </span>
+        .
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="recqeN7TDq4kdhFah"
+            id="recqeN7TDq4kdhFah"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="recqeN7TDq4kdhFah"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        A danger of not resolving 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+        </span>
+         now is that we will eventually 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+        </span>
+        .
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="rec99C9lxMl6aSedq"
+            id="rec99C9lxMl6aSedq"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="rec99C9lxMl6aSedq"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        The weakest link in our mental model is 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            some assumption
+          </label>
+        </span>
+        . If we’re off -- even by a little -- it could have a big impact on this initiative because 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            reason
+          </label>
+        </span>
+        .
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="reckkQSV8NuHKOAHr"
+            id="reckkQSV8NuHKOAHr"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="reckkQSV8NuHKOAHr"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        We may be over-confident in our ability to 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            an action
+          </label>
+        </span>
+        . It hasn’t really been a problem yet because 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            reason
+          </label>
+        </span>
+        , but it could become a problem in the future if 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            new event
+          </label>
+        </span>
+        .
         <span
           className="inline-block ml-3 relative"
           onClick={[Function]}

@@ -2,7 +2,9 @@ import React from 'react';
 import { create } from 'react-test-renderer';
 import { HashRouter as Router } from 'react-router-dom';
 import fitb from '../../mocks/fitb';
+import fitbs from '../../mocks/fitbs';
 import tag from '../../mocks/tag';
+import tags from '../../mocks/tags';
 import PromptsPage from './PromptsPage';
 
 const mockId = fitb.id;
@@ -20,7 +22,7 @@ describe('PromptsPage', () => {
   it('to match snapshot', () => {
     const tree = create(
       <Router>
-        <PromptsPage fitbs={[fitb]} tags={[tag]} />
+        <PromptsPage fitbs={fitbs} tags={tags} />
       </Router>
     ).toJSON();
     expect(tree).toMatchSnapshot();

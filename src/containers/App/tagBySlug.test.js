@@ -1,10 +1,10 @@
 import tagAll from '../../api/tagAll';
-import tag from '../../mocks/tag';
+import tags from '../../mocks/tags';
 import tagBySlug from './tagBySlug';
 
 describe('tagBySlug', () => {
   it('all', () => {
-    expect(tagBySlug({ slug: 'strategy', tags: [tag] })).toEqual(tagAll);
+    expect(tagBySlug({ slug: 'YOLO', tags })).toEqual(tagAll);
   });
 
   it('empty', () => {

@@ -1,0 +1,133 @@
+[
+  {
+    "author": "John Cutler",
+    "examples": [
+      "limiting work in progress",
+      "it meant that at times people would have nothing to do",
+      "limiting WIP made it more possible to work on what was important"
+    ],
+    "id": "recevUpbRFDbVHx7L",
+    "prompts": ["aspect of how you work", "reason", "realization"],
+    "source": "I used to find __BLANK__ to be highly counterintuitive. It seemed destined to fail because __BLANK__. I now see things differently. The big shift was realizing that __BLANK__.",
+    "tags": ["recTqD26ElVvXKVad"]
+  },
+  {
+    "author": "John Cutler",
+    "examples": [
+      "increasing",
+      "speed of onboarding",
+      "increases",
+      "rate of overall adoption",
+      "their ability to see value earlier"
+    ],
+    "id": "recglWG0JkW6S4z5T",
+    "prompts": [
+      "increasing/decreasing",
+      "some activity",
+      "increases/decreases",
+      "key performance metric, financial metric, etc.",
+      "factors, caveats, assumptions"
+    ],
+    "source": "We believe that __BLANK__ __BLANK__ causes __BLANK__ in some __BLANK__. There are a number of assumptions/factors underpinning that causal relationship including __BLANK__.",
+    "tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"]
+  },
+  {
+    "author": "John Cutler",
+    "id": "recD5UagMbU0oW464",
+    "prompts": [
+      "some opportunity",
+      "some intervention",
+      "know/be more confident",
+      "some leading indicator",
+      "some approach to de-risking"
+    ],
+    "source": "If you look at our near-time three month roadmap, you will see a number of bets. The riskiest bet, with the highest potential upside, is our bet to focus on __BLANK__ by trying to __BLANK__. We will __BLANK__ this was the right bet if we observe __BLANK__. We can actively de-risk this bet by __BLANK__.",
+    "tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"]
+  },
+  {
+    "author": "John Cutler",
+    "id": "recCWoOnmN4aEi5dT",
+    "prompts": [
+      "some sea-change in technology adoption and/or some shift in consumer behavior",
+      "fast/slower",
+      "forcing/allowing",
+      "some activity",
+      "forcing/allowing",
+      "some other activity"
+    ],
+    "source": "The writing is on the wall about __BLANK__. What is unclear is timing. As a company, we are betting that this will occur __BLANK__ than expected, which will influence our strategy by __BLANK__ us to __BLANK__, and __BLANK__ us to __BLANK__.",
+    "tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"]
+  },
+  {
+    "author": "John Cutler",
+    "examples": [
+      "to add steps to the workflow",
+      "more customers completing the existing workflow"
+    ],
+    "id": "recQ2jud83D1dCxr4",
+    "source": "To feel more confident about our decision to __BLANK__, I would like to observe __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY"]
+  },
+  {
+    "author": "John Cutler",
+    "examples": [
+      "spend too long deliberating over the behavior of the page filter",
+      " test early with customers"
+    ],
+    "id": "recrYoglrdF32klOv",
+    "source": "I’m concerned that if we __BLANK__, we may miss the opportunity to __BLANK__.",
+    "tags": ["rechbGc1FLmwxb9Hg"]
+  },
+  {
+    "author": "John Cutler",
+    "examples": [
+      "the commodification of storage",
+      "the rate of dropping costs",
+      "1) COGS would not drop as fast as we expect"
+    ],
+    "id": "recm6xCbOJSJZ6jwY",
+    "prompts": ["an assumption", "that assumption", "a list of ways"],
+    "source": "We seem to be treating __BLANK__ as a foregone conclusion. I’m not sure it is that simple. If we were proven wrong (or less right) about __BLANK__ , it would impact us in the following ways: __BLANK__  .",
+    "tags": ["recmdwXtLaj7hls73"]
+  },
+  {
+    "author": "John Doe",
+    "examples": ["this amazing challenge"],
+    "id": "recqeN7TDq4kdhFah",
+    "source": "To even know where to start, we would need to better understand __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY"]
+  },
+  {
+    "author": "The Person",
+    "examples": [
+      "this huge problem we have",
+      "feel the wrath of all that has come before"
+    ],
+    "id": "rec99C9lxMl6aSedq",
+    "source": "A danger of not resolving __BLANK__ now is that we will eventually __BLANK__.",
+    "tags": ["recTqD26ElVvXKVad"]
+  },
+  {
+    "author": "Mary Tine",
+    "examples": [
+      "how we perceive user onboarding",
+      "our projections might be off"
+    ],
+    "id": "reckkQSV8NuHKOAHr",
+    "prompts": ["some assumption", "reason"],
+    "source": "The weakest link in our mental model is __BLANK__. If we’re off -- even by a little -- it could have a big impact on this initiative because __BLANK__.",
+    "tags": ["rechbGc1FLmwxb9Hg"]
+  },
+  {
+    "author": "John Cutler",
+    "examples": [
+      "understand the EMEA customer persona",
+      "we haven't really made EMA a focus",
+      "we decide to shift into EMEA"
+    ],
+    "id": "receM4Gus7HH43oLM",
+    "prompts": ["an action", "reason", "new event"],
+    "source": "We may be over-confident in our ability to __BLANK__. It hasn’t really been a problem yet because __BLANK__, but it could become a problem in the future if __BLANK__.",
+    "tags": ["recmdwXtLaj7hls73"]
+  }
+]

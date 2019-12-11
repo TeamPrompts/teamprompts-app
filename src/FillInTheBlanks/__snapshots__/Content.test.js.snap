@@ -2,31 +2,43 @@
 
 exports[`Content blanks 1`] = `
 Array [
-  "Do you know the way to ",
+  "The weakest link in our mental model is ",
   <span
     className="bg-yellow-200"
   >
     ________________
   </span>,
-  "?",
+  ". If we’re off -- even by a little -- it could have a big impact on this initiative because ",
+  <span
+    className="bg-yellow-200"
+  >
+    ________________
+  </span>,
+  ".",
 ]
 `;
 
 exports[`Content examples 1`] = `
 Array [
-  "Do you know the way to ",
+  "The weakest link in our mental model is ",
   <span
     className="bg-green-200"
   >
-    San Jose
+    how we perceive user onboarding
   </span>,
-  "?",
+  ". If we’re off -- even by a little -- it could have a big impact on this initiative because ",
+  <span
+    className="bg-green-200"
+  >
+    our projections might be off
+  </span>,
+  ".",
 ]
 `;
 
 exports[`Content input w/ prompts 1`] = `
 Array [
-  "Do you know the way to ",
+  "The weakest link in our mental model is ",
   <span
     className="inline-flex flex-col leading-none"
     data-testid="input-container"
@@ -87,16 +99,80 @@ Array [
     <label
       className="self-center text-sm"
     >
-      place
+      some assumption
     </label>
   </span>,
-  "?",
+  ". If we’re off -- even by a little -- it could have a big impact on this initiative because ",
+  <span
+    className="inline-flex flex-col leading-none"
+    data-testid="input-container"
+    onClick={[Function]}
+  >
+    <div
+      className="self-center"
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    >
+      <input
+        className=""
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="________________"
+        style={
+          Object {
+            "boxSizing": "content-box",
+            "width": "1px",
+          }
+        }
+        value=""
+      />
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        
+      </div>
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        ________________
+      </div>
+    </div>
+    <label
+      className="self-center text-sm"
+    >
+      reason
+    </label>
+  </span>,
+  ".",
 ]
 `;
 
 exports[`Content input w/o prompts 1`] = `
 Array [
-  "Do you know the way to ",
+  "The weakest link in our mental model is ",
   <span
     className="inline-flex flex-col leading-none"
     data-testid="input-container"
@@ -155,18 +231,83 @@ Array [
       </div>
     </div>
   </span>,
-  "?",
+  ". If we’re off -- even by a little -- it could have a big impact on this initiative because ",
+  <span
+    className="inline-flex flex-col leading-none"
+    data-testid="input-container"
+    onClick={[Function]}
+  >
+    <div
+      className="self-center"
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    >
+      <input
+        className=""
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="________________"
+        style={
+          Object {
+            "boxSizing": "content-box",
+            "width": "1px",
+          }
+        }
+        value=""
+      />
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        
+      </div>
+      <div
+        style={
+          Object {
+            "height": 0,
+            "left": 0,
+            "overflow": "scroll",
+            "position": "absolute",
+            "top": 0,
+            "visibility": "hidden",
+            "whiteSpace": "pre",
+          }
+        }
+      >
+        ________________
+      </div>
+    </div>
+  </span>,
+  ".",
 ]
 `;
 
 exports[`Content prompts 1`] = `
 Array [
-  "Do you know the way to ",
+  "The weakest link in our mental model is ",
   <span
     className="bg-blue-200"
   >
-    place
+    some assumption
   </span>,
-  "?",
+  ". If we’re off -- even by a little -- it could have a big impact on this initiative because ",
+  <span
+    className="bg-blue-200"
+  >
+    reason
+  </span>,
+  ".",
 ]
 `;

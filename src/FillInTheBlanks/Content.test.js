@@ -57,10 +57,10 @@ describe('Content', () => {
   it('callback', () => {
     const mockCallback = jest.fn();
     const props = { callback: mockCallback, fitb, mode: modes.input };
-    const { getByTestId } = render(<Content {...props} />);
+    const { getAllByTestId } = render(<Content {...props} />);
 
-    fireEvent.change(getByTestId('input'), { target: { value: 'New York' } });
+    fireEvent.change(getAllByTestId('input')[0], { target: { value: 'fear' } });
 
-    expect(mockCallback).toBeCalledWith({ 0: 'New York' });
+    expect(mockCallback).toBeCalledWith({ 0: 'fear', 1: '' });
   });
 });

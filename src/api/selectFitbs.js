@@ -1,5 +1,5 @@
 import { ACTIVE, DESC, FITBS, ID, STATUS } from './constants';
-import fitb from '../mocks/fitb';
+import fitbs from '../mocks/fitbs';
 import makeFitb from './makeFitb';
 import select from './select';
 
@@ -7,7 +7,7 @@ const { REACT_APP_AIRPLAIN_MODE } = process.env;
 
 function selectFitbs(callback) {
   if (REACT_APP_AIRPLAIN_MODE === 'on') {
-    callback(null, [fitb]);
+    callback(null, fitbs);
   } else {
     select({
       callback,

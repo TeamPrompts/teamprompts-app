@@ -4,16 +4,17 @@ import { create } from 'react-test-renderer';
 import App from './App';
 import selectFitbs from '../../api/selectFitbs';
 import selectTags from '../../api/selectTags';
-import fitb from '../../mocks/fitb';
+import fitbs from '../../mocks/fitbs';
 import tag from '../../mocks/tag';
+import tags from '../../mocks/tags';
 
 jest.mock('../../api/selectFitbs');
 jest.mock('../../api/selectTags');
 
 describe('App', () => {
   beforeEach(() => {
-    selectFitbs.mockImplementation(callback => callback(null, [fitb]));
-    selectTags.mockImplementation(callback => callback(null, [tag]));
+    selectFitbs.mockImplementation(callback => callback(null, fitbs));
+    selectTags.mockImplementation(callback => callback(null, tags));
   });
 
   it('loading', () => {

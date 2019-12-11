@@ -1,9 +1,9 @@
-import { SOURCE } from '../mocks/fitb';
+import fitb from '../mocks/fitb';
 import makeInitialState from './makeInitialState';
 import reducer, { CHANGE } from './reducer';
 
 describe('reducer', () => {
-  const initialState = makeInitialState(SOURCE);
+  const initialState = makeInitialState(fitb.source);
 
   const scenarios = [
     {

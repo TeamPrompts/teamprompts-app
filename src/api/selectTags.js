@@ -1,5 +1,5 @@
 import { ASC, NAME, TAGS } from './constants';
-import tag from '../mocks/tag';
+import tags from '../mocks/tags';
 import makeTag from './makeTag';
 import select from './select';
 
@@ -7,7 +7,7 @@ const { REACT_APP_AIRPLAIN_MODE } = process.env;
 
 function selectTags(callback) {
   if (REACT_APP_AIRPLAIN_MODE === 'on') {
-    callback(null, [tag]);
+    callback(null, tags);
   } else {
     select({
       callback,

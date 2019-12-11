@@ -2,13 +2,20 @@ import { Amplitude, AmplitudeProvider } from '@amplitude/react-amplitude';
 import amplitude from 'amplitude-js';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import useCookie from '@devhammed/use-cookie';
 import { name, version } from '../package.json';
-import './styles.css';
-import App from './App';
+import App from './containers/App/App';
+import { NONE, TEAMPROMPTS_APP_EXPERIMENT, UNKNOWN } from './constants';
 import initializeReactGA from './initializeReactGA';
 import * as serviceWorker from './serviceWorker';
+import './styles.css';
 
 const { NODE_ENV, REACT_APP_AMPLITUDE_KEY } = process.env;
+
+function Wrapper() {
+  const [experiment] = useCookie(TEAMPROMPTS_APP_EXPERIMENT, NONE);
+  return experiment === UNKNOWN ? <div>UNKNOWN</div> : <App />;
+}
 
 ReactDOM.render(
   <AmplitudeProvider
@@ -20,7 +27,7 @@ ReactDOM.render(
         initializeReactGA();
         // INFO: https://github.com/amplitude/react-amplitude#amplitude-props
         logEvent(`hello ${name} v${version} ${NODE_ENV}`); // TODO: move to constants
-        return <App />;
+        return <Wrapper />;
       }}
     </Amplitude>
   </AmplitudeProvider>,

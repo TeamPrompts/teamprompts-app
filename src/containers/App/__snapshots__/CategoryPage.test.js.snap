@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryPage to match snapshot 1`] = `
+Array [
+  <h1
+    className="font-bold mb-8 mt-2 text-4xl text-gray-900"
+  >
+    TeamPrompts
+  </h1>,
+  <ul
+    className="flex flex-wrap mb-4"
+  >
+    <li
+      className="mx-1 my-1"
+    >
+      <a
+        href="#/all"
+        onClick={[Function]}
+      >
+        <button
+          className="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="all"
+          type="button"
+        >
+          all (1)
+        </button>
+      </a>
+    </li>
+    <li
+      className="mx-1 my-1"
+    >
+      <a
+        href="#/retrospectives"
+        onClick={[Function]}
+      >
+        <button
+          className="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-900"
+          data-testid="retrospectives"
+          type="button"
+        >
+          retrospectives (1)
+        </button>
+      </a>
+    </li>
+  </ul>,
+  <ul>
+    <li>
+      <div
+        className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+        onClick={[Function]}
+      >
+        Do you know the way to 
+        <span
+          className="inline-flex flex-col leading-none"
+          data-testid="input-container"
+          onClick={[Function]}
+        >
+          <div
+            className="self-center"
+            style={
+              Object {
+                "display": "inline-block",
+              }
+            }
+          >
+            <input
+              className=""
+              data-testid="input"
+              onChange={[Function]}
+              placeholder="________________"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "width": "1px",
+                }
+              }
+              value=""
+            />
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              
+            </div>
+            <div
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "scroll",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                  "whiteSpace": "pre",
+                }
+              }
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            className="self-center text-sm"
+          >
+            place
+          </label>
+        </span>
+        ?
+        <span
+          className="inline-block ml-3 relative"
+          onClick={[Function]}
+        >
+          <input
+            checked={false}
+            className="hidden"
+            data-testid="receM4Gus7HH43oLM"
+            id="receM4Gus7HH43oLM"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="cursor-pointer"
+            htmlFor="receM4Gus7HH43oLM"
+          >
+            <div
+              className="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              className="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+  </ul>,
+]
+`;

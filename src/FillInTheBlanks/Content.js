@@ -1,6 +1,7 @@
 import classnames from 'classnames';
 import React, { useReducer } from 'react';
 import InputText from '../components/InputText/InputText';
+import useLocalStorage from '../hooks/useLocalStorage';
 import { modes } from '../constants';
 import compose from './compose';
 import getValues from './getValues';
@@ -40,16 +41,19 @@ function makeBuild({ dispatch, mode, state, values }) {
 }
 
 function Content({ callback, fitb, mode }) {
+  const [initialState, setinitialState] = useLocalStorage(
+    fitb.id,
+    makeInitialState(fitb.source)
+  );
+
   function middleware(state, action) {
     const newState = reducer(state, action);
     callback(newState);
+    setinitialState(newState);
     return newState;
   }
 
-  const [state, dispatch] = useReducer(
-    middleware,
-    makeInitialState(fitb.source)
-  );
+  const [state, dispatch] = useReducer(middleware, initialState);
 
   const values = getValues(mode, fitb);
   return compose({

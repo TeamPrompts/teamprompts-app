@@ -2,11 +2,15 @@
 
 exports[`FillInTheBlanks to match snapshot 1`] = `
 <div
-  className="border-b border-gray-500 leading-loose py-8 text-lg"
+  className="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+  data-testid="container"
+  onClick={[Function]}
 >
   Do you know the way to 
   <span
     className="inline-flex flex-col leading-none"
+    data-testid="input-container"
+    onClick={[Function]}
   >
     <div
       className="self-center"
@@ -63,12 +67,13 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
     <label
       className="self-center text-sm"
     >
-      [place]
+      place
     </label>
   </span>
   ?
   <span
     className="inline-block ml-3 relative"
+    onClick={[Function]}
   >
     <input
       checked={false}
@@ -91,12 +96,12 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
     </label>
   </span>
   <button
-    className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+    className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
     data-testid="copy-button"
     onClick={[Function]}
     type="button"
   >
-    Ctrl+C
+    Copy to clipboard
   </button>
 </div>
 `;
@@ -104,7 +109,8 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
 exports[`FillInTheBlanks toggle 1`] = `
 <div>
   <div
-    class="border-b border-gray-500 leading-loose py-8 text-lg"
+    class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+    data-testid="container"
   >
     Do you know the way to 
     <span
@@ -135,11 +141,11 @@ exports[`FillInTheBlanks toggle 1`] = `
       </label>
     </span>
     <button
-      class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+      class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
       data-testid="copy-button"
       type="button"
     >
-      Ctrl+C
+      Copy to clipboard
     </button>
   </div>
 </div>
@@ -148,11 +154,13 @@ exports[`FillInTheBlanks toggle 1`] = `
 exports[`FillInTheBlanks toggle 2`] = `
 <div>
   <div
-    class="border-b border-gray-500 leading-loose py-8 text-lg"
+    class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+    data-testid="container"
   >
     Do you know the way to 
     <span
       class="inline-flex flex-col leading-none"
+      data-testid="input-container"
     >
       <div
         class="self-center"
@@ -177,7 +185,7 @@ exports[`FillInTheBlanks toggle 2`] = `
       <label
         class="self-center text-sm"
       >
-        [place]
+        place
       </label>
     </span>
     ?
@@ -203,11 +211,11 @@ exports[`FillInTheBlanks toggle 2`] = `
       </label>
     </span>
     <button
-      class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-sm text-white"
+      class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
       data-testid="copy-button"
       type="button"
     >
-      Ctrl+C
+      Copy to clipboard
     </button>
   </div>
 </div>

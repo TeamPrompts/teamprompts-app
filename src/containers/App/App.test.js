@@ -2,13 +2,13 @@ import { render, fireEvent } from '@testing-library/react';
 import React from 'react';
 import { create } from 'react-test-renderer';
 import App from './App';
-import selectFitbs from './api/selectFitbs';
-import selectTags from './api/selectTags';
-import fitb from './mocks/fitb';
-import tag from './mocks/tag';
+import selectFitbs from '../../api/selectFitbs';
+import selectTags from '../../api/selectTags';
+import fitb from '../../mocks/fitb';
+import tag from '../../mocks/tag';
 
-jest.mock('./api/selectFitbs');
-jest.mock('./api/selectTags');
+jest.mock('../../api/selectFitbs');
+jest.mock('../../api/selectTags');
 
 describe('App', () => {
   beforeEach(() => {
@@ -43,4 +43,6 @@ describe('App', () => {
     fireEvent.click(getByTestId(tag.name));
     expect(getByTestId(tag.name)).toMatchSnapshot();
   });
+
+  // TODO: test routes
 });

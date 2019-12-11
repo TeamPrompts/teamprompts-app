@@ -8,7 +8,10 @@ export const values = {
 
 function Checkbox({ id, onChange, value }) {
   return (
-    <span className="inline-block ml-3 relative">
+    <span
+      className="inline-block ml-3 relative"
+      onClick={event => event.stopPropagation()}
+    >
       <input
         checked={value === values.on}
         className="hidden"

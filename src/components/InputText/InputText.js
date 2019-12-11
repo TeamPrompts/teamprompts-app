@@ -10,7 +10,11 @@ function InputText({ dispatch, hint, id, value }) {
   }
 
   return (
-    <span className="inline-flex flex-col leading-none">
+    <span
+      className="inline-flex flex-col leading-none"
+      data-testid="input-container"
+      onClick={event => event.stopPropagation()}
+    >
       <AutosizeInput
         className="self-center"
         data-testid="input"

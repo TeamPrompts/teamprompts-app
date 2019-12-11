@@ -29,6 +29,8 @@ Array [
   "Do you know the way to ",
   <span
     className="inline-flex flex-col leading-none"
+    data-testid="input-container"
+    onClick={[Function]}
   >
     <div
       className="self-center"
@@ -85,7 +87,7 @@ Array [
     <label
       className="self-center text-sm"
     >
-      [place]
+      place
     </label>
   </span>,
   "?",
@@ -97,6 +99,8 @@ Array [
   "Do you know the way to ",
   <span
     className="inline-flex flex-col leading-none"
+    data-testid="input-container"
+    onClick={[Function]}
   >
     <div
       className="self-center"
@@ -161,7 +165,7 @@ Array [
   <span
     className="bg-blue-200"
   >
-    [place]
+    place
   </span>,
   "?",
 ]

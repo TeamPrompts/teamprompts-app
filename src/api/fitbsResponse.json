@@ -1,0 +1,178 @@
+{
+  "records": [
+    {
+      "id": "reck1NSBKTnmLD6XU",
+      "fields": {
+        "ID": 23,
+        "FITB": "We have an opportunity to __BLANK__ which will allow us to __BLANK__. One experiment I'd like to try is to __BLANK__ for __BLANK__ weeks. If we observe __BLANK__ we'll know we're on the right track. If we observe __BLANK__ that might suggest we try something else. ",
+        "Prompts": "[\"opportunity for improvement\",\"impact\",\"the experiment\",\"period of time\",\"positive signals\",\"less positive signals\"]",
+        "Examples": "[\"accelerate feedback loops\",\"learn more about our customers\",\"do customer calls with the whole team\",\"4\",\"learning that relates to our work\",\"a lot of unrelated chatter\"]",
+        "Author": "John",
+        "Status": "active",
+        "Tags": ["recTqD26ElVvXKVad"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-12-12T04:45:15.000Z"
+    },
+    {
+      "id": "recevUpbRFDbVHx7L",
+      "fields": {
+        "ID": 22,
+        "FITB": "I used to find __BLANK__ to be highly counterintuitive. It seemed destined to fail because __BLANK__. I now see things differently. The big shift was realizing that __BLANK__.",
+        "Prompts": "[\"aspect of how you work\",\"reason\",\"realization\"] ",
+        "Examples": "[\"limiting work in progress\",\"it meant that at times people would have nothing to do\",\"limiting WIP made it more possible to work on what was important\"] ",
+        "Author": "John Cutler",
+        "Status": "active",
+        "Tags": ["recTqD26ElVvXKVad"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-12-10T21:32:37.000Z"
+    },
+    {
+      "id": "recglWG0JkW6S4z5T",
+      "fields": {
+        "ID": 15,
+        "FITB": "We believe that __BLANK__ __BLANK__ causes __BLANK__ in some __BLANK__. There are a number of assumptions/factors underpinning that causal relationship including __BLANK__.",
+        "Prompts": "[\"increasing/decreasing\",\"some activity\",\"increases/decreases\",\"key performance metric, financial metric, etc.\",\"factors, caveats, assumptions\"]",
+        "Examples": "[\"increasing\",\"speed of onboarding\",\"increases\",\"rate of overall adoption\",\"their ability to see value earlier\"]",
+        "Author": "John Cutler",
+        "Status": "active",
+        "Tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-22T23:46:31.000Z"
+    },
+    {
+      "id": "recD5UagMbU0oW464",
+      "fields": {
+        "ID": 14,
+        "FITB": "If you look at our near-time three month roadmap, you will see a number of bets. The riskiest bet, with the highest potential upside, is our bet to focus on __BLANK__ by trying to __BLANK__. We will __BLANK__ this was the right bet if we observe __BLANK__. We can actively de-risk this bet by __BLANK__.",
+        "Prompts": "[\"some opportunity\",\"some intervention\",\"know/be more confident\",\"some leading indicator\",\"some approach to de-risking\"]",
+        "Author": "John Cutler",
+        "Status": "active",
+        "Tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-22T23:46:17.000Z"
+    },
+    {
+      "id": "recCWoOnmN4aEi5dT",
+      "fields": {
+        "ID": 13,
+        "FITB": "The writing is on the wall about __BLANK__. What is unclear is timing. As a company, we are betting that this will occur __BLANK__ than expected, which will influence our strategy by __BLANK__ us to __BLANK__, and __BLANK__ us to __BLANK__.",
+        "Prompts": "[\"some sea-change in technology adoption and/or some shift in consumer behavior\",\"fast/slower\",\"forcing/allowing\",\"some activity\", \"forcing/allowing\",\"some other activity\"]",
+        "Author": "John Cutler",
+        "Status": "active",
+        "Tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-22T23:45:58.000Z"
+    },
+    {
+      "id": "recQ2jud83D1dCxr4",
+      "fields": {
+        "ID": 12,
+        "FITB": "To feel more confident about our decision to __BLANK__, I would like to observe __BLANK__.",
+        "Examples": "[\"to add steps to the workflow\", \"more customers completing the existing workflow\"]",
+        "Author": "John Cutler",
+        "Status": "active",
+        "Tags": ["recG0ANQWrp3SRvvY"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-20T17:13:08.000Z"
+    },
+    {
+      "id": "recrYoglrdF32klOv",
+      "fields": {
+        "ID": 11,
+        "FITB": "I’m concerned that if we __BLANK__, we may miss the opportunity to __BLANK__.",
+        "Examples": "[\"spend too long deliberating over the behavior of the page filter\",\" test early with customers\"]",
+        "Author": "John Cutler",
+        "Status": "active",
+        "Tags": ["rechbGc1FLmwxb9Hg"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-20T17:11:22.000Z"
+    },
+    {
+      "id": "recm6xCbOJSJZ6jwY",
+      "fields": {
+        "ID": 8,
+        "FITB": "We seem to be treating __BLANK__ as a foregone conclusion. I’m not sure it is that simple. If we were proven wrong (or less right) about __BLANK__ , it would impact us in the following ways: __BLANK__  .",
+        "Prompts": "[\"an assumption\",\"that assumption\",\"a list of ways\"]",
+        "Examples": "[\"the commodification of storage\",\"the rate of dropping costs\",\"1) COGS would not drop as fast as we expect\"]",
+        "Author": "John Cutler",
+        "Status": "active",
+        "Tags": ["recmdwXtLaj7hls73"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-17T22:37:01.000Z"
+    },
+    {
+      "id": "recqeN7TDq4kdhFah",
+      "fields": {
+        "ID": 4,
+        "FITB": "To even know where to start, we would need to better understand __BLANK__.",
+        "Examples": "[\"this amazing challenge\"]",
+        "Author": "John Doe",
+        "Status": "active",
+        "Tags": ["recG0ANQWrp3SRvvY"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-17T04:24:19.000Z"
+    },
+    {
+      "id": "rec99C9lxMl6aSedq",
+      "fields": {
+        "ID": 3,
+        "FITB": "A danger of not resolving __BLANK__ now is that we will eventually __BLANK__.",
+        "Examples": "[\"this huge problem we have\",\"feel the wrath of all that has come before\"]",
+        "Author": "The Person",
+        "Status": "active",
+        "Tags": ["recTqD26ElVvXKVad"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-17T03:37:43.000Z"
+    },
+    {
+      "id": "reckkQSV8NuHKOAHr",
+      "fields": {
+        "ID": 2,
+        "FITB": "The weakest link in our mental model is __BLANK__. If we’re off -- even by a little -- it could have a big impact on this initiative because __BLANK__.",
+        "Prompts": "[\"some assumption\",\"reason\"]",
+        "Examples": "[\"how we perceive user onboarding\",\"our projections might be off\"]",
+        "Author": "Mary Tine",
+        "Status": "active",
+        "Tags": ["rechbGc1FLmwxb9Hg"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-17T03:37:43.000Z"
+    },
+    {
+      "id": "receM4Gus7HH43oLM",
+      "fields": {
+        "ID": 1,
+        "FITB": "We may be over-confident in our ability to __BLANK__. It hasn’t really been a problem yet because __BLANK__, but it could become a problem in the future if __BLANK__.",
+        "Prompts": "[\"an action\",\"reason\",\"new event\"]",
+        "Examples": "[\"understand the EMEA customer persona\",\"we haven't really made EMA a focus\",\"we decide to shift into EMEA\"]",
+        "Author": "John Cutler",
+        "Status": "active",
+        "Tags": ["recmdwXtLaj7hls73"],
+        "PromptValidation": 1,
+        "ExampleValidation": 1
+      },
+      "createdTime": "2019-11-17T03:37:43.000Z"
+    }
+  ]
+}

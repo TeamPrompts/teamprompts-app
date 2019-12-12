@@ -9,7 +9,7 @@ import makeInitialState from './makeInitialState';
 import reducer from './reducer';
 
 function makeBuild({ dispatch, mode, state, values }) {
-  function build({ index }) {
+  function build(index) {
     let element;
     if (mode === modes.input) {
       element = (

@@ -4,7 +4,7 @@ import compose from './compose';
 import getValues from './getValues';
 
 function makeBuild({ inputs, mode, values }) {
-  function build({ index }) {
+  function build(index) {
     let element;
     if (mode === modes.input) {
       if (inputs && inputs[index]) {

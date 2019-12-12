@@ -3,6 +3,106 @@
 exports[`models to match snapshot 1`] = `
 Array [
   Object {
+    "author": "John",
+    "examples": Array [
+      "accelerate feedback loops",
+      "learn more about our customers",
+      "do customer calls with the whole team",
+      "4",
+      "learning that relates to our work",
+      "a lot of unrelated chatter",
+    ],
+    "id": "reck1NSBKTnmLD6XU",
+    "prompts": Array [
+      "opportunity for improvement",
+      "impact",
+      "the experiment",
+      "period of time",
+      "positive signals",
+      "less positive signals",
+    ],
+    "source": "We have an opportunity to __BLANK__ which will allow us to __BLANK__. One experiment I'd like to try is to __BLANK__ for __BLANK__ weeks. If we observe __BLANK__ we'll know we're on the right track. If we observe __BLANK__ that might suggest we try something else. ",
+    "tags": Array [
+      "recTqD26ElVvXKVad",
+    ],
+  },
+  Object {
+    "author": "John Cutler",
+    "examples": Array [
+      "limiting work in progress",
+      "it meant that at times people would have nothing to do",
+      "limiting WIP made it more possible to work on what was important",
+    ],
+    "id": "recevUpbRFDbVHx7L",
+    "prompts": Array [
+      "aspect of how you work",
+      "reason",
+      "realization",
+    ],
+    "source": "I used to find __BLANK__ to be highly counterintuitive. It seemed destined to fail because __BLANK__. I now see things differently. The big shift was realizing that __BLANK__.",
+    "tags": Array [
+      "recTqD26ElVvXKVad",
+    ],
+  },
+  Object {
+    "author": "John Cutler",
+    "examples": Array [
+      "increasing",
+      "speed of onboarding",
+      "increases",
+      "rate of overall adoption",
+      "their ability to see value earlier",
+    ],
+    "id": "recglWG0JkW6S4z5T",
+    "prompts": Array [
+      "increasing/decreasing",
+      "some activity",
+      "increases/decreases",
+      "key performance metric, financial metric, etc.",
+      "factors, caveats, assumptions",
+    ],
+    "source": "We believe that __BLANK__ __BLANK__ causes __BLANK__ in some __BLANK__. There are a number of assumptions/factors underpinning that causal relationship including __BLANK__.",
+    "tags": Array [
+      "recmdwXtLaj7hls73",
+      "rechbGc1FLmwxb9Hg",
+    ],
+  },
+  Object {
+    "author": "John Cutler",
+    "examples": undefined,
+    "id": "recD5UagMbU0oW464",
+    "prompts": Array [
+      "some opportunity",
+      "some intervention",
+      "know/be more confident",
+      "some leading indicator",
+      "some approach to de-risking",
+    ],
+    "source": "If you look at our near-time three month roadmap, you will see a number of bets. The riskiest bet, with the highest potential upside, is our bet to focus on __BLANK__ by trying to __BLANK__. We will __BLANK__ this was the right bet if we observe __BLANK__. We can actively de-risk this bet by __BLANK__.",
+    "tags": Array [
+      "recmdwXtLaj7hls73",
+      "rechbGc1FLmwxb9Hg",
+    ],
+  },
+  Object {
+    "author": "John Cutler",
+    "examples": undefined,
+    "id": "recCWoOnmN4aEi5dT",
+    "prompts": Array [
+      "some sea-change in technology adoption and/or some shift in consumer behavior",
+      "fast/slower",
+      "forcing/allowing",
+      "some activity",
+      "forcing/allowing",
+      "some other activity",
+    ],
+    "source": "The writing is on the wall about __BLANK__. What is unclear is timing. As a company, we are betting that this will occur __BLANK__ than expected, which will influence our strategy by __BLANK__ us to __BLANK__, and __BLANK__ us to __BLANK__.",
+    "tags": Array [
+      "recmdwXtLaj7hls73",
+      "rechbGc1FLmwxb9Hg",
+    ],
+  },
+  Object {
     "author": "John Cutler",
     "examples": Array [
       "to add steps to the workflow",
@@ -11,7 +111,9 @@ Array [
     "id": "recQ2jud83D1dCxr4",
     "prompts": undefined,
     "source": "To feel more confident about our decision to __BLANK__, I would like to observe __BLANK__.",
-    "tags": undefined,
+    "tags": Array [
+      "recG0ANQWrp3SRvvY",
+    ],
   },
   Object {
     "author": "John Cutler",
@@ -22,19 +124,17 @@ Array [
     "id": "recrYoglrdF32klOv",
     "prompts": undefined,
     "source": "I’m concerned that if we __BLANK__, we may miss the opportunity to __BLANK__.",
-    "tags": undefined,
-  },
-  Object {
-    "author": undefined,
-    "examples": undefined,
-    "id": "recNsahDzKCx0IQPk",
-    "prompts": undefined,
-    "source": "You’ve got to think of these kinds of __BLANK__ as a way to win,” he said at a press conference on Friday. “How expansive can you __BLANK__ and at the same time get __BLANK__? I want you to expect that we are really managing that.”",
-    "tags": undefined,
+    "tags": Array [
+      "rechbGc1FLmwxb9Hg",
+    ],
   },
   Object {
     "author": "John Cutler",
-    "examples": undefined,
+    "examples": Array [
+      "the commodification of storage",
+      "the rate of dropping costs",
+      "1) COGS would not drop as fast as we expect",
+    ],
     "id": "recm6xCbOJSJZ6jwY",
     "prompts": Array [
       "an assumption",
@@ -42,7 +142,9 @@ Array [
       "a list of ways",
     ],
     "source": "We seem to be treating __BLANK__ as a foregone conclusion. I’m not sure it is that simple. If we were proven wrong (or less right) about __BLANK__ , it would impact us in the following ways: __BLANK__  .",
-    "tags": undefined,
+    "tags": Array [
+      "recmdwXtLaj7hls73",
+    ],
   },
   Object {
     "author": "John Doe",
@@ -52,7 +154,9 @@ Array [
     "id": "recqeN7TDq4kdhFah",
     "prompts": undefined,
     "source": "To even know where to start, we would need to better understand __BLANK__.",
-    "tags": undefined,
+    "tags": Array [
+      "recG0ANQWrp3SRvvY",
+    ],
   },
   Object {
     "author": "The Person",
@@ -63,7 +167,9 @@ Array [
     "id": "rec99C9lxMl6aSedq",
     "prompts": undefined,
     "source": "A danger of not resolving __BLANK__ now is that we will eventually __BLANK__.",
-    "tags": undefined,
+    "tags": Array [
+      "recTqD26ElVvXKVad",
+    ],
   },
   Object {
     "author": "Mary Tine",
@@ -77,11 +183,17 @@ Array [
       "reason",
     ],
     "source": "The weakest link in our mental model is __BLANK__. If we’re off -- even by a little -- it could have a big impact on this initiative because __BLANK__.",
-    "tags": undefined,
+    "tags": Array [
+      "rechbGc1FLmwxb9Hg",
+    ],
   },
   Object {
     "author": "John Cutler",
-    "examples": undefined,
+    "examples": Array [
+      "understand the EMEA customer persona",
+      "we haven't really made EMA a focus",
+      "we decide to shift into EMEA",
+    ],
     "id": "receM4Gus7HH43oLM",
     "prompts": Array [
       "an action",
@@ -89,7 +201,9 @@ Array [
       "new event",
     ],
     "source": "We may be over-confident in our ability to __BLANK__. It hasn’t really been a problem yet because __BLANK__, but it could become a problem in the future if __BLANK__.",
-    "tags": undefined,
+    "tags": Array [
+      "recmdwXtLaj7hls73",
+    ],
   },
 ]
 `;

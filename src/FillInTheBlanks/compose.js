@@ -7,7 +7,7 @@ function compose({ build, source, values }) {
   parts.forEach((part, index) => {
     result.push(part);
     if (values[index]) {
-      result.push(build({ index }));
+      result.push(build(index));
     }
   });
   return result;

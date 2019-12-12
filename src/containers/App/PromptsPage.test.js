@@ -28,3 +28,7 @@ describe('PromptsPage', () => {
     expect(tree).toMatchSnapshot();
   });
 });
+
+test('?!?', () => {
+  expect([]).toEqual([undefined].filter(Boolean));
+});

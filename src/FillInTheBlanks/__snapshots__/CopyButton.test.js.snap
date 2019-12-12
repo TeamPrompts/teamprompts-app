@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CopyButton examples 1`] = `"We believe that increasing speed of onboarding causes increases in some rate of overall adoption. There are a number of assumptions/factors underpinning that causal relationship including their ability to see value earlier."`;
+exports[`CopyButton examples 1`] = `"The weakest link in our mental model is how we perceive user onboarding. If we’re off -- even by a little -- it could have a big impact on this initiative because our projections might be off."`;
 
-exports[`CopyButton input 1`] = `"We believe that decreasing quality control causes an increase in some ________________. There are a number of assumptions/factors underpinning that causal relationship including ________________."`;
+exports[`CopyButton input 1`] = `"The weakest link in our mental model is greek yogurt. If we’re off -- even by a little -- it could have a big impact on this initiative because ________________."`;
 
 exports[`CopyButton to match snapshot 1`] = `
 <button

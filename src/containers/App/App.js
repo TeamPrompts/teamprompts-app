@@ -70,11 +70,7 @@ function App() {
             setTags(tags);
           }
         }}
-        loading={
-          <>
-            <Heading title="Loading ..." />
-          </>
-        }
+        loading={<Heading title="Loading ..." />}
       >
         <Router>
           <Switch>

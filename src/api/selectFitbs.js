@@ -5,14 +5,14 @@ import select from './select';
 
 const { REACT_APP_AIRPLAIN_MODE } = process.env;
 
-function selectFitbs(callback) {
+function selectFitbs(options, callback) {
   if (REACT_APP_AIRPLAIN_MODE === 'on') {
     callback(null, fitbs);
   } else {
     select({
       callback,
       map: makeFitb,
-      options: {
+      options: options || {
         filterByFormula: `${STATUS}="${ACTIVE}"`,
         sort: [{ field: ID, direction: DESC }]
       },

@@ -35,13 +35,14 @@ function PreviewPage() {
     <>
       <Heading title="TeamPrompts" />
       <ul>
-        {!waiting &&
+        {!error &&
+          !waiting &&
           fitbs.map(fitb => (
             <li key={fitb.id}>
               <FillInTheBlanks fitb={fitb} />
             </li>
           ))}
-        {!waiting && fitbs.length === 0 && (
+        {!error && !waiting && fitbs.length === 0 && (
           <li>
             <pre>404</pre>
           </li>

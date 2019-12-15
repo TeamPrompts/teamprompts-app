@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewPage w/ error 1`] = `
+<div>
+  <h1
+    class="font-bold mb-8 mt-2 text-4xl text-gray-900"
+  >
+    TeamPrompts
+  </h1>
+  <ul />
+  <pre>
+    {}
+  </pre>
+</div>
+`;
+
+exports[`PreviewPage w/ fitb 1`] = `
+<div>
+  <h1
+    class="font-bold mb-8 mt-2 text-4xl text-gray-900"
+  >
+    TeamPrompts
+  </h1>
+  <ul>
+    <li>
+      <div
+        class="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+      >
+        The weakest link in our mental model is 
+        <span
+          class="inline-flex flex-col leading-none"
+          data-testid="input-container"
+        >
+          <div
+            class="self-center"
+            style="display: inline-block;"
+          >
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              style="box-sizing: content-box; width: 2px;"
+              value=""
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            class="self-center text-sm"
+          >
+            some assumption
+          </label>
+        </span>
+        . If we’re off -- even by a little -- it could have a big impact on this initiative because 
+        <span
+          class="inline-flex flex-col leading-none"
+          data-testid="input-container"
+        >
+          <div
+            class="self-center"
+            style="display: inline-block;"
+          >
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              style="box-sizing: content-box; width: 2px;"
+              value=""
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            class="self-center text-sm"
+          >
+            reason
+          </label>
+        </span>
+        .
+        <span
+          class="inline-block ml-3 relative"
+        >
+          <input
+            class="hidden"
+            data-testid="reckkQSV8NuHKOAHr"
+            id="reckkQSV8NuHKOAHr"
+            type="checkbox"
+          />
+          <label
+            class="cursor-pointer"
+            for="reckkQSV8NuHKOAHr"
+          >
+            <div
+              class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`PreviewPage w/ fitb not found 1`] = `
+<div>
+  <h1
+    class="font-bold mb-8 mt-2 text-4xl text-gray-900"
+  >
+    TeamPrompts
+  </h1>
+  <ul>
+    <li>
+      <pre>
+        404
+      </pre>
+    </li>
+  </ul>
+</div>
+`;

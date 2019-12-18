@@ -1,9 +1,9 @@
 import { BLANK, BLANK_XS, modes } from '../constants';
 
 function makeBlanks({ blank, source }) {
-  const blanks = source.match(/__BLANK__/g);
+  const blanks = source.match(/__BLANK__/g); // INFO: not sure if I can interpolate inside a regex
   if (blanks) {
-    return blanks.map(() => blank); // INFO: not sure if I can interpolate inside a regex
+    return blanks.map(() => blank);
   }
   return [];
 }

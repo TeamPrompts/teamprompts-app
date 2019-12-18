@@ -31,7 +31,7 @@
     "predeploy": "yarn build",
     "prestart": "yarn build:styles",
     "prettier": "prettier 'src/**/*.{css,js,json}'",
-    "prettier:fix": "yarn prettier -- --write",
+    "prettier:fix": "yarn prettier --write",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },

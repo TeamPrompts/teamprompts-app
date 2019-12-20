@@ -324,7 +324,7 @@ Array [
           Copy to clipboard
         </button>
         <div
-          className="text-right text-sm underline"
+          className="italic text-indigo-700 text-right text-sm underline"
         >
           <a
             href="https://twitter.com/HiredThought"
@@ -494,7 +494,7 @@ Array [
           Copy to clipboard
         </button>
         <div
-          className="text-right text-sm underline"
+          className="italic text-indigo-700 text-right text-sm underline"
         >
           <a
             href="https://twitter.com/HiredThought"

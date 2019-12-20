@@ -83,7 +83,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
         }}
       />
       {fitb.author && (
-        <div className="text-right text-sm underline">
+        <div className="italic text-indigo-700 text-right text-sm underline">
           <a
             href={`https://twitter.com/${fitb.author.twitter}`}
             rel="noopener noreferrer"

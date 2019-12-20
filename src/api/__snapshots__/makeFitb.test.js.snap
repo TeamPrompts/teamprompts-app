@@ -149,7 +149,9 @@ Array [
     ],
   },
   Object {
-    "author": undefined,
+    "author": Object {
+      "twitter": "mattiaerre",
+    },
     "examples": Array [
       "this amazing challenge",
     ],

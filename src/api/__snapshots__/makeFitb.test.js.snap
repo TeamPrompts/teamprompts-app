@@ -3,7 +3,9 @@
 exports[`models to match snapshot 1`] = `
 Array [
   Object {
-    "author": "John",
+    "author": Object {
+      "twitter": "HiredThought",
+    },
     "examples": Array [
       "accelerate feedback loops",
       "learn more about our customers",
@@ -27,7 +29,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Cutler",
+    "author": undefined,
     "examples": Array [
       "limiting work in progress",
       "it meant that at times people would have nothing to do",
@@ -45,7 +47,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Cutler",
+    "author": undefined,
     "examples": Array [
       "increasing",
       "speed of onboarding",
@@ -68,7 +70,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Cutler",
+    "author": undefined,
     "examples": undefined,
     "id": "recD5UagMbU0oW464",
     "prompts": Array [
@@ -85,7 +87,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Cutler",
+    "author": undefined,
     "examples": undefined,
     "id": "recCWoOnmN4aEi5dT",
     "prompts": Array [
@@ -103,7 +105,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Cutler",
+    "author": undefined,
     "examples": Array [
       "to add steps to the workflow",
       "more customers completing the existing workflow",
@@ -116,7 +118,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Cutler",
+    "author": undefined,
     "examples": Array [
       "spend too long deliberating over the behavior of the page filter",
       " test early with customers",
@@ -129,7 +131,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Cutler",
+    "author": undefined,
     "examples": Array [
       "the commodification of storage",
       "the rate of dropping costs",
@@ -147,7 +149,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Doe",
+    "author": undefined,
     "examples": Array [
       "this amazing challenge",
     ],
@@ -159,7 +161,7 @@ Array [
     ],
   },
   Object {
-    "author": "The Person",
+    "author": undefined,
     "examples": Array [
       "this huge problem we have",
       "feel the wrath of all that has come before",
@@ -172,7 +174,7 @@ Array [
     ],
   },
   Object {
-    "author": "Mary Tine",
+    "author": undefined,
     "examples": Array [
       "how we perceive user onboarding",
       "our projections might be off",
@@ -188,7 +190,7 @@ Array [
     ],
   },
   Object {
-    "author": "John Cutler",
+    "author": undefined,
     "examples": Array [
       "understand the EMEA customer persona",
       "we haven't really made EMA a focus",

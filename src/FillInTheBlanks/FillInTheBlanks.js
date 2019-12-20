@@ -82,6 +82,17 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
           clipboard.copy(value);
         }}
       />
+      {fitb.author && (
+        <div className="text-right text-sm underline">
+          <a
+            href={`https://twitter.com/${fitb.author.twitter}`}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {`@${fitb.author.twitter}`}
+          </a>
+        </div>
+      )}
     </div>
   );
 }

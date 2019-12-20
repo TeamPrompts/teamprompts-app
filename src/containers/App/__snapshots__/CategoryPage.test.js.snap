@@ -323,6 +323,17 @@ Array [
         >
           Copy to clipboard
         </button>
+        <div
+          className="text-right text-sm underline"
+        >
+          <a
+            href="https://twitter.com/HiredThought"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            @HiredThought
+          </a>
+        </div>
       </div>
     </li>
     <li>
@@ -482,6 +493,17 @@ Array [
         >
           Copy to clipboard
         </button>
+        <div
+          className="text-right text-sm underline"
+        >
+          <a
+            href="https://twitter.com/HiredThought"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            @HiredThought
+          </a>
+        </div>
       </div>
     </li>
   </ul>,

@@ -26,7 +26,7 @@ exports[`App loading 1`] = `
       className="font-normal text-gray-700 text-sm"
     >
       v
-      0.16.19
+      0.18.2
     </small>
   </p>
 </div>
@@ -249,6 +249,17 @@ exports[`App w/ fitbs & tags 1`] = `
           >
             Copy to clipboard
           </button>
+          <div
+            class="italic text-indigo-700 text-right text-sm underline"
+          >
+            <a
+              href="https://twitter.com/HiredThought"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              @HiredThought
+            </a>
+          </div>
         </div>
       </li>
       <li>
@@ -1178,6 +1189,17 @@ exports[`App w/ fitbs & tags 1`] = `
           >
             Copy to clipboard
           </button>
+          <div
+            class="italic text-indigo-700 text-right text-sm underline"
+          >
+            <a
+              href="https://twitter.com/mattiaerre"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              @mattiaerre
+            </a>
+          </div>
         </div>
       </li>
       <li>
@@ -1266,6 +1288,17 @@ exports[`App w/ fitbs & tags 1`] = `
           >
             Copy to clipboard
           </button>
+          <div
+            class="italic text-indigo-700 text-right text-sm underline"
+          >
+            <a
+              href="https://twitter.com/HiredThought"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              @HiredThought
+            </a>
+          </div>
         </div>
       </li>
       <li>
@@ -1503,7 +1536,7 @@ exports[`App w/ fitbs & tags 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.19
+        0.18.2
       </small>
     </p>
   </div>
@@ -1550,7 +1583,7 @@ exports[`App w/ fitbs error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.19
+        0.18.2
       </small>
     </p>
   </div>
@@ -1597,7 +1630,7 @@ exports[`App w/ tags error 1`] = `
         class="font-normal text-gray-700 text-sm"
       >
         v
-        0.16.19
+        0.18.2
       </small>
     </p>
   </div>

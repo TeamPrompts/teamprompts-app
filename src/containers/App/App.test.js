@@ -13,7 +13,9 @@ jest.mock('../../api/selectTags');
 
 describe('App', () => {
   beforeEach(() => {
-    selectFitbs.mockImplementation(callback => callback(null, fitbs));
+    selectFitbs.mockImplementation((options, callback) =>
+      callback(null, fitbs)
+    );
     selectTags.mockImplementation(callback => callback(null, tags));
   });
 
@@ -28,7 +30,9 @@ describe('App', () => {
   });
 
   it('w/ fitbs error', () => {
-    selectFitbs.mockImplementation(callback => callback(new Error('Oh Noes!')));
+    selectFitbs.mockImplementation((options, callback) =>
+      callback(new Error('Oh Noes!'))
+    );
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
   });

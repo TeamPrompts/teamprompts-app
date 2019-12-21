@@ -1,6 +1,6 @@
 {
   "name": "teamprompts-app",
-  "version": "0.16.19",
+  "version": "0.18.2",
   "description": "TeamPrompts - Help your team get on the same page.",
   "private": true,
   "dependencies": {
@@ -31,7 +31,7 @@
     "predeploy": "yarn build",
     "prestart": "yarn build:styles",
     "prettier": "prettier 'src/**/*.{css,js,json}'",
-    "prettier:fix": "yarn prettier -- --write",
+    "prettier:fix": "yarn prettier --write",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },

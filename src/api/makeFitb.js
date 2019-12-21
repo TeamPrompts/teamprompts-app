@@ -1,3 +1,4 @@
+import authors from './authors';
 import { AUTHOR, EXAMPLES, FITB, PROMPTS, TAGS } from './constants';
 
 function makeFitb(record) {
@@ -8,7 +9,7 @@ function makeFitb(record) {
     ? JSON.parse(record.get(PROMPTS))
     : undefined;
   return {
-    author: record.get(AUTHOR),
+    author: authors[record.get(AUTHOR)],
     examples: examples,
     id: record.id, // INFO .id and not .get('ID')
     prompts: prompts,

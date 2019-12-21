@@ -1,6 +1,8 @@
 [
   {
-    "author": "John Cutler",
+    "author": {
+      "twitter": "HiredThought"
+    },
     "examples": [
       "limiting work in progress",
       "it meant that at times people would have nothing to do",
@@ -12,7 +14,6 @@
     "tags": ["recTqD26ElVvXKVad"]
   },
   {
-    "author": "John Cutler",
     "examples": [
       "increasing",
       "speed of onboarding",
@@ -32,7 +33,6 @@
     "tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"]
   },
   {
-    "author": "John Cutler",
     "id": "recD5UagMbU0oW464",
     "prompts": [
       "some opportunity",
@@ -45,7 +45,6 @@
     "tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"]
   },
   {
-    "author": "John Cutler",
     "id": "recCWoOnmN4aEi5dT",
     "prompts": [
       "some sea-change in technology adoption and/or some shift in consumer behavior",
@@ -59,7 +58,6 @@
     "tags": ["recmdwXtLaj7hls73", "rechbGc1FLmwxb9Hg"]
   },
   {
-    "author": "John Cutler",
     "examples": [
       "to add steps to the workflow",
       "more customers completing the existing workflow"
@@ -69,7 +67,6 @@
     "tags": ["recG0ANQWrp3SRvvY"]
   },
   {
-    "author": "John Cutler",
     "examples": [
       "spend too long deliberating over the behavior of the page filter",
       " test early with customers"
@@ -79,7 +76,6 @@
     "tags": ["rechbGc1FLmwxb9Hg"]
   },
   {
-    "author": "John Cutler",
     "examples": [
       "the commodification of storage",
       "the rate of dropping costs",
@@ -91,14 +87,18 @@
     "tags": ["recmdwXtLaj7hls73"]
   },
   {
-    "author": "John Doe",
+    "author": {
+      "twitter": "mattiaerre"
+    },
     "examples": ["this amazing challenge"],
     "id": "recqeN7TDq4kdhFah",
     "source": "To even know where to start, we would need to better understand __BLANK__.",
     "tags": ["recG0ANQWrp3SRvvY"]
   },
   {
-    "author": "The Person",
+    "author": {
+      "twitter": "HiredThought"
+    },
     "examples": [
       "this huge problem we have",
       "feel the wrath of all that has come before"
@@ -108,7 +108,6 @@
     "tags": ["recTqD26ElVvXKVad"]
   },
   {
-    "author": "Mary Tine",
     "examples": [
       "how we perceive user onboarding",
       "our projections might be off"
@@ -119,7 +118,6 @@
     "tags": ["rechbGc1FLmwxb9Hg"]
   },
   {
-    "author": "John Cutler",
     "examples": [
       "understand the EMEA customer persona",
       "we haven't really made EMA a focus",

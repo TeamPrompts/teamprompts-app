@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import Heading from './Heading';
 import CategoryPage from './CategoryPage';
 import HomePage from './HomePage';
+import PreviewPage from './PreviewPage';
 import PromptsPage from './PromptsPage';
 
 // TODO: change to _Provider
@@ -17,7 +18,7 @@ function Wrapper({ callback, children, loading }) {
   const [waiting, setWaiting] = useState(true);
 
   useEffect(() => {
-    selectFitbs((error, fitbs) => {
+    selectFitbs(null, (error, fitbs) => {
       if (error) {
         setError(error);
       } else {
@@ -80,6 +81,11 @@ function App() {
               )}
               exact={true}
               path="/all/:id"
+            />
+            <Route
+              children={<PreviewPage />}
+              exact={true}
+              path="/preview/:id"
             />
             <Route
               children={props => (

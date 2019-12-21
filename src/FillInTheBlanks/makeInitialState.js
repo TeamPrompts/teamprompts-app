@@ -1,11 +1,13 @@
 function makeInitialState(source) {
-  const initialState = source
-    .match(/__BLANK__/g)
-    .reduce((accumulator, current, index) => {
+  const blanks = source.match(/__BLANK__/g);
+  if (blanks) {
+    const initialState = blanks.reduce((accumulator, current, index) => {
       accumulator[index] = '';
       return accumulator;
     }, {});
-  return initialState;
+    return initialState;
+  }
+  return {};
 }
 
 export default makeInitialState;

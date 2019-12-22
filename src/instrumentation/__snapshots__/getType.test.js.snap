@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getType type 1`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 2`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 3`] = `"blanks and prompts"`;
+
+exports[`getType type 4`] = `"blanks and prompts"`;
+
+exports[`getType type 5`] = `"blanks and examples"`;
+
+exports[`getType type 6`] = `"blanks and examples"`;
+
+exports[`getType type 7`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 8`] = `"blanks and examples"`;
+
+exports[`getType type 9`] = `"blanks and examples"`;
+
+exports[`getType type 10`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 11`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 12`] = `"just blanks"`;

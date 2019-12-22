@@ -22,7 +22,7 @@ describe('PromptsPage', () => {
   it('to match snapshot', () => {
     const tree = create(
       <Router>
-        <PromptsPage fitbs={fitbs} tags={tags} />
+        <PromptsPage fitbs={fitbs} match={{ url: '/TBD' }} tags={tags} />
       </Router>
     ).toJSON();
     expect(tree).toMatchSnapshot();

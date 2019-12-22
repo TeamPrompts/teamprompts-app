@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Filters from '../../components/Filters/Filters';
+import makeCounters from '../../components/Filters/makeCounters';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
-import Heading from './Heading';
-import tagBySlug, { tagEmpty } from './tagBySlug';
 import { useAmplitude } from '../../instrumentation/AmplitudeHookProvider';
 import { viewCollection } from '../../instrumentation/events';
+import Heading from './Heading';
+import tagBySlug, { tagEmpty } from './tagBySlug';
 
 function fitbsByTag({ fitbs, tag, tags }) {
   return fitbs.filter(fitb => fitb.tags.includes(tag.id));
@@ -18,11 +19,13 @@ function CategoryPage({ fitbs, history, match: { url }, tags }) {
   const { logEvent } = useAmplitude();
   const { properties, type } = viewCollection;
 
+  const counters = makeCounters({ fitbs });
+
   useEffect(() => {
     if (tag !== tagEmpty) {
-      logEvent(type, properties({ counter: 'TBD', tag, url }));
+      logEvent(type, properties({ counter: counters[tag.id], tag, url }));
     }
-  }, [logEvent, properties, tag, type, url]);
+  }, [counters, logEvent, properties, tag, type, url]);
 
   return (
     <>

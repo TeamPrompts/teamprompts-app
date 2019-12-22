@@ -9,24 +9,26 @@ const base = {
 };
 
 export const viewCollection = {
-  properties: function properties({ counter, tag }) {
+  properties: function properties({ counter, tag, url }) {
     return {
       ...base,
       collectionId: tag.id,
       collectionName: tag.name,
       loadTime: 'TBD',
       promptsDisplayed: 'TBD',
-      promptsInCollection: counter
+      promptsInCollection: counter,
+      url
     };
   },
   type: 'view collection'
 };
 
 export const viewHome = {
-  properties: function properties() {
+  properties: function properties({ url }) {
     return {
       ...base,
-      loadTime: 'TBD'
+      loadTime: 'TBD',
+      url
     };
   },
   type: 'view home'

@@ -9,7 +9,7 @@ describe('HomePage', () => {
   it('to match snapshot', () => {
     const tree = create(
       <Router>
-        <HomePage fitbs={fitbs} tags={tags} />
+        <HomePage fitbs={fitbs} match={{ url: '/TBD' }} tags={tags} />
       </Router>
     ).toJSON();
     expect(tree).toMatchSnapshot();

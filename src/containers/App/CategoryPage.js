@@ -11,7 +11,7 @@ function fitbsByTag({ fitbs, tag, tags }) {
   return fitbs.filter(fitb => fitb.tags.includes(tag.id));
 }
 
-function CategoryPage({ fitbs, history, tags }) {
+function CategoryPage({ fitbs, history, match: { url }, tags }) {
   const { slug } = useParams();
   const tag = tagBySlug({ slug, tags });
 
@@ -19,8 +19,8 @@ function CategoryPage({ fitbs, history, tags }) {
   const { properties, type } = viewCollection;
 
   useEffect(() => {
-    logEvent(type, properties({ counter: 'TBD', tag }));
-  }, [logEvent, properties, tag, type]);
+    logEvent(type, properties({ counter: 'TBD', tag, url }));
+  }, [logEvent, properties, tag, type, url]);
 
   return (
     <>

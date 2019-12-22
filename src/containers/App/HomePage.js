@@ -6,13 +6,13 @@ import Heading from './Heading';
 import { useAmplitude } from '../../instrumentation/AmplitudeHookProvider';
 import { viewHome } from '../../instrumentation/events';
 
-function HomePage({ fitbs, history, tags }) {
+function HomePage({ fitbs, history, match: { url }, tags }) {
   const { logEvent } = useAmplitude();
   const { properties, type } = viewHome;
 
   useEffect(() => {
-    logEvent(type, properties());
-  }, [logEvent, properties, type]);
+    logEvent(type, properties({ url }));
+  }, [logEvent, properties, type, url]);
 
   return (
     <>

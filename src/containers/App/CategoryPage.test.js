@@ -19,7 +19,7 @@ describe('CategoryPage', () => {
   it('to match snapshot', () => {
     const tree = create(
       <Router>
-        <CategoryPage fitbs={fitbs} tags={tags} />
+        <CategoryPage fitbs={fitbs} match={{ url: '/TBD' }} tags={tags} />
       </Router>
     ).toJSON();
     expect(tree).toMatchSnapshot();

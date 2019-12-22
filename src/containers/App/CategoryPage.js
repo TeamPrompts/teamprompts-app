@@ -32,9 +32,14 @@ function CategoryPage({ fitbs, history, match: { url }, tags }) {
       <Heading title="TeamPrompts" />
       <Filters filter={{ name: tag.name }} fitbs={fitbs} tags={tags} />
       <ul>
-        {fitbsByTag({ fitbs, tag, tags }).map(fitb => (
+        {fitbsByTag({ fitbs, tag, tags }).map((fitb, index) => (
           <li key={fitb.id}>
-            <FillInTheBlanks fitb={fitb} history={history} tag={tag} />
+            <FillInTheBlanks
+              fitb={fitb}
+              history={history}
+              index={index}
+              tag={tag}
+            />
           </li>
         ))}
       </ul>

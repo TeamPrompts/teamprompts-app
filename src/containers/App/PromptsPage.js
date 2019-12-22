@@ -28,11 +28,12 @@ function PromptsPage({ fitbs, history, match: { url }, tags }) {
       <Filters filter={{ name: tag.name }} fitbs={fitbs} tags={tags} />
       <ul>
         {fitb &&
-          [fitb].map(fitb => (
+          [fitb].map((fitb, index) => (
             <li key={fitb.id}>
               <FillInTheBlanks
                 fitb={fitb}
                 history={history}
+                inndex={index}
                 pageType={pageTypes.PromptsPage}
                 tag={tag}
               />

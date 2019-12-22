@@ -22,6 +22,17 @@ export const filterByCollection = {
   type: 'filter by collection'
 };
 
+export const navigateToPromptDetail = {
+  properties: function properties({ fitb, position }) {
+    return {
+      ...base,
+      promptId: fitb.id,
+      viewPosition: position
+    };
+  },
+  type: 'navigate to prompt detail'
+};
+
 export const viewCollection = {
   properties: function properties({ counter, tag, url }) {
     return {

@@ -2,17 +2,17 @@ import classnames from 'classnames';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import tagAll from '../../api/tagAll';
-import { useAmplitude } from '../../instrumentation/AmplitudeHookProvider';
-import { viewCollection } from '../../instrumentation/events';
+// import { useAmplitude } from '../../instrumentation/AmplitudeHookProvider';
+// import { viewCollection } from '../../instrumentation/events';
 
 function Item({ counter, filter, tag }) {
-  const { logEvent } = useAmplitude();
-  const { properties, type } = viewCollection;
+  // const { logEvent } = useAmplitude();
+  // const { properties, type } = viewCollection;
   return (
     <li className="mx-1 my-1">
       <Link
         onClick={() => {
-          logEvent(type, properties({ counter, tag }));
+          /* logEvent(type, properties({ counter, tag })); */
         }}
         to={`/${tag.slug}`}
       >

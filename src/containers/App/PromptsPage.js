@@ -33,9 +33,9 @@ function PromptsPage({ fitbs, history, match: { url }, tags }) {
               <FillInTheBlanks
                 fitb={fitb}
                 history={history}
-                inndex={index}
                 pageType={pageTypes.PromptsPage}
                 tag={tag}
+                viewPosition={index}
               />
             </li>
           ))}

@@ -37,8 +37,8 @@ function CategoryPage({ fitbs, history, match: { url }, tags }) {
             <FillInTheBlanks
               fitb={fitb}
               history={history}
-              index={index}
               tag={tag}
+              viewPosition={index}
             />
           </li>
         ))}

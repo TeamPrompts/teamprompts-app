@@ -23,11 +23,11 @@ export const filterByCollection = {
 };
 
 export const navigateToPromptDetail = {
-  properties: function properties({ fitb, position }) {
+  properties: function properties({ fitb, viewPosition }) {
     return {
       ...base,
       promptId: fitb.id,
-      viewPosition: position
+      viewPosition
     };
   },
   type: 'navigate to prompt detail'

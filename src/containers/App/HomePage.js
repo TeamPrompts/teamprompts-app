@@ -21,7 +21,11 @@ function HomePage({ fitbs, history, match: { url }, tags }) {
       <ul>
         {fitbs.map((fitb, index) => (
           <li key={fitb.id}>
-            <FillInTheBlanks fitb={fitb} history={history} index={index} />
+            <FillInTheBlanks
+              fitb={fitb}
+              history={history}
+              viewPosition={index}
+            />
           </li>
         ))}
       </ul>

@@ -8,7 +8,7 @@ import { modes, pageTypes } from '../constants';
 import Content from './Content';
 import CopyButton from './CopyButton';
 
-function FillInTheBlanks({ fitb, history, index, pageType, tag }) {
+function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
   const clipboard = useClipboard();
   const [inputs, setInputs] = useState();
   const [mode, setMode] = useState(modes.input);
@@ -22,7 +22,7 @@ function FillInTheBlanks({ fitb, history, index, pageType, tag }) {
 
   function onClick() {
     if (enable()) {
-      logEvent(type, properties({ fitb, position: index }));
+      logEvent(type, properties({ fitb, viewPosition }));
       if (tag) {
         history.push(`/${tag.slug}/${fitb.id}`);
       } else {

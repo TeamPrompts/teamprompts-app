@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import Filters from '../../components/Filters/Filters';
 import FillInTheBlanks from '../../FillInTheBlanks/FillInTheBlanks';
 import Heading from './Heading';
-import tagBySlug from './tagBySlug';
+import tagBySlug, { tagEmpty } from './tagBySlug';
 import { useAmplitude } from '../../instrumentation/AmplitudeHookProvider';
 import { viewCollection } from '../../instrumentation/events';
 
@@ -19,7 +19,9 @@ function CategoryPage({ fitbs, history, match: { url }, tags }) {
   const { properties, type } = viewCollection;
 
   useEffect(() => {
-    logEvent(type, properties({ counter: 'TBD', tag, url }));
+    if (tag !== tagEmpty) {
+      logEvent(type, properties({ counter: 'TBD', tag, url }));
+    }
   }, [logEvent, properties, tag, type, url]);
 
   return (

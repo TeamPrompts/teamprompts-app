@@ -2,12 +2,22 @@ import classnames from 'classnames';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import tagAll from '../../api/tagAll';
+import { useAmplitude } from '../../instrumentation/AmplitudeHookProvider';
+import { filterByCollection } from '../../instrumentation/events';
 import makeCounters from './makeCounters';
 
 function Item({ counter, filter, tag }) {
+  const { logEvent } = useAmplitude();
+  const { properties, type } = filterByCollection;
+
   return (
     <li className="mx-1 my-1">
-      <Link to={`/${tag.slug}`}>
+      <Link
+        onClick={() => {
+          logEvent(type, properties({ tag }));
+        }}
+        to={`/${tag.slug}`}
+      >
         <button
           className={classnames(
             'capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white',

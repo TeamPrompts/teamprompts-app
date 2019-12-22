@@ -10,6 +10,18 @@ const base = {
   nodeEnv: NODE_ENV
 };
 
+export const filterByCollection = {
+  properties: function properties({ tag }) {
+    return {
+      ...base,
+      collectionId: tag.id,
+      collectionName: tag.name,
+      interactionContext: 'TBD' // Q: can we get this from the previous event?
+    };
+  },
+  type: 'filter by collection'
+};
+
 export const viewCollection = {
   properties: function properties({ counter, tag, url }) {
     return {

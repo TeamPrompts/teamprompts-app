@@ -3,7 +3,10 @@ import React, { useState } from 'react';
 import { useClipboard } from 'use-clipboard-copy';
 import Checkbox, { values } from '../components/Checkbox/Checkbox';
 import { useAmplitude } from '../instrumentation/AmplitudeHookProvider';
-import { navigateToPromptDetail } from '../instrumentation/events';
+import {
+  navigateToPromptDetail,
+  toggleExample
+} from '../instrumentation/events';
 import { modes, pageTypes } from '../constants';
 import Content from './Content';
 import CopyButton from './CopyButton';
@@ -14,7 +17,6 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
   const [mode, setMode] = useState(modes.input);
 
   const { logEvent } = useAmplitude();
-  const { properties, type } = navigateToPromptDetail;
 
   function enable() {
     return pageType !== pageTypes.PromptsPage && history;
@@ -22,6 +24,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
 
   function onClick() {
     if (enable()) {
+      const { properties, type } = navigateToPromptDetail;
       logEvent(type, properties({ fitb, viewPosition }));
       if (tag) {
         history.push(`/${tag.slug}/${fitb.id}`);
@@ -69,10 +72,13 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
         <Checkbox
           id={fitb.id}
           onChange={value => {
+            const { properties, type } = toggleExample;
             if (value === values.off) {
+              logEvent(type(values.on), properties({ fitb, viewPosition }));
               setMode(modes.examples);
             }
             if (value === values.on) {
+              logEvent(type(values.off), properties({ fitb, viewPosition }));
               setMode(modes.input);
             }
           }}

@@ -47,6 +47,21 @@ export const navigateToPromptDetail = {
   type: 'navigate to prompt detail'
 };
 
+export const toggleExample = {
+  properties: function properties({ fitb, viewPosition }) {
+    return {
+      ...base,
+      interactionContext: 'TBD', // Q: can we get this from the previous event?
+      promptId: fitb.id,
+      promptType: getType(fitb),
+      viewPosition
+    };
+  },
+  type: function type(value) {
+    return `toggle example ${value}`;
+  }
+};
+
 export const viewCollection = {
   properties: function properties({ counter, tag, url }) {
     return {

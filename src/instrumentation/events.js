@@ -10,6 +10,20 @@ const base = {
   nodeEnv: NODE_ENV
 };
 
+export const copyPrompt = {
+  properties: function properties({ content, fitb, viewPosition }) {
+    return {
+      ...base,
+      content,
+      interactionContext: 'TBD', // Q: can we get this from the previous event?
+      promptId: fitb.id,
+      promptType: getType(fitb),
+      viewPosition
+    };
+  },
+  type: 'copy prompt'
+};
+
 export const filterByCollection = {
   properties: function properties({ tag }) {
     return {

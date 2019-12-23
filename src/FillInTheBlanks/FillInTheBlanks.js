@@ -87,6 +87,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
           console.log(value);
           clipboard.copy(value);
         }}
+        viewPosition={viewPosition}
       />
       {fitb.author && (
         <div className="italic text-indigo-700 text-right text-sm underline">

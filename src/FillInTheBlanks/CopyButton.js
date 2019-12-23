@@ -1,4 +1,6 @@
 import React from 'react';
+import { useAmplitude } from '../instrumentation/AmplitudeHookProvider';
+import { copyPrompt } from '../instrumentation/events';
 import { BLANK, modes } from '../constants';
 import compose from './compose';
 import getValues from './getValues';
@@ -21,7 +23,10 @@ function makeBuild({ inputs, mode, values }) {
 }
 
 // TODO: read inputs from the local storage
-function CopyButton({ fitb, inputs, mode, onClick }) {
+function CopyButton({ fitb, inputs, mode, onClick, viewPosition }) {
+  const { logEvent } = useAmplitude();
+  const { properties, type } = copyPrompt;
+
   return (
     <button
       className="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
@@ -34,7 +39,9 @@ function CopyButton({ fitb, inputs, mode, onClick }) {
           source: fitb.source,
           values
         });
-        onClick(result.join(''));
+        const content = result.join('');
+        logEvent(type, properties({ content, fitb, viewPosition }));
+        onClick(content);
       }}
       type="button"
     >

@@ -12,11 +12,9 @@ function getType(fitb) {
   if (types.length === 2) {
     return types.join(' and ');
   }
-  if (types.length === 3) {
-    return types
-      .map((type, index) => (index === 2 ? `and ${type}` : type))
-      .join(', ');
-  }
+  return types
+    .map((type, index) => (index === types.length - 1 ? `and ${type}` : type))
+    .join(', ');
 }
 
 export default getType;

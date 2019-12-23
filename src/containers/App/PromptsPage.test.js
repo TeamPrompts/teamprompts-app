@@ -1,6 +1,7 @@
+import { render } from '@testing-library/react';
 import React from 'react';
-import { create } from 'react-test-renderer';
 import { HashRouter as Router } from 'react-router-dom';
+import { useAmplitude } from '../../instrumentation/AmplitudeHookProvider';
 import fitb from '../../mocks/fitb';
 import fitbs from '../../mocks/fitbs';
 import tag from '../../mocks/tag';
@@ -20,11 +21,31 @@ jest.mock('react-router-dom', () => ({
 
 describe('PromptsPage', () => {
   it('to match snapshot', () => {
-    const tree = create(
+    const { container } = render(
       <Router>
-        <PromptsPage fitbs={fitbs} match={{ url: '/TBD' }} tags={tags} />
+        <PromptsPage
+          fitbs={fitbs}
+          match={{ url: `/${tag.slug}` }}
+          tags={tags}
+        />
       </Router>
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    );
+    expect(container).toMatchSnapshot();
+  });
+
+  it('no fitb', () => {
+    const { logEvent } = useAmplitude();
+
+    render(
+      <Router>
+        <PromptsPage
+          fitbs={[fitbs[0]]}
+          match={{ url: `/${tag.slug}` }}
+          tags={[]}
+        />
+      </Router>
+    );
+
+    expect(logEvent).not.toBeCalled(); // FIXME
   });
 });

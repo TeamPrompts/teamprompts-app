@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import { create } from 'react-test-renderer';
 import { HashRouter as Router } from 'react-router-dom';
 import { useAmplitude } from '../../instrumentation/AmplitudeHookProvider';
 import fitbs from '../../mocks/fitbs';
@@ -19,12 +18,16 @@ jest.mock('react-router-dom', () => ({
 
 describe('CategoryPage', () => {
   it('to match snapshot', () => {
-    const tree = create(
+    const { container } = render(
       <Router>
-        <CategoryPage fitbs={fitbs} match={{ url: `/tag.slug` }} tags={tags} />
+        <CategoryPage
+          fitbs={fitbs}
+          match={{ url: `/${tag.slug}` }}
+          tags={tags}
+        />
       </Router>
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    );
+    expect(container).toMatchSnapshot();
   });
 
   it('tagEmpty', () => {
@@ -32,10 +35,10 @@ describe('CategoryPage', () => {
 
     render(
       <Router>
-        <CategoryPage fitbs={fitbs} match={{ url: `/tag.slug` }} tags={[]} />
+        <CategoryPage fitbs={fitbs} match={{ url: `/${tag.slug}` }} tags={[]} />
       </Router>
     );
 
-    expect(logEvent).not.toBeCalled();
+    expect(logEvent).not.toBeCalled(); // FIXME
   });
 });

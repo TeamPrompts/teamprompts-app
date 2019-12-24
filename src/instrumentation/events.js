@@ -10,6 +10,16 @@ const base = {
   nodeEnv: NODE_ENV
 };
 
+export const closePrompt = {
+  properties: function properties({ fitb }) {
+    return {
+      ...base,
+      promptId: fitb.id
+    };
+  },
+  type: 'close prompt'
+};
+
 export const copyPrompt = {
   properties: function properties({ content, fitb, viewPosition }) {
     return {

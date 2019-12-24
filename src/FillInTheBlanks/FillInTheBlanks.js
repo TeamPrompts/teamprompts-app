@@ -4,6 +4,7 @@ import { useClipboard } from 'use-clipboard-copy';
 import Checkbox, { values } from '../components/Checkbox/Checkbox';
 import { useAmplitude } from '../instrumentation/AmplitudeHookProvider';
 import {
+  closePrompt,
   navigateToPromptDetail,
   toggleExample
 } from '../instrumentation/events';
@@ -55,6 +56,8 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
             data-testid="go-to-category"
             onClick={() => {
               if (history) {
+                const { properties, type } = closePrompt;
+                logEvent(type, properties({ fitb }));
                 if (tag) {
                   history.push(`/${tag.slug}`);
                 } else {

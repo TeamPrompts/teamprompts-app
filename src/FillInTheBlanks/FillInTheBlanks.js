@@ -5,12 +5,14 @@ import Checkbox, { values } from '../components/Checkbox/Checkbox';
 import { useAmplitude } from '../instrumentation/AmplitudeHookProvider';
 import {
   closePrompt,
+  hoverOverPrompt,
   navigateToPromptDetail,
   toggleExample
 } from '../instrumentation/events';
 import { modes, pageTypes } from '../constants';
 import Content from './Content';
 import CopyButton from './CopyButton';
+import debounce from './debounce';
 
 function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
   const clipboard = useClipboard();
@@ -35,6 +37,11 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
     }
   }
 
+  function onMouseOver() {
+    const { properties, type } = hoverOverPrompt;
+    logEvent(type, properties({ fitb, viewPosition }));
+  }
+
   return (
     <div
       className={classnames(
@@ -48,6 +55,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
       )}
       data-testid="container"
       onClick={onClick}
+      onMouseOver={debounce(onMouseOver, 3000)}
     >
       {pageType === pageTypes.PromptsPage && (
         <div className="text-right">

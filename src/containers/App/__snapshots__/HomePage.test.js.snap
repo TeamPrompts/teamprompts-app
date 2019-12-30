@@ -97,6 +97,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         I used to find 
         <span
@@ -341,6 +342,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         We believe that 
         <span
@@ -702,6 +704,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         If you look at our near-time three month roadmap, you will see a number of bets. The riskiest bet, with the highest potential upside, is our bet to focus on 
         <span
@@ -1039,6 +1042,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         The writing is on the wall about 
         <span
@@ -1440,6 +1444,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         To feel more confident about our decision to 
         <span
@@ -1599,6 +1604,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         I’m concerned that if we 
         <span
@@ -1758,6 +1764,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         We seem to be treating 
         <span
@@ -1991,6 +1998,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         To even know where to start, we would need to better understand 
         <span
@@ -2102,6 +2110,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         A danger of not resolving 
         <span
@@ -2272,6 +2281,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         The weakest link in our mental model is 
         <span
@@ -2441,6 +2451,7 @@ Array [
         className="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
         data-testid="container"
         onClick={[Function]}
+        onMouseOver={[Function]}
       >
         We may be over-confident in our ability to 
         <span

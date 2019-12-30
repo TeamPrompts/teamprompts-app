@@ -1,0 +1,37 @@
+{
+  "device_id": "4f8ad5a2-8fe9-4303-88e5-37a0fee1cc26R",
+  "user_id": null,
+  "timestamp": 1577220349959,
+  "event_id": 1,
+  "session_id": 1577220349954,
+  "event_type": "$identify",
+  "version_name": null,
+  "platform": "Web",
+  "os_name": "Chrome",
+  "os_version": "79",
+  "device_model": "Mac",
+  "device_manufacturer": null,
+  "language": "en-US",
+  "carrier": null,
+  "api_properties": {},
+  "event_properties": {},
+  "user_properties": {
+    "$setOnce": {
+      "initial_referrer": "http://localhost:3000/",
+      "initial_referring_domain": "localhost:3000"
+    },
+    "$set": {
+      "referrer": "http://localhost:3000/",
+      "referring_domain": "localhost:3000"
+    }
+  },
+  "uuid": "6b8b35df-f65c-480c-b09a-174f2a3c6525",
+  "library": {
+    "name": "amplitude-js",
+    "version": "5.7.0"
+  },
+  "sequence_number": 1108,
+  "groups": {},
+  "group_properties": {},
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36"
+}

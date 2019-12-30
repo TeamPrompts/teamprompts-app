@@ -46,6 +46,19 @@ export const filterByCollection = {
   type: 'filter by collection'
 };
 
+export const hoverOverPrompt = {
+  properties: function properties({ fitb, viewPosition }) {
+    return {
+      ...base,
+      promptId: fitb.id,
+      promptType: getType(fitb),
+      interactionContext: 'TBD', // Q: can we get this from the previous event?
+      viewPosition
+    };
+  },
+  type: 'hover over prompt'
+};
+
 export const navigateToPromptDetail = {
   properties: function properties({ fitb, viewPosition }) {
     return {

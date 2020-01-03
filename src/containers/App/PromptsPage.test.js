@@ -11,6 +11,8 @@ import PromptsPage from './PromptsPage';
 const mockId = fitb.id;
 const mockSlug = tag.slug;
 
+const { logEvent } = useAmplitude();
+
 jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
   useParams: () => ({
@@ -34,8 +36,6 @@ describe('PromptsPage', () => {
   });
 
   it('no fitb', () => {
-    const { logEvent } = useAmplitude();
-
     render(
       <Router>
         <PromptsPage
@@ -45,7 +45,6 @@ describe('PromptsPage', () => {
         />
       </Router>
     );
-
     expect(logEvent).not.toBeCalled(); // FIXME
   });
 });

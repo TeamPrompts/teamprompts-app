@@ -9,6 +9,8 @@ import CategoryPage from './CategoryPage';
 
 const mockSlug = tag.slug;
 
+const { logEvent } = useAmplitude();
+
 jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
   useParams: () => ({
@@ -31,14 +33,11 @@ describe('CategoryPage', () => {
   });
 
   it('tagEmpty', () => {
-    const { logEvent } = useAmplitude();
-
     render(
       <Router>
         <CategoryPage fitbs={fitbs} match={{ url: `/${tag.slug}` }} tags={[]} />
       </Router>
     );
-
     expect(logEvent).not.toBeCalled(); // FIXME
   });
 });

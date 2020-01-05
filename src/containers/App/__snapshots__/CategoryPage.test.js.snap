@@ -21,7 +21,7 @@ exports[`CategoryPage to match snapshot 1`] = `
           data-testid="all"
           type="button"
         >
-          all (11)
+          all (45)
         </button>
       </a>
     </li>
@@ -36,7 +36,22 @@ exports[`CategoryPage to match snapshot 1`] = `
           data-testid="decision making"
           type="button"
         >
-          decision making (2)
+          decision making (27)
+        </button>
+      </a>
+    </li>
+    <li
+      class="mx-1 my-1"
+    >
+      <a
+        href="#/design"
+      >
+        <button
+          class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="design"
+          type="button"
+        >
+          design (1)
         </button>
       </a>
     </li>
@@ -51,7 +66,37 @@ exports[`CategoryPage to match snapshot 1`] = `
           data-testid="measurement"
           type="button"
         >
-          measurement (5)
+          measurement (26)
+        </button>
+      </a>
+    </li>
+    <li
+      class="mx-1 my-1"
+    >
+      <a
+        href="#/new-years-resolutions"
+      >
+        <button
+          class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="new years resolutions"
+          type="button"
+        >
+          new years resolutions (4)
+        </button>
+      </a>
+    </li>
+    <li
+      class="mx-1 my-1"
+    >
+      <a
+        href="#/research"
+      >
+        <button
+          class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="research"
+          type="button"
+        >
+          research (23)
         </button>
       </a>
     </li>
@@ -66,7 +111,7 @@ exports[`CategoryPage to match snapshot 1`] = `
           data-testid="retrospectives"
           type="button"
         >
-          retrospectives (2)
+          retrospectives (3)
         </button>
       </a>
     </li>
@@ -85,8 +130,245 @@ exports[`CategoryPage to match snapshot 1`] = `
         </button>
       </a>
     </li>
+    <li
+      class="mx-1 my-1"
+    >
+      <a
+        href="#/wardley-mapping"
+      >
+        <button
+          class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="wardley mapping"
+          type="button"
+        >
+          wardley mapping (3)
+        </button>
+      </a>
+    </li>
   </ul>
   <ul>
+    <li>
+      <div
+        class="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
+        data-testid="container"
+      >
+        We have an opportunity to 
+        <span
+          class="inline-flex flex-col leading-none"
+          data-testid="input-container"
+        >
+          <div
+            class="self-center"
+            style="display: inline-block;"
+          >
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              style="box-sizing: content-box; width: 2px;"
+              value=""
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            class="self-center text-sm"
+          >
+            opportunity for improvement
+          </label>
+        </span>
+         which will allow us to 
+        <span
+          class="inline-flex flex-col leading-none"
+          data-testid="input-container"
+        >
+          <div
+            class="self-center"
+            style="display: inline-block;"
+          >
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              style="box-sizing: content-box; width: 2px;"
+              value=""
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            class="self-center text-sm"
+          >
+            impact
+          </label>
+        </span>
+        . One experiment I'd like to try is to 
+        <span
+          class="inline-flex flex-col leading-none"
+          data-testid="input-container"
+        >
+          <div
+            class="self-center"
+            style="display: inline-block;"
+          >
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              style="box-sizing: content-box; width: 2px;"
+              value=""
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            class="self-center text-sm"
+          >
+            the experiment
+          </label>
+        </span>
+         for 
+        <span
+          class="inline-flex flex-col leading-none"
+          data-testid="input-container"
+        >
+          <div
+            class="self-center"
+            style="display: inline-block;"
+          >
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              style="box-sizing: content-box; width: 2px;"
+              value=""
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            class="self-center text-sm"
+          >
+            period of time
+          </label>
+        </span>
+         weeks. If we observe 
+        <span
+          class="inline-flex flex-col leading-none"
+          data-testid="input-container"
+        >
+          <div
+            class="self-center"
+            style="display: inline-block;"
+          >
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              style="box-sizing: content-box; width: 2px;"
+              value=""
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            class="self-center text-sm"
+          >
+            positive signals
+          </label>
+        </span>
+         we'll know we're on the right track. If we observe 
+        <span
+          class="inline-flex flex-col leading-none"
+          data-testid="input-container"
+        >
+          <div
+            class="self-center"
+            style="display: inline-block;"
+          >
+            <input
+              class=""
+              data-testid="input"
+              placeholder="________________"
+              style="box-sizing: content-box; width: 2px;"
+              value=""
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            />
+            <div
+              style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+            >
+              ________________
+            </div>
+          </div>
+          <label
+            class="self-center text-sm"
+          >
+            less positive signals
+          </label>
+        </span>
+         that might suggest we try something else. 
+        <span
+          class="inline-block ml-3 relative"
+        >
+          <input
+            class="hidden"
+            data-testid="reck1NSBKTnmLD6XU"
+            id="reck1NSBKTnmLD6XU"
+            type="checkbox"
+          />
+          <label
+            class="cursor-pointer"
+            for="reck1NSBKTnmLD6XU"
+          >
+            <div
+              class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+            />
+            <div
+              class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+            />
+          </label>
+        </span>
+        <button
+          class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+          data-testid="copy-button"
+          type="button"
+        >
+          Copy to clipboard
+        </button>
+      </div>
+    </li>
     <li>
       <div
         class="border-b border-gray-500 leading-loose mb-2 px-4 py-8 shadow text-lg"
@@ -214,17 +496,6 @@ exports[`CategoryPage to match snapshot 1`] = `
         >
           Copy to clipboard
         </button>
-        <div
-          class="italic text-indigo-700 text-right text-sm underline"
-        >
-          <a
-            href="https://twitter.com/HiredThought"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            @HiredThought
-          </a>
-        </div>
       </div>
     </li>
     <li>
@@ -313,17 +584,6 @@ exports[`CategoryPage to match snapshot 1`] = `
         >
           Copy to clipboard
         </button>
-        <div
-          class="italic text-indigo-700 text-right text-sm underline"
-        >
-          <a
-            href="https://twitter.com/HiredThought"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            @HiredThought
-          </a>
-        </div>
       </div>
     </li>
   </ul>

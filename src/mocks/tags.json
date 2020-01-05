@@ -6,11 +6,57 @@
     "slug": "1-1s"
   },
   {
-    "fitbs": ["recQ2jud83D1dCxr4", "recqeN7TDq4kdhFah"],
+    "fitbs": ["recylStShzhoxPV2b"],
+    "id": "recvvNUo4g61o7Fy3",
+    "name": "broken",
+    "slug": "broken"
+  },
+  {
+    "fitbs": [
+      "recQ2jud83D1dCxr4",
+      "recqeN7TDq4kdhFah",
+      "recQGiPKXMCHn9tCl",
+      "recSvE94wHV7idnyE",
+      "reczN2fm52WvYckI3",
+      "reclQL65PwJyFOvAL",
+      "recZ2x0GRRmo7JSy9",
+      "recxobpWsmMZD0EWl",
+      "rechE6nPOjsYY94Oz",
+      "recfvWW7AGbWaq7CC",
+      "recFKs2EF2byzzZlf",
+      "recfzrt3Qi4DZrjqp",
+      "recKtqbCNxYWPCL6Y",
+      "recFjKeO4gHxiKR1w",
+      "recM8q6jESuyb4Cag",
+      "recUymWkS7mF4lfy8",
+      "recg2GM2zwiPJvKR9",
+      "recaACapSTWLx5ren",
+      "recwVRfneLwECByYi",
+      "recYY5iDxoXmjLpWs",
+      "recXaAsvb7tEJIZM9",
+      "rec5s9mtkZGtZEkrp",
+      "recj0neZHWOqFTkbP",
+      "recI0Ai7gEA3xp35m",
+      "recGq2l95evARIgD3",
+      "recKq4Ru88njrlpUx",
+      "recasBFFv7iSMTh7c",
+      "rechaE9FuPMq1KhkD",
+      "recbZxQCxgLjS0UzQ",
+      "recpi0AmN3u5cIQHR",
+      "rec6DDkzMQ5JTDI0k",
+      "recpdHeX5KJC3TL4o"
+    ],
     "id": "recG0ANQWrp3SRvvY",
     "name": "decision making",
     "slug": "decision-making"
   },
+  {
+    "fitbs": ["recvI4Obkxz6OYPzF"],
+    "id": "recvPdvyeowQ2YwH7",
+    "name": "design",
+    "slug": "design"
+  },
+  { "id": "recG3UKy6BpKBMZJr", "name": "development", "slug": "development" },
   { "id": "recEZjB6WTnRt6aon", "name": "interview", "slug": "interview" },
   {
     "fitbs": [
@@ -19,11 +65,53 @@
       "recrYoglrdF32klOv",
       "recCWoOnmN4aEi5dT",
       "recD5UagMbU0oW464",
-      "recglWG0JkW6S4z5T"
+      "recglWG0JkW6S4z5T",
+      "recSvE94wHV7idnyE",
+      "reczN2fm52WvYckI3",
+      "reclQL65PwJyFOvAL",
+      "recZ2x0GRRmo7JSy9",
+      "recxobpWsmMZD0EWl",
+      "rechE6nPOjsYY94Oz",
+      "recfvWW7AGbWaq7CC",
+      "recFKs2EF2byzzZlf",
+      "recfzrt3Qi4DZrjqp",
+      "recKtqbCNxYWPCL6Y",
+      "recM8q6jESuyb4Cag",
+      "recUymWkS7mF4lfy8",
+      "recg2GM2zwiPJvKR9",
+      "recaACapSTWLx5ren",
+      "recYY5iDxoXmjLpWs",
+      "recXaAsvb7tEJIZM9",
+      "recj0neZHWOqFTkbP",
+      "recI0Ai7gEA3xp35m",
+      "recKq4Ru88njrlpUx",
+      "recasBFFv7iSMTh7c",
+      "rechaE9FuPMq1KhkD",
+      "recbZxQCxgLjS0UzQ",
+      "recpi0AmN3u5cIQHR",
+      "rec6DDkzMQ5JTDI0k",
+      "recpdHeX5KJC3TL4o"
     ],
     "id": "rechbGc1FLmwxb9Hg",
     "name": "measurement",
     "slug": "measurement"
+  },
+  {
+    "fitbs": ["recvaoKn8ZW4rHGMX"],
+    "id": "reciH81wZgz0d5Pt6",
+    "name": "misc",
+    "slug": "misc"
+  },
+  {
+    "fitbs": [
+      "recTFvaps2WQ8q1sk",
+      "recEr9leT67ZQppgz",
+      "reclz9MAWbUkP0K8U",
+      "recXzwJuW0wkIUlKy"
+    ],
+    "id": "recVLSAtcXunUHQjR",
+    "name": "new years resolutions",
+    "slug": "new-years-resolutions"
   },
   {
     "fitbs": ["recnGYhq8E9LeRPlW", "recNsahDzKCx0IQPk"],
@@ -33,10 +121,45 @@
   },
   {
     "fitbs": [
+      "recSvE94wHV7idnyE",
+      "reczN2fm52WvYckI3",
+      "reclQL65PwJyFOvAL",
+      "recZ2x0GRRmo7JSy9",
+      "recxobpWsmMZD0EWl",
+      "rechE6nPOjsYY94Oz",
+      "recfvWW7AGbWaq7CC",
+      "recFKs2EF2byzzZlf",
+      "recfzrt3Qi4DZrjqp",
+      "recKtqbCNxYWPCL6Y",
+      "recM8q6jESuyb4Cag",
+      "recUymWkS7mF4lfy8",
+      "recg2GM2zwiPJvKR9",
+      "recaACapSTWLx5ren",
+      "recwVRfneLwECByYi",
+      "recYY5iDxoXmjLpWs",
+      "recXaAsvb7tEJIZM9",
+      "recj0neZHWOqFTkbP",
+      "recI0Ai7gEA3xp35m",
+      "recGq2l95evARIgD3",
+      "recKq4Ru88njrlpUx",
+      "recasBFFv7iSMTh7c",
+      "rechaE9FuPMq1KhkD",
+      "recbZxQCxgLjS0UzQ",
+      "recpi0AmN3u5cIQHR",
+      "rec6DDkzMQ5JTDI0k",
+      "recpdHeX5KJC3TL4o"
+    ],
+    "id": "recWU3KLlRvtGhOIM",
+    "name": "research",
+    "slug": "research"
+  },
+  {
+    "fitbs": [
       "rec99C9lxMl6aSedq",
       "rec590aP1VRIE8f23",
       "recNsahDzKCx0IQPk",
-      "recevUpbRFDbVHx7L"
+      "recevUpbRFDbVHx7L",
+      "reck1NSBKTnmLD6XU"
     ],
     "id": "recTqD26ElVvXKVad",
     "name": "retrospectives",
@@ -46,6 +169,12 @@
     "id": "rec1f3sLCcKszXSi4",
     "name": "reviewing decisions",
     "slug": "reviewing-decisions"
+  },
+  {
+    "fitbs": ["rec6pvZLOPNQcPPzl"],
+    "id": "recuBi4NellfChK9g",
+    "name": "software development",
+    "slug": "software-development"
   },
   {
     "fitbs": [
@@ -59,5 +188,11 @@
     "id": "recmdwXtLaj7hls73",
     "name": "strategy",
     "slug": "strategy"
+  },
+  {
+    "fitbs": ["recsLjVtDnHV65vP6", "recbuoJ1JNcFmgbdR", "rec0S2i2ROB3CXyzJ"],
+    "id": "recWhLZkIAWTXIZ7S",
+    "name": "wardley mapping",
+    "slug": "wardley-mapping"
   }
 ]

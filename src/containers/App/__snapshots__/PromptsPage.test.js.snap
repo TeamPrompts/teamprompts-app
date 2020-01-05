@@ -21,7 +21,7 @@ exports[`PromptsPage to match snapshot 1`] = `
           data-testid="all"
           type="button"
         >
-          all (11)
+          all (45)
         </button>
       </a>
     </li>
@@ -36,7 +36,22 @@ exports[`PromptsPage to match snapshot 1`] = `
           data-testid="decision making"
           type="button"
         >
-          decision making (2)
+          decision making (27)
+        </button>
+      </a>
+    </li>
+    <li
+      class="mx-1 my-1"
+    >
+      <a
+        href="#/design"
+      >
+        <button
+          class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="design"
+          type="button"
+        >
+          design (1)
         </button>
       </a>
     </li>
@@ -51,7 +66,37 @@ exports[`PromptsPage to match snapshot 1`] = `
           data-testid="measurement"
           type="button"
         >
-          measurement (5)
+          measurement (26)
+        </button>
+      </a>
+    </li>
+    <li
+      class="mx-1 my-1"
+    >
+      <a
+        href="#/new-years-resolutions"
+      >
+        <button
+          class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="new years resolutions"
+          type="button"
+        >
+          new years resolutions (4)
+        </button>
+      </a>
+    </li>
+    <li
+      class="mx-1 my-1"
+    >
+      <a
+        href="#/research"
+      >
+        <button
+          class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="research"
+          type="button"
+        >
+          research (23)
         </button>
       </a>
     </li>
@@ -66,7 +111,7 @@ exports[`PromptsPage to match snapshot 1`] = `
           data-testid="retrospectives"
           type="button"
         >
-          retrospectives (2)
+          retrospectives (3)
         </button>
       </a>
     </li>
@@ -82,6 +127,21 @@ exports[`PromptsPage to match snapshot 1`] = `
           type="button"
         >
           strategy (5)
+        </button>
+      </a>
+    </li>
+    <li
+      class="mx-1 my-1"
+    >
+      <a
+        href="#/wardley-mapping"
+      >
+        <button
+          class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+          data-testid="wardley mapping"
+          type="button"
+        >
+          wardley mapping (3)
         </button>
       </a>
     </li>

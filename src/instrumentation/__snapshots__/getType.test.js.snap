@@ -1,25 +1,93 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`getType type 1`] = `"blanks, prompts, and examples"`;
+exports[`getType type 1`] = `"just blanks"`;
 
-exports[`getType type 2`] = `"blanks, prompts, and examples"`;
+exports[`getType type 2`] = `"just blanks"`;
 
-exports[`getType type 3`] = `"blanks and prompts"`;
+exports[`getType type 3`] = `"just blanks"`;
 
-exports[`getType type 4`] = `"blanks and prompts"`;
+exports[`getType type 4`] = `"just blanks"`;
 
-exports[`getType type 5`] = `"blanks and examples"`;
+exports[`getType type 5`] = `"blanks, prompts, and examples"`;
 
-exports[`getType type 6`] = `"blanks and examples"`;
+exports[`getType type 6`] = `"blanks, prompts, and examples"`;
 
 exports[`getType type 7`] = `"blanks, prompts, and examples"`;
 
-exports[`getType type 8`] = `"blanks and examples"`;
+exports[`getType type 8`] = `"just blanks"`;
 
-exports[`getType type 9`] = `"blanks and examples"`;
+exports[`getType type 9`] = `"just blanks"`;
 
-exports[`getType type 10`] = `"blanks, prompts, and examples"`;
+exports[`getType type 10`] = `"just blanks"`;
 
-exports[`getType type 11`] = `"blanks, prompts, and examples"`;
+exports[`getType type 11`] = `"just blanks"`;
 
 exports[`getType type 12`] = `"just blanks"`;
+
+exports[`getType type 13`] = `"just blanks"`;
+
+exports[`getType type 14`] = `"just blanks"`;
+
+exports[`getType type 15`] = `"just blanks"`;
+
+exports[`getType type 16`] = `"just blanks"`;
+
+exports[`getType type 17`] = `"just blanks"`;
+
+exports[`getType type 18`] = `"just blanks"`;
+
+exports[`getType type 19`] = `"just blanks"`;
+
+exports[`getType type 20`] = `"just blanks"`;
+
+exports[`getType type 21`] = `"just blanks"`;
+
+exports[`getType type 22`] = `"just blanks"`;
+
+exports[`getType type 23`] = `"just blanks"`;
+
+exports[`getType type 24`] = `"just blanks"`;
+
+exports[`getType type 25`] = `"just blanks"`;
+
+exports[`getType type 26`] = `"just blanks"`;
+
+exports[`getType type 27`] = `"just blanks"`;
+
+exports[`getType type 28`] = `"just blanks"`;
+
+exports[`getType type 29`] = `"just blanks"`;
+
+exports[`getType type 30`] = `"just blanks"`;
+
+exports[`getType type 31`] = `"just blanks"`;
+
+exports[`getType type 32`] = `"blanks and prompts"`;
+
+exports[`getType type 33`] = `"blanks and prompts"`;
+
+exports[`getType type 34`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 35`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 36`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 37`] = `"blanks and prompts"`;
+
+exports[`getType type 38`] = `"blanks and prompts"`;
+
+exports[`getType type 39`] = `"blanks and examples"`;
+
+exports[`getType type 40`] = `"blanks and examples"`;
+
+exports[`getType type 41`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 42`] = `"blanks and examples"`;
+
+exports[`getType type 43`] = `"blanks and examples"`;
+
+exports[`getType type 44`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 45`] = `"blanks, prompts, and examples"`;
+
+exports[`getType type 46`] = `"just blanks"`;

@@ -1,5 +1,5 @@
 import tags from './tags';
 
-const tag = tags[5];
+const tag = tags.find(tag => tag.id === 'recTqD26ElVvXKVad');
 
 export default tag;

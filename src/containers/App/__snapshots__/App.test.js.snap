@@ -6,7 +6,7 @@ exports[`App click retrospectives 1`] = `
   data-testid="retrospectives"
   type="button"
 >
-  retrospectives (2)
+  retrospectives (3)
 </button>
 `;
 
@@ -56,7 +56,7 @@ exports[`App w/ fitbs & tags 1`] = `
             data-testid="all"
             type="button"
           >
-            all (11)
+            all (45)
           </button>
         </a>
       </li>
@@ -71,7 +71,22 @@ exports[`App w/ fitbs & tags 1`] = `
             data-testid="decision making"
             type="button"
           >
-            decision making (2)
+            decision making (27)
+          </button>
+        </a>
+      </li>
+      <li
+        class="mx-1 my-1"
+      >
+        <a
+          href="#/design"
+        >
+          <button
+            class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+            data-testid="design"
+            type="button"
+          >
+            design (1)
           </button>
         </a>
       </li>
@@ -86,7 +101,37 @@ exports[`App w/ fitbs & tags 1`] = `
             data-testid="measurement"
             type="button"
           >
-            measurement (5)
+            measurement (26)
+          </button>
+        </a>
+      </li>
+      <li
+        class="mx-1 my-1"
+      >
+        <a
+          href="#/new-years-resolutions"
+        >
+          <button
+            class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+            data-testid="new years resolutions"
+            type="button"
+          >
+            new years resolutions (4)
+          </button>
+        </a>
+      </li>
+      <li
+        class="mx-1 my-1"
+      >
+        <a
+          href="#/research"
+        >
+          <button
+            class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+            data-testid="research"
+            type="button"
+          >
+            research (23)
           </button>
         </a>
       </li>
@@ -101,7 +146,7 @@ exports[`App w/ fitbs & tags 1`] = `
             data-testid="retrospectives"
             type="button"
           >
-            retrospectives (2)
+            retrospectives (3)
           </button>
         </a>
       </li>
@@ -120,8 +165,3797 @@ exports[`App w/ fitbs & tags 1`] = `
           </button>
         </a>
       </li>
+      <li
+        class="mx-1 my-1"
+      >
+        <a
+          href="#/wardley-mapping"
+        >
+          <button
+            class="capitalize focus:outline-none hover:bg-blue-700 px-4 rounded-full text-white bg-blue-500"
+            data-testid="wardley mapping"
+            type="button"
+          >
+            wardley mapping (3)
+          </button>
+        </a>
+      </li>
     </ul>
     <ul>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          A relationship I very much value is my relationship with 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . It is important that they know how much I 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . In 2020, I'll make sure to let them know -- even in small ways like 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          I am proud that I 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           in 2019. In 2020, it is important that I sustain and honor that effort by 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . Conversely, it is OK that I let 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           go a bit. I'm willing to to do that so that I can 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          Reflecting on 2019, there were a couple events that seemed dire and catastrophic in the moment, but turned out OK. One in particular was 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . When it happened, I felt like 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . I responded by 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . In 2020, I'll be on the lookout for 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . If I sense/observe 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , I'll try to remind myself to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , and try an alternate response like 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          In 2019, I learned that I am likely to overdo 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           if I am not careful. While meeting the need to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           in the short term, it does seem to come at the expense of meeting my need to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           in the mid/long term. In 2020, I'll try to better meet both needs by 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              Component
+            </label>
+          </span>
+           has been so successful that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              player
+            </label>
+          </span>
+           has inertia to change due to its investment in 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              component
+            </label>
+          </span>
+          , 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              component
+            </label>
+          </span>
+          , and 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              component
+            </label>
+          </span>
+          .
+          <span
+            class="inline-block ml-3 relative"
+          >
+            <input
+              class="hidden"
+              data-testid="rec0S2i2ROB3CXyzJ"
+              id="rec0S2i2ROB3CXyzJ"
+              type="checkbox"
+            />
+            <label
+              class="cursor-pointer"
+              for="rec0S2i2ROB3CXyzJ"
+            >
+              <div
+                class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+              />
+              <div
+                class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+              />
+            </label>
+          </span>
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+          <div
+            class="italic text-indigo-700 text-right text-sm underline"
+          >
+            <a
+              href="https://twitter.com/HiredThought"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              @HiredThought
+            </a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          In order to encourage more competition around 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              component
+            </label>
+          </span>
+          , we are going to try 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              gameplay
+            </label>
+          </span>
+          . That should create opportunities for us, like 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              outcome
+            </label>
+          </span>
+          .
+          <span
+            class="inline-block ml-3 relative"
+          >
+            <input
+              class="hidden"
+              data-testid="recbuoJ1JNcFmgbdR"
+              id="recbuoJ1JNcFmgbdR"
+              type="checkbox"
+            />
+            <label
+              class="cursor-pointer"
+              for="recbuoJ1JNcFmgbdR"
+            >
+              <div
+                class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+              />
+              <div
+                class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+              />
+            </label>
+          </span>
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+          <div
+            class="italic text-indigo-700 text-right text-sm underline"
+          >
+            <a
+              href="https://twitter.com/HiredThought"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              @HiredThought
+            </a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We don't know when it will happen, but we're seeing signals that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              component
+            </label>
+          </span>
+           will soon transition to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              evolutionary stage
+            </label>
+          </span>
+          . In anticipation, we plan to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              gameplay
+            </label>
+          </span>
+          .
+          <span
+            class="inline-block ml-3 relative"
+          >
+            <input
+              class="hidden"
+              data-testid="recsLjVtDnHV65vP6"
+              id="recsLjVtDnHV65vP6"
+              type="checkbox"
+            />
+            <label
+              class="cursor-pointer"
+              for="recsLjVtDnHV65vP6"
+            >
+              <div
+                class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+              />
+              <div
+                class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+              />
+            </label>
+          </span>
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+          <div
+            class="italic text-indigo-700 text-right text-sm underline"
+          >
+            <a
+              href="https://twitter.com/HiredThought"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              @HiredThought
+            </a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          I’d need to see more evidence of 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           before feeling comfortable about our plan to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We are getting a lot of conflicting information about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . This tells me that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . Perhaps we are asking the wrong question. What if instead we asked 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          ?
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          I’m OK that we are less clear about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . We can change course there easily assuming 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . But I’m less confident about our ability to change course when it comes to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We’ve always assumed that learning more about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           was going to be too expensive and time consuming. What if that changed? Might we decide to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           ?
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We really are experts in 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , but that doesn’t necessarily mean we are experts in 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . To gain that expertise we would need to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . 
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          A year ago we were sure that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . Now, we’re less sure because 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . 
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          It is probably OK for us to delay figuring out 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , but we’ll need to address this issue eventually. 
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          That 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           is the right answer for now, but I think we’ll need to revisit this in a couple months and explore 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          At the moment we are juggling lots of constraints including 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           . If we could remove the constraint to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , that would allow us to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           . To remove that constraint we would need to explore whether
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          The signals point to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           , but to really make a case for 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , we would need to see more evidence of 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           . 
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          Our current strategy hinges on our ability to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           while 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           . If we learned that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , it would likely cause us to shift our approach from 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          At the moment, I’m not sure whether we are dealing with a 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           or with a 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           . It is unclear. To narrow the problem down, we need to learn more about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We’re placing a lot of emphasis on the question of whether 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           -- which is good. But we do run the risk of over-indexing on 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           and missing the question of whether 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          The key factor in this decision is my belief that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . I may be biased, though, in that I believe that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . To play devil's advocate, what if 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           ?
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          Though highly improbable, if suddenly we learned that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           it would have a dramatic impact on how we are approaching this challenge.
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We run the risk of prematurely converging around 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           , and failing to converge on 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . The impact of the former might be 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . And the impact of the latter might be 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          I see the key risk here being less about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           and more about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . For the former, we currently know 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . For the latter, we’re unsure about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           and that is important because 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          In the near term, I think we’re fine with the decision to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . But in the mid to longer term I worry about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           because 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . If we observe 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           that will be an early signal that we need to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          If we can’t determine whether 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          ,it is truly an “all bets are off” situation.
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We’re all assuming the happy path -- that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           leads to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           (repeating). But what if we learned that instead 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           ? How would we respond?
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          I’m curious about
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . I’m sure it seems unrelated to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , but for some reason I’m drawn to figuring out 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . 
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          There are a couple paths we could take here. We could 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , or
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , or
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . Deciding between these three paths is difficult because we are unclear about 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We have two competing theories about whether 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . The first theory is that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . The second theory is that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . To make progress with reconciling these two theories we would need to demonstrate that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          . 
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          If we were more confident that 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          , we would focus on 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+           because 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          I’d be comfortable having 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              person
+            </label>
+          </span>
+           decide 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              decision
+            </label>
+          </span>
+           provided I could 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              caveat/request
+            </label>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          The purpose of this prototype is to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              purpose, goal, objective
+            </label>
+          </span>
+          . With this information we hope to inform the following decisions: 1) 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              decision description
+            </label>
+          </span>
+          , 2) 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              decision description
+            </label>
+          </span>
+          , 3) 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              decision description
+            </label>
+          </span>
+          . A key question we have is whether 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              important question
+            </label>
+          </span>
+          . Importantly, this prototype is not designed to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              out of scope decision description
+            </label>
+          </span>
+          .
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
+          data-testid="container"
+        >
+          We have an opportunity to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              opportunity for improvement
+            </label>
+          </span>
+           which will allow us to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              impact
+            </label>
+          </span>
+          . One experiment I'd like to try is to 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              the experiment
+            </label>
+          </span>
+           for 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              period of time
+            </label>
+          </span>
+           weeks. If we observe 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              positive signals
+            </label>
+          </span>
+           we'll know we're on the right track. If we observe 
+          <span
+            class="inline-flex flex-col leading-none"
+            data-testid="input-container"
+          >
+            <div
+              class="self-center"
+              style="display: inline-block;"
+            >
+              <input
+                class=""
+                data-testid="input"
+                placeholder="________________"
+                style="box-sizing: content-box; width: 2px;"
+                value=""
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              />
+              <div
+                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+              >
+                ________________
+              </div>
+            </div>
+            <label
+              class="self-center text-sm"
+            >
+              less positive signals
+            </label>
+          </span>
+           that might suggest we try something else. 
+          <span
+            class="inline-block ml-3 relative"
+          >
+            <input
+              class="hidden"
+              data-testid="reck1NSBKTnmLD6XU"
+              id="reck1NSBKTnmLD6XU"
+              type="checkbox"
+            />
+            <label
+              class="cursor-pointer"
+              for="reck1NSBKTnmLD6XU"
+            >
+              <div
+                class="w-6 h-3 bg-gray-400 rounded-full shadow-inner"
+              />
+              <div
+                class="toggle__dot absolute w-4 h-4 bg-gray-300 rounded-full shadow inset-y-0 left-0"
+              />
+            </label>
+          </span>
+          <button
+            class="bg-blue-500 focus:outline-none font-bold font-mono hover:bg-blue-700 ml-3 px-4 rounded-full text-xs text-white"
+            data-testid="copy-button"
+            type="button"
+          >
+            Copy to clipboard
+          </button>
+        </div>
+      </li>
       <li>
         <div
           class="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
@@ -249,17 +4083,6 @@ exports[`App w/ fitbs & tags 1`] = `
           >
             Copy to clipboard
           </button>
-          <div
-            class="italic text-indigo-700 text-right text-sm underline"
-          >
-            <a
-              href="https://twitter.com/HiredThought"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              @HiredThought
-            </a>
-          </div>
         </div>
       </li>
       <li>
@@ -1189,17 +5012,6 @@ exports[`App w/ fitbs & tags 1`] = `
           >
             Copy to clipboard
           </button>
-          <div
-            class="italic text-indigo-700 text-right text-sm underline"
-          >
-            <a
-              href="https://twitter.com/mattiaerre"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              @mattiaerre
-            </a>
-          </div>
         </div>
       </li>
       <li>
@@ -1288,17 +5100,6 @@ exports[`App w/ fitbs & tags 1`] = `
           >
             Copy to clipboard
           </button>
-          <div
-            class="italic text-indigo-700 text-right text-sm underline"
-          >
-            <a
-              href="https://twitter.com/HiredThought"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              @HiredThought
-            </a>
-          </div>
         </div>
       </li>
       <li>

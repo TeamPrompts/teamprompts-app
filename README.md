@@ -10,6 +10,8 @@ TeamPrompts
 
 - https://create-react-app.dev/docs/deployment/#github-pages
 
+- https://tailwindcss.com/docs/installation#post-css-7-compatibility-build
+
 ### Prod
 
 - https://dazzling-allen-f0bcd2.netlify.com/
@@ -19,3 +21,9 @@ TeamPrompts
 - https://drive.google.com/file/d/1S0jHGeLUHa7m-dN6Z6zIOXWSAM0s-198/view
 
 - https://docs.google.com/presentation/d/1FQazJOFbmYFLn2htPauwRgRj_Zp1Jr_S1ZMsE8u2YkY/edit?usp=sharing
+
+## Bash
+
+```bash
+yarn upgrade-interactive --latest
+```

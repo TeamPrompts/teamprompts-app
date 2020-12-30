@@ -25,5 +25,7 @@ TeamPrompts
 ## Bash
 
 ```bash
+yarn test --watchAll=false --coverage
+
 yarn upgrade-interactive --latest
 ```

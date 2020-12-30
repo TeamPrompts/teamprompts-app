@@ -3,12 +3,20 @@
 exports[`slugify 1`] = `
 Array [
   "1-1s",
+  "broken",
   "decision-making",
+  "design",
+  "development",
   "interview",
   "measurement",
+  "misc",
+  "new-years-resolutions",
   "product-management",
+  "research",
   "retrospectives",
   "reviewing-decisions",
+  "software-development",
   "strategy",
+  "wardley-mapping",
 ]
 `;

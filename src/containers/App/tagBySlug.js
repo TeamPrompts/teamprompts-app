@@ -1,12 +1,13 @@
 import tagAll from '../../api/tagAll';
 
+export const tagEmpty = { name: '', slug: '' };
+
 function tagBySlug({ slug, tags }) {
-  const empty = { name: '', slug: '' };
   if (tags.length > 0) {
     const tag = tags.find(tag => tag.slug === slug);
     return tag || tagAll;
   }
-  return empty;
+  return tagEmpty;
 }
 
 export default tagBySlug;

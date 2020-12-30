@@ -1,36 +1,25 @@
-import { Amplitude, AmplitudeProvider } from '@amplitude/react-amplitude';
-import amplitude from 'amplitude-js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import useCookie from '@devhammed/use-cookie';
-import { name, version } from '../package.json';
 import App from './containers/App/App';
+import AmplitudeHookProvider from './instrumentation/AmplitudeHookProvider';
 import { NONE, TEAMPROMPTS_APP_EXPERIMENT, UNKNOWN } from './constants';
 import initializeReactGA from './initializeReactGA';
 import * as serviceWorker from './serviceWorker';
 import './styles.css';
 
-const { NODE_ENV, REACT_APP_AMPLITUDE_KEY } = process.env;
+const { REACT_APP_AMPLITUDE_KEY } = process.env;
 
 function Wrapper() {
+  initializeReactGA();
   const [experiment] = useCookie(TEAMPROMPTS_APP_EXPERIMENT, NONE);
   return experiment === UNKNOWN ? <div>UNKNOWN</div> : <App />;
 }
 
 ReactDOM.render(
-  <AmplitudeProvider
-    amplitudeInstance={amplitude.getInstance()}
-    apiKey={REACT_APP_AMPLITUDE_KEY}
-  >
-    <Amplitude>
-      {({ logEvent }) => {
-        initializeReactGA();
-        // INFO: https://github.com/amplitude/react-amplitude#amplitude-props
-        logEvent(`hello ${name} v${version} ${NODE_ENV}`); // TODO: move to constants
-        return <Wrapper />;
-      }}
-    </Amplitude>
-  </AmplitudeProvider>,
+  <AmplitudeHookProvider apiKey={REACT_APP_AMPLITUDE_KEY}>
+    <Wrapper />
+  </AmplitudeHookProvider>,
   document.getElementById('root')
 );
 

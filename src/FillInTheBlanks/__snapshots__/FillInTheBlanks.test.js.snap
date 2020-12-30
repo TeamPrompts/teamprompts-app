@@ -5,6 +5,7 @@ exports[`FillInTheBlanks to match snapshot 1`] = `
   className="border-b border-gray-500 leading-loose mb-2 px-4 hover:bg-gray-100 cursor-pointer py-8 shadow text-lg"
   data-testid="container"
   onClick={[Function]}
+  onMouseOver={[Function]}
 >
   The weakest link in our mental model is 
   <span

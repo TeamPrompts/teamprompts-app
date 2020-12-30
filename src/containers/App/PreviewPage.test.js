@@ -1,12 +1,8 @@
-import { render, fireEvent } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import React from 'react';
-import { create } from 'react-test-renderer';
 import { HashRouter as Router } from 'react-router-dom';
 import selectFitbs from '../../api/selectFitbs';
 import fitb from '../../mocks/fitb';
-import fitbs from '../../mocks/fitbs';
-// import tag from '../../mocks/tag';
-import tags from '../../mocks/tags';
 import PreviewPage from './PreviewPage';
 
 jest.mock('../../api/selectFitbs');

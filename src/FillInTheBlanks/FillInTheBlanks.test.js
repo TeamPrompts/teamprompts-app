@@ -5,9 +5,13 @@ import { useClipboard } from 'use-clipboard-copy';
 import fitb from '../mocks/fitb';
 import tag from '../mocks/tag';
 import FillInTheBlanks from './FillInTheBlanks';
+import { useAmplitude } from '../instrumentation/AmplitudeHookProvider';
+import { hoverOverPrompt } from '../instrumentation/events';
 import { pageTypes } from '../constants';
 
 jest.mock('use-clipboard-copy');
+
+const { logEvent } = useAmplitude();
 
 describe('FillInTheBlanks', () => {
   const mockPush = jest.fn();
@@ -15,7 +19,8 @@ describe('FillInTheBlanks', () => {
   const props = {
     fitb,
     history: { push: mockPush },
-    tag
+    tag,
+    viewPosition: 2
   };
 
   beforeEach(() => {
@@ -105,5 +110,19 @@ describe('FillInTheBlanks', () => {
     fireEvent.click(getByTestId('go-to-category'));
 
     expect(mockPush).not.toBeCalled();
+  });
+
+  beforeEach(() => {
+    jest.useFakeTimers();
+  });
+
+  it('on mouse over', () => {
+    const { getByTestId } = render(<FillInTheBlanks {...props} />);
+
+    fireEvent.mouseOver(getByTestId('container'));
+
+    jest.advanceTimersByTime(4000);
+
+    expect(logEvent.mock.calls[0][0]).toEqual(hoverOverPrompt.type);
   });
 });

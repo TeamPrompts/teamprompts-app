@@ -1,8 +1,217 @@
 [
   {
-    "author": {
-      "twitter": "HiredThought"
-    },
+    "id": "recXzwJuW0wkIUlKy",
+    "source": "A relationship I very much value is my relationship with __BLANK__. It is important that they know how much I __BLANK__. In 2020, I'll make sure to let them know -- even in small ways like __BLANK__.",
+    "tags": ["recVLSAtcXunUHQjR"]
+  },
+  {
+    "id": "reclz9MAWbUkP0K8U",
+    "source": "I am proud that I __BLANK__ in 2019. In 2020, it is important that I sustain and honor that effort by __BLANK__. Conversely, it is OK that I let __BLANK__ go a bit. I'm willing to to do that so that I can __BLANK__.\n",
+    "tags": ["recVLSAtcXunUHQjR"]
+  },
+  {
+    "id": "recEr9leT67ZQppgz",
+    "source": "Reflecting on 2019, there were a couple events that seemed dire and catastrophic in the moment, but turned out OK. One in particular was __BLANK__. When it happened, I felt like __BLANK__. I responded by __BLANK__. In 2020, I'll be on the lookout for __BLANK__. If I sense/observe __BLANK__, I'll try to remind myself to __BLANK__, and try an alternate response like __BLANK__.",
+    "tags": ["recVLSAtcXunUHQjR"]
+  },
+  {
+    "id": "recTFvaps2WQ8q1sk",
+    "source": "In 2019, I learned that I am likely to overdo __BLANK__ if I am not careful. While meeting the need to __BLANK__ in the short term, it does seem to come at the expense of meeting my need to __BLANK__ in the mid/long term. In 2020, I'll try to better meet both needs by __BLANK__.",
+    "tags": ["recVLSAtcXunUHQjR"]
+  },
+  {
+    "author": { "twitter": "HiredThought" },
+    "examples": ["Tea", "the cafe", "a Kettle", "Water", "Cups"],
+    "id": "rec0S2i2ROB3CXyzJ",
+    "prompts": ["Component", "player", "component", "component", "component"],
+    "source": "__BLANK__ has been so successful that __BLANK__ has inertia to change due to its investment in __BLANK__, __BLANK__, and __BLANK__.",
+    "tags": ["recWhLZkIAWTXIZ7S"]
+  },
+  {
+    "author": { "twitter": "HiredThought" },
+    "examples": [
+      "Content",
+      "manipulating its underlying constraints",
+      "Content Aggregation"
+    ],
+    "id": "recbuoJ1JNcFmgbdR",
+    "prompts": ["component", "gameplay", "outcome"],
+    "source": "In order to encourage more competition around __BLANK__, we are going to try __BLANK__. That should create opportunities for us, like __BLANK__.",
+    "tags": ["recWhLZkIAWTXIZ7S"]
+  },
+  {
+    "author": { "twitter": "HiredThought" },
+    "examples": [
+      "Compute",
+      "Utility",
+      "convince a competitor to buy our datacenters"
+    ],
+    "id": "recsLjVtDnHV65vP6",
+    "prompts": ["component", "evolutionary stage", "gameplay"],
+    "source": "We don't know when it will happen, but we're seeing signals that __BLANK__ will soon transition to __BLANK__. In anticipation, we plan to __BLANK__.",
+    "tags": ["recWhLZkIAWTXIZ7S"]
+  },
+  {
+    "id": "recpdHeX5KJC3TL4o",
+    "source": "I’d need to see more evidence of __BLANK__ before feeling comfortable about our plan to __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recpi0AmN3u5cIQHR",
+    "source": "We are getting a lot of conflicting information about __BLANK__. This tells me that __BLANK__. Perhaps we are asking the wrong question. What if instead we asked __BLANK__?",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recbZxQCxgLjS0UzQ",
+    "source": "I’m OK that we are less clear about __BLANK__. We can change course there easily assuming __BLANK__. But I’m less confident about our ability to change course when it comes to __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recasBFFv7iSMTh7c",
+    "source": "We’ve always assumed that learning more about __BLANK__ was going to be too expensive and time consuming. What if that changed? Might we decide to __BLANK__ ?",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recKq4Ru88njrlpUx",
+    "source": "We really are experts in __BLANK__, but that doesn’t necessarily mean we are experts in __BLANK__. To gain that expertise we would need to __BLANK__. ",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recGq2l95evARIgD3",
+    "source": "A year ago we were sure that __BLANK__. Now, we’re less sure because __BLANK__. ",
+    "tags": ["recG0ANQWrp3SRvvY", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recI0Ai7gEA3xp35m",
+    "source": "It is probably OK for us to delay figuring out __BLANK__, but we’ll need to address this issue eventually. ",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recj0neZHWOqFTkbP",
+    "source": "That __BLANK__ is the right answer for now, but I think we’ll need to revisit this in a couple months and explore __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "rec5s9mtkZGtZEkrp",
+    "source": "At the moment we are juggling lots of constraints including __BLANK__ . If we could remove the constraint to __BLANK__, that would allow us to __BLANK__ . To remove that constraint we would need to explore whether__BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY"]
+  },
+  {
+    "id": "recXaAsvb7tEJIZM9",
+    "source": "The signals point to __BLANK__ , but to really make a case for __BLANK__, we would need to see more evidence of __BLANK__ . ",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recYY5iDxoXmjLpWs",
+    "source": "Our current strategy hinges on our ability to __BLANK__ while __BLANK__ . If we learned that __BLANK__, it would likely cause us to shift our approach from __BLANK__ to __BLANK__ .",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recwVRfneLwECByYi",
+    "source": "At the moment, I’m not sure whether we are dealing with a __BLANK__ or with a __BLANK__ . It is unclear. To narrow the problem down, we need to learn more about __BLANK__ .",
+    "tags": ["recG0ANQWrp3SRvvY", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recg2GM2zwiPJvKR9",
+    "source": "We’re placing a lot of emphasis on the question of whether __BLANK__ -- which is good. But we do run the risk of over-indexing on __BLANK__ and missing the question of whether __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recUymWkS7mF4lfy8",
+    "source": "The key factor in this decision is my belief that __BLANK__. I may be biased, though, in that I believe that __BLANK__. To play devil's advocate, what if __BLANK__ ?",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recM8q6jESuyb4Cag",
+    "source": "Though highly improbable, if suddenly we learned that __BLANK__ it would have a dramatic impact on how we are approaching this challenge.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recKtqbCNxYWPCL6Y",
+    "source": "We run the risk of prematurely converging around __BLANK__ , and failing to converge on __BLANK__. The impact of the former might be __BLANK__. And the impact of the latter might be __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recfzrt3Qi4DZrjqp",
+    "source": "I see the key risk here being less about __BLANK__ and more about __BLANK__. For the former, we currently know __BLANK__. For the latter, we’re unsure about __BLANK__ and that is important because __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recFKs2EF2byzzZlf",
+    "source": "In the near term, I think we’re fine with the decision to __BLANK__. But in the mid to longer term I worry about __BLANK__ because __BLANK__. If we observe __BLANK__ that will be an early signal that we need to __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recfvWW7AGbWaq7CC",
+    "source": "If we can’t determine whether __BLANK__,it is truly an “all bets are off” situation.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "rechE6nPOjsYY94Oz",
+    "source": "We’re all assuming the happy path -- that __BLANK__ leads to __BLANK__ (repeating). But what if we learned that instead __BLANK__ ? How would we respond?",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recxobpWsmMZD0EWl",
+    "source": "I’m curious about__BLANK__. I’m sure it seems unrelated to __BLANK__, but for some reason I’m drawn to figuring out __BLANK__. ",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recZ2x0GRRmo7JSy9",
+    "source": "There are a couple paths we could take here. We could __BLANK__, or__BLANK__, or__BLANK__. Deciding between these three paths is difficult because we are unclear about __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "reczN2fm52WvYckI3",
+    "source": "We have two competing theories about whether __BLANK__. The first theory is that __BLANK__. The second theory is that __BLANK__. To make progress with reconciling these two theories we would need to demonstrate that __BLANK__. ",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recSvE94wHV7idnyE",
+    "source": "If we were more confident that __BLANK__, we would focus on __BLANK__ because __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY", "rechbGc1FLmwxb9Hg", "recWU3KLlRvtGhOIM"]
+  },
+  {
+    "id": "recQGiPKXMCHn9tCl",
+    "prompts": ["person", "decision", "caveat/request"],
+    "source": "I’d be comfortable having __BLANK__ decide __BLANK__ provided I could __BLANK__.",
+    "tags": ["recG0ANQWrp3SRvvY"]
+  },
+  {
+    "id": "recvI4Obkxz6OYPzF",
+    "prompts": [
+      "purpose, goal, objective",
+      "decision description",
+      "decision description",
+      "decision description",
+      "important question",
+      "out of scope decision description"
+    ],
+    "source": "The purpose of this prototype is to __BLANK__. With this information we hope to inform the following decisions: 1) __BLANK__, 2) __BLANK__, 3) __BLANK__. A key question we have is whether __BLANK__. Importantly, this prototype is not designed to __BLANK__.",
+    "tags": ["recvPdvyeowQ2YwH7"]
+  },
+  {
+    "examples": [
+      "accelerate feedback loops",
+      "learn more about our customers",
+      "do customer calls with the whole team",
+      "4",
+      "learning that relates to our work",
+      "a lot of unrelated chatter"
+    ],
+    "id": "reck1NSBKTnmLD6XU",
+    "prompts": [
+      "opportunity for improvement",
+      "impact",
+      "the experiment",
+      "period of time",
+      "positive signals",
+      "less positive signals"
+    ],
+    "source": "We have an opportunity to __BLANK__ which will allow us to __BLANK__. One experiment I'd like to try is to __BLANK__ for __BLANK__ weeks. If we observe __BLANK__ we'll know we're on the right track. If we observe __BLANK__ that might suggest we try something else. ",
+    "tags": ["recTqD26ElVvXKVad"]
+  },
+  {
     "examples": [
       "limiting work in progress",
       "it meant that at times people would have nothing to do",
@@ -87,18 +296,12 @@
     "tags": ["recmdwXtLaj7hls73"]
   },
   {
-    "author": {
-      "twitter": "mattiaerre"
-    },
     "examples": ["this amazing challenge"],
     "id": "recqeN7TDq4kdhFah",
     "source": "To even know where to start, we would need to better understand __BLANK__.",
     "tags": ["recG0ANQWrp3SRvvY"]
   },
   {
-    "author": {
-      "twitter": "HiredThought"
-    },
     "examples": [
       "this huge problem we have",
       "feel the wrath of all that has come before"

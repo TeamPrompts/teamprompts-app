@@ -2,14 +2,24 @@ import classnames from 'classnames';
 import React, { useState } from 'react';
 import { useClipboard } from 'use-clipboard-copy';
 import Checkbox, { values } from '../components/Checkbox/Checkbox';
+import { useAmplitude } from '../instrumentation/AmplitudeHookProvider';
+import {
+  closePrompt,
+  hoverOverPrompt,
+  navigateToPromptDetail,
+  toggleExample
+} from '../instrumentation/events';
 import { modes, pageTypes } from '../constants';
 import Content from './Content';
 import CopyButton from './CopyButton';
+import debounce from './debounce';
 
-function FillInTheBlanks({ fitb, history, pageType, tag }) {
+function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
   const clipboard = useClipboard();
   const [inputs, setInputs] = useState();
   const [mode, setMode] = useState(modes.input);
+
+  const { logEvent } = useAmplitude();
 
   function enable() {
     return pageType !== pageTypes.PromptsPage && history;
@@ -17,12 +27,19 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
 
   function onClick() {
     if (enable()) {
+      const { properties, type } = navigateToPromptDetail;
+      logEvent(type, properties({ fitb, viewPosition }));
       if (tag) {
         history.push(`/${tag.slug}/${fitb.id}`);
       } else {
         history.push(`/all/${fitb.id}`);
       }
     }
+  }
+
+  function onMouseOver() {
+    const { properties, type } = hoverOverPrompt;
+    logEvent(type, properties({ fitb, viewPosition }));
   }
 
   return (
@@ -38,6 +55,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
       )}
       data-testid="container"
       onClick={onClick}
+      onMouseOver={debounce(onMouseOver, 3000)}
     >
       {pageType === pageTypes.PromptsPage && (
         <div className="text-right">
@@ -46,6 +64,8 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
             data-testid="go-to-category"
             onClick={() => {
               if (history) {
+                const { properties, type } = closePrompt;
+                logEvent(type, properties({ fitb }));
                 if (tag) {
                   history.push(`/${tag.slug}`);
                 } else {
@@ -63,10 +83,13 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
         <Checkbox
           id={fitb.id}
           onChange={value => {
+            const { properties, type } = toggleExample;
             if (value === values.off) {
+              logEvent(type(values.on), properties({ fitb, viewPosition }));
               setMode(modes.examples);
             }
             if (value === values.on) {
+              logEvent(type(values.off), properties({ fitb, viewPosition }));
               setMode(modes.input);
             }
           }}
@@ -81,6 +104,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag }) {
           console.log(value);
           clipboard.copy(value);
         }}
+        viewPosition={viewPosition}
       />
       {fitb.author && (
         <div className="italic text-indigo-700 text-right text-sm underline">

@@ -11,7 +11,7 @@ import tagBySlug from './tagBySlug';
 function PromptsPage({ fitbs, history, match: { url }, tags }) {
   const { id, slug } = useParams();
   const tag = tagBySlug({ slug, tags });
-  const fitb = fitbs.find(fitb => fitb.id === id);
+  const fitb = fitbs.find((fitb) => fitb.id === id);
 
   const { logEvent } = useAmplitude();
   const { properties, type } = viewPromptDetail;

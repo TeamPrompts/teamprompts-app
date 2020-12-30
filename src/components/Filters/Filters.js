@@ -43,7 +43,7 @@ function Filters({ filter, fitbs, tags }) {
     <ul className="flex flex-wrap mb-4">
       <Item counter={fitbs.length} filter={filter} tag={tagAll} />
       {tags.map(
-        tag =>
+        (tag) =>
           counters[tag.id] && (
             <Item
               counter={counters[tag.id]}

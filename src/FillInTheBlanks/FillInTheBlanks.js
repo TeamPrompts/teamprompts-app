@@ -82,7 +82,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
       {fitb.examples && (
         <Checkbox
           id={fitb.id}
-          onChange={value => {
+          onChange={(value) => {
             const { properties, type } = toggleExample;
             if (value === values.off) {
               logEvent(type(values.on), properties({ fitb, viewPosition }));
@@ -100,7 +100,7 @@ function FillInTheBlanks({ fitb, history, pageType, tag, viewPosition }) {
         fitb={fitb}
         inputs={inputs}
         mode={mode}
-        onClick={value => {
+        onClick={(value) => {
           console.log(value);
           clipboard.copy(value);
         }}

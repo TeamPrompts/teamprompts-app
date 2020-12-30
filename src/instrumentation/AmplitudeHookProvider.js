@@ -19,7 +19,7 @@ function AmplitudeHookProvider({ apiKey, children }) {
       apiKey={apiKey}
     >
       <Amplitude>
-        {props => {
+        {(props) => {
           return (
             <AmplitudeContext.Provider
               value={REACT_APP_USE_AMPLITUDE === 'true' ? props : mockProps}

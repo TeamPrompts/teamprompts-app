@@ -56,8 +56,8 @@ function Content({ callback, fitb, mode }) {
   const [state, dispatch] = useReducer(middleware, initialState);
 
   useEffect(() => {
-    callback(state)
-  }, [callback, state])
+    callback(state);
+  }, [callback, state]);
 
   const values = getValues(mode, fitb);
   return compose({

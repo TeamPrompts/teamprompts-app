@@ -50,7 +50,9 @@ describe('Content', () => {
   scenarios.forEach(({ description, props }) => {
     it(description, () => {
       const mockCallback = jest.fn();
-      const tree = create(<Content callback={mockCallback} {...props} />).toJSON();
+      const tree = create(
+        <Content callback={mockCallback} {...props} />
+      ).toJSON();
       expect(tree).toMatchSnapshot();
     });
   });

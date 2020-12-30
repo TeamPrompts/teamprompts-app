@@ -18,7 +18,7 @@
     "react-ga": "^3.3.0",
     "react-input-autosize": "^3.0.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^4.0.1",
     "react-test-renderer": "^17.0.1",
     "use-clipboard-copy": "^0.1.1"
   },

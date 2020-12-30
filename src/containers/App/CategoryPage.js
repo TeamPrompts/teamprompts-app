@@ -9,7 +9,7 @@ import Heading from './Heading';
 import tagBySlug, { tagEmpty } from './tagBySlug';
 
 function fitbsByTag({ fitbs, tag, tags }) {
-  return fitbs.filter(fitb => fitb.tags.includes(tag.id));
+  return fitbs.filter((fitb) => fitb.tags.includes(tag.id));
 }
 
 function CategoryPage({ fitbs, history, match: { url }, tags }) {

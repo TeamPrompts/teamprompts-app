@@ -6,7 +6,7 @@ describe('getType', () => {
   const { examples, prompts, ...justBlanks } = fitb;
   fitbs.push(justBlanks);
 
-  fitbs.forEach(fitb => {
+  fitbs.forEach((fitb) => {
     it('type', () => {
       expect(getType(fitb)).toMatchSnapshot();
     });

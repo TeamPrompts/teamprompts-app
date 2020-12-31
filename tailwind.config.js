@@ -20,5 +20,6 @@ module.exports = {
         respectPrefix: false
       });
     }
-  ]
+  ],
+  purge: false
 };

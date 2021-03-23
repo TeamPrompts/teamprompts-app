@@ -37,7 +37,7 @@ function PreviewPage() {
       <ul>
         {!error &&
           !waiting &&
-          fitbs.map(fitb => (
+          fitbs.map((fitb) => (
             <li key={fitb.id}>
               <FillInTheBlanks fitb={fitb} />
             </li>

@@ -26,3 +26,4 @@ src/styles.css
 .env
 
 package-lock.json
+.eslintcache

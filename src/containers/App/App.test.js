@@ -16,7 +16,7 @@ describe('App', () => {
     selectFitbs.mockImplementation((options, callback) =>
       callback(null, fitbs)
     );
-    selectTags.mockImplementation(callback => callback(null, tags));
+    selectTags.mockImplementation((callback) => callback(null, tags));
   });
 
   it('loading', () => {
@@ -38,7 +38,9 @@ describe('App', () => {
   });
 
   it('w/ tags error', () => {
-    selectTags.mockImplementation(callback => callback(new Error('Oh Noes!')));
+    selectTags.mockImplementation((callback) =>
+      callback(new Error('Oh Noes!'))
+    );
     const { container } = render(<App />);
     expect(container).toMatchSnapshot();
   });

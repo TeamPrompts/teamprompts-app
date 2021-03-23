@@ -13,7 +13,7 @@ function InputText({ dispatch, hint, id, value }) {
     <span
       className="inline-flex flex-col leading-none"
       data-testid="input-container"
-      onClick={event => event.stopPropagation()}
+      onClick={(event) => event.stopPropagation()}
     >
       <AutosizeInput
         className="self-center"

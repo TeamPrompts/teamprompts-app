@@ -116,7 +116,7 @@ describe('FillInTheBlanks', () => {
     jest.useFakeTimers();
   });
 
-  it('on mouse over', () => {
+  it.skip('on mouse over', () => {
     const { getByTestId } = render(<FillInTheBlanks {...props} />);
 
     fireEvent.mouseOver(getByTestId('container'));

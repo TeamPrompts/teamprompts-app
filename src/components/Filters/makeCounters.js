@@ -1,6 +1,6 @@
 function makeCounters({ fitbs }) {
   const counters = fitbs.reduce((accumulator, current) => {
-    current.tags.forEach(tag => {
+    current.tags.forEach((tag) => {
       if (accumulator[tag]) {
         accumulator[tag] += 1;
       } else {

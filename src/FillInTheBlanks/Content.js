@@ -1,5 +1,5 @@
 import classnames from 'classnames';
-import React, { useReducer } from 'react';
+import React, { useEffect, useReducer } from 'react';
 import InputText from '../components/InputText/InputText';
 import useLocalStorage from '../hooks/useLocalStorage';
 import { modes } from '../constants';
@@ -49,12 +49,15 @@ function Content({ callback, fitb, mode }) {
 
   function middleware(state, action) {
     const newState = reducer(state, action);
-    callback(newState);
     setinitialState(newState);
     return newState;
   }
 
   const [state, dispatch] = useReducer(middleware, initialState);
+
+  useEffect(() => {
+    callback(state);
+  }, [callback, state]);
 
   const values = getValues(mode, fitb);
   return compose({

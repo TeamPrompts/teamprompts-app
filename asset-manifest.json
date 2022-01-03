@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/teamprompts-app/static/css/main.51ede046.chunk.css",
-    "main.js": "/teamprompts-app/static/js/main.a2704675.chunk.js",
-    "main.js.map": "/teamprompts-app/static/js/main.a2704675.chunk.js.map",
+    "main.js": "/teamprompts-app/static/js/main.6482d8ad.chunk.js",
+    "main.js.map": "/teamprompts-app/static/js/main.6482d8ad.chunk.js.map",
     "runtime-main.js": "/teamprompts-app/static/js/runtime-main.115c1bb7.js",
     "runtime-main.js.map": "/teamprompts-app/static/js/runtime-main.115c1bb7.js.map",
     "static/js/2.09857b22.chunk.js": "/teamprompts-app/static/js/2.09857b22.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.115c1bb7.js",
     "static/js/2.09857b22.chunk.js",
     "static/css/main.51ede046.chunk.css",
-    "static/js/main.a2704675.chunk.js"
+    "static/js/main.6482d8ad.chunk.js"
   ]
 }

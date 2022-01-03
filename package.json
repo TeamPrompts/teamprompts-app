@@ -1,6 +1,6 @@
 {
   "name": "teamprompts-app",
-  "version": "0.20.1",
+  "version": "0.21.0",
   "description": "TeamPrompts - Help your team get on the same page.",
   "private": true,
   "dependencies": {
@@ -60,7 +60,7 @@
     "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
-  "homepage": "https://teamprompts.com",
+  "homepage": "https://mattiaerre.github.io/teamprompts-app",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.js",

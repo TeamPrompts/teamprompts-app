@@ -60,7 +60,7 @@
     "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
-  "homepage": "https://mattiaerre.github.io/teamprompts-app",
+  "homepage": "https://teamprompts.github.io/teamprompts-app",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.js",
